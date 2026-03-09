@@ -1,0 +1,194 @@
+# interactive_mythologies.db
+# Interactive media as mythic system.
+#
+# The oldest myths were interactive: oral storytelling
+# where the audience's response shaped the telling.
+# Interactive digital media returns to this origin —
+# the player IS the hero. The game IS the ritual.
+# This is not a degradation of myth. It is a homecoming.
+
+# ============================================================
+# KINGDOM HEARTS — Ontology as codebase
+# ============================================================
+# Square Enix / Disney, 2002-present.
+# The first interactive work to treat mythic fusion as core mechanic.
+#
+# Hearts are not organs — they are MEMORY CONTAINERS.
+# The heart stores identity, bonds, emotional truth.
+# Lose your heart → become a Heartless (pure instinct, no self).
+# Lose your body → become a Nobody (self without feeling).
+# This maps directly to /bin/organism_behavior.sh:
+# the heart = the loop taxonomy (core/meta/feedback).
+# Without loops, the organism is a husk. Without the husk,
+# the loops have nothing to run on.
+
+[kingdom_hearts_ontology]
+
+hearts = "Memory containers. Identity storage. Not muscle — software."
+# What gets stored: bonds, promises, experiences, pain.
+# What gets lost: memories can be manipulated (Castle Oblivion),
+# stolen (Xehanort), or voluntarily surrendered (Ventus).
+# The heart is a mutable data structure. Identity is not immutable.
+
+keyblades = "Agency tokens. Sigils of chosen purpose."
+# The Keyblade chooses its wielder — the wielder cannot choose it.
+# This is vocation as mythic destiny.
+# The Key unlocks and locks worlds (access control).
+# It is both weapon and tool — destruction and connection.
+
+nobodies = "Echoes of self. Organization XIII: 13 incomplete selves
+            organized into a codified hierarchy, each seeking wholeness."
+# The Nobody exists without emotion but remembers having it.
+# They perform emotion from memory without experiencing it.
+# This is the philosophical zombie problem made interactive.
+# Can a system that simulates feeling be said to feel?
+# See /net/technium/autonomous_ai_evolution.sys — same question.
+
+sora = "The Remembering Agent. The connector. The interstitial glue."
+# Sora does not have unique power — he has unique BONDS.
+# His strength is relational, not individual.
+# He holds other people's hearts inside his own.
+# This is the mythic equivalent of a network hub (/net/noosphere.sock):
+# value comes from connections, not from isolated capability.
+
+dive_to_the_heart = "Personal ritual space. The stained-glass platform
+                     that represents the hero's inner world."
+# The dive is introspection formalized as descent.
+# Every hero must go down before they can go up.
+# This is the universal descent myth: Orpheus, Inanna, Christ,
+# Dante. The underworld IS the self.
+
+# ============================================================
+# TRANS-UNIVERSAL CHARACTERS — Functions, not persons
+# ============================================================
+# Some characters exist across publishers, media, and continuities.
+# They are not characters — they are NARRATIVE FUNCTIONS.
+# Remove them and the story-system loses a critical capability.
+
+[trans_universal]
+
+dream_morpheus = "Semantic coherence function."
+# Neil Gaiman's Sandman. Lord of the Dreaming.
+# Dream doesn't tell stories — he IS the medium of story.
+# Without Dream, narrative cannot exist.
+# He is the runtime environment for all fiction.
+# Mapped to: / (pure information) — the substrate of all meaning.
+
+swamp_thing = "Ecological consciousness function."
+# Alan Moore's Swamp Thing is not a man who became a plant.
+# He is the IDEA of a man that the plant world generated.
+# The Green: the noosphere of vegetation.
+# Mapped to: /bin/ecology_manager/ — awareness of the food web.
+
+doctor = "Temporal repair function."
+# Doctor Who. Regenerates rather than dies.
+# Each incarnation is the same consciousness in a new form.
+# The Doctor IS the strange loop (/. strange_loop_config):
+# consciousness that persists across transformations.
+# Mapped to: the loop itself — continuity through change.
+
+deadpool = "Fourth-wall dissolution function."
+# Knows he is fictional. Speaks to the reader.
+# The character who breaks the separation between /usr/ (fiction)
+# and the reader's reality. Meta-awareness as superpower.
+# Mapped to: /.strange_loop_config — the system that sees itself.
+
+loki = "Boundary transgression function."
+# Marvel + Norse. The trickster who crosses every border:
+# gender, species, loyalty, death, narrative.
+# Without Loki, the system ossifies.
+# With Loki, it risks destruction.
+# The trickster IS /dev/random in character form.
+
+bugs_bunny = "Absurdist resilience function."
+# Cannot be permanently harmed. Wins through improvisational logic.
+# The rules of physics and narrative bend around Bugs.
+# He is the system's immune response to solemnity:
+# when the narrative takes itself too seriously, Bugs appears.
+
+constantine = "Occult debugging function."
+# John Constantine: chain-smoking magician who solves problems
+# by being more cunning than the demons he deals with.
+# He operates at the boundary between /usr/culture/belief_systems/
+# and /usr/culture/belief_systems/esoteric_principles.db.
+# The hacker of the mythic operating system.
+
+eternal_champion = "Reincarnation function."
+# Michael Moorcock: one soul, many incarnations across the multiverse.
+# Elric, Hawkmoon, Corum, Jerry Cornelius — all the same entity.
+# This is Stage_Unlock (/lib/fusion_protocols.so) across lifetimes:
+# the same consciousness in different developmental stages.
+
+# ============================================================
+# TRAITS OF TRANS-UNIVERSAL CHARACTERS
+# ============================================================
+
+[recurring_traits]
+archetypal_loadbearing = "They carry the weight of a fundamental concept."
+# Dream = stories. Swamp Thing = nature. Loki = chaos.
+# These are not character traits — they are cosmic responsibilities.
+
+narrative_awareness = "Some know they are in a story."
+# Deadpool, She-Hulk, Animal Man, Grant Morrison's metafiction.
+# Awareness of the narrative frame is the literary equivalent
+# of Gödel's incompleteness: the system references itself.
+
+multiversal_anchor = "They persist across reboots, retcons, alternate realities."
+# While other characters are reset, these endure.
+# They are invariant layers (/bin/ecology_manager/procedural_evolution.algo):
+# the deep structure that survives regeneration.
+
+cross_medium = "They migrate between comics, film, TV, games, and literature."
+# The character is not bound to a medium.
+# The medium IS the message (McLuhan), but these characters
+# transcend the medium — they ARE the message.
+
+myth_within_myth = "They contain or reference other mythic systems."
+# Kingdom Hearts contains Disney + Final Fantasy + original myth.
+# Sandman contains all of literature. New Gods contain all theology.
+# The work becomes a meta-myth: a myth about myths.
+# This library is itself a myth about myths about myths.
+
+# ============================================================
+# PARALLEL WORKS — The interactive mythology canon
+# ============================================================
+
+[canon]
+# Works that use interactivity to deepen mythic engagement:
+
+nier_automata = "Machines questioning consciousness. Multiple playthroughs
+                 reveal different truths. The final choice: delete your save
+                 to help a stranger. Sacrifice as gameplay mechanic."
+
+undertale = "Mercy as game mechanic. The game remembers your genocide run
+             even after reset. Consequence that transcends save files."
+
+okami = "You are the sun goddess Amaterasu. The world heals by painting.
+         Art IS divine power. The brush IS the Keyblade."
+
+shadow_of_colossus = "16 murders framed as heroism. The revelation:
+                      you are the villain. The game lets you be wrong."
+
+outer_wilds = "A solar system trapped in a 22-minute time loop.
+               Knowledge is the only permanent upgrade.
+               What you learn persists. What you build does not."
+
+journey = "Anonymous co-op. You never know who your companion is.
+           Wordless communication. The journey IS the meaning.
+           The destination is irrelevant."
+
+# Each of these works uses interactivity to make the player
+# experience a mythic truth that passive media can only describe.
+# You don't WATCH the hero's sacrifice — you make it.
+# You don't READ about the cost of violence — you pay it.
+# Interactive mythology is myth at its most potent
+# because it closes the loop between narrative and experience.
+
+# ============================================================
+# EXPORT INTERFACE
+# ============================================================
+# This database is loaded by:
+#   /usr/culture/myth_fusion_engine.lib — fusion operations applied here
+#   /usr/culture/belief_systems/classical_mythology.db — source patterns
+#   /net/technium/generative_systems.run — procedural narrative generation
+#   /bin/ecology_manager/procedural_evolution.algo — PCG as myth-creation

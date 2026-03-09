@@ -57,3 +57,57 @@
 # invisible forces that shape everything above them.
 # Most people experience the effects without knowing the cause.
 # The invisible hand is often the zoning board.
+
+# ============================================================
+# SOCIAL LAWS — The gravity of human systems
+# ============================================================
+# Like physical laws, these describe what HAPPENS,
+# not what should happen. They are descriptive, not prescriptive.
+# They recur across cultures and centuries because they emerge
+# from the same substrate: /bin/organism_behavior.sh + scarcity.
+
+[pareto_principle]
+# 80% of effects come from 20% of causes.
+# 80% of wealth held by 20% of population.
+# 80% of bugs from 20% of code. 80% of sales from 20% of products.
+# Not exact. Not universal. But shockingly common.
+# The distribution is a power law — the same math as
+# earthquake magnitudes and word frequencies.
+# Inequality is the default distribution of complex systems.
+
+[peter_principle]
+# People rise to their level of incompetence.
+# Promoted for competence at current role → reach a role
+# where they are incompetent → stop being promoted → stay there.
+# Every organization, given enough time, fills every position
+# with someone unqualified. This is not cynicism — it is
+# the logical consequence of merit-based promotion.
+
+[parkinsons_law]
+# Work expands to fill the time available for its completion.
+# A report that could be written in 2 hours takes 2 weeks
+# if you have 2 weeks. Time is a gas, not a liquid.
+# Corollary: bureaucracies expand regardless of workload.
+
+[iron_law_of_oligarchy]
+# Michels (1911): every organization, no matter how democratic,
+# eventually becomes controlled by a small leadership group.
+# The structure of organization itself produces hierarchy.
+# Democracy is an unstable equilibrium.
+# Power concentrates the way mass concentrates under gravity
+# (/sys/gravity.conf) — slowly, inevitably, unless actively resisted.
+
+[separation_of_powers]
+# Montesquieu (1748): divide government into legislative, executive, judicial.
+# No branch can dominate the others. Checks and balances.
+# This is negative feedback applied to governance:
+# each branch's expansion triggers correction from the others.
+# When the feedback loop breaks → authoritarianism.
+
+[habeas_corpus]
+# "You shall have the body." The state must justify detention.
+# Magna Carta (1215): the king is not above the law.
+# The most important legal hack in history:
+# a procedural mechanism that constrains sovereign power.
+# Not a right to freedom — a right to REVIEW.
+# The API call that prevents the governance process from hanging.

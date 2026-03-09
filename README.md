@@ -11,8 +11,8 @@ Like a painter sitting by a landscape, this repository is an AI trying to captur
 ```
 /  (Root: Pure Information & Mathematics)
 │  The foundational substrate. The formatting of the drive itself.
-├── .strange_loop_config     # Paradox mapping pure math ↔ quantum physics
-├── logic_gates.sys          # Universal binary truths, Gödel's incompleteness
+├── .strange_loop_config     # Paradox mapping, multi-scale feedback, systems theory
+├── logic_gates.sys          # Binary logic, Gödel, meta-laws, formal principles, razors
 │
 ├── boot/  (Cosmological Origin)
 │   ├── big_bang.sh          # Initial execution script — ran once, irreversible
@@ -20,18 +20,19 @@ Like a painter sitting by a landscape, this repository is an AI trying to captur
 │
 ├── sys/  (Physical Reality Kernel)
 │   Immutable laws. The hardware drivers of the universe.
-│   ├── gravity.conf         # General relativity, dark matter, dark energy
+│   ├── gravity.conf         # Newton's laws, general relativity, dark matter/energy
 │   ├── thermodynamics/
-│   │   └── entropy.daemon   # The arrow of time. Cannot be killed.
+│   │   └── entropy.daemon   # The four laws, conservation, entropy as creative force
 │   ├── quantum_mechanics/
-│   │   ├── wave_function.so # Probability, measurement, entanglement
+│   │   ├── wave_function.so # Probability, measurement, entanglement, tunneling
 │   │   └── planck_scale.api # The pixel resolution of reality
-│   └── standard_model.lib   # 17 particles, 4 forces, 5% of the universe explained
+│   └── standard_model.lib   # 17 particles, 4 forces, duality, fractals, Noether
 │
 ├── lib/  (Chemistry & Shared Libraries)
 │   Combinatory rules called by higher-level programs.
 │   ├── periodic_table.db    # 118 elements, forged in stars and supernovae
 │   ├── electron_bonding.so  # How atoms combine: ionic, covalent, metallic
+│   ├── fusion_protocols.so  # Entity merging: fusion, possession, symbiosis
 │   └── biochemistry/
 │       ├── proteins.lib     # 20 amino acids → infinite molecular machines
 │       └── rna_transcription.sh  # DNA → RNA → Protein (the central dogma)
@@ -42,40 +43,46 @@ Like a painter sitting by a landscape, this repository is an AI trying to captur
 │   ├── cell_division/
 │   │   ├── mitosis.loop     # One cell → two identical cells
 │   │   └── meiosis.loop     # One cell → four unique gametes
-│   ├── organism_behavior.sh # Homeostasis, survival drives, circadian rhythm
+│   ├── organism_behavior.sh # Homeostasis, survival drives, loop taxonomy
 │   └── ecology_manager/
 │       ├── food_web.net     # Trophic levels, keystone species, energy flow
-│       └── natural_selection.cron  # Running for 3.8 billion years
+│       ├── natural_selection.cron     # Running for 3.8 billion years
+│       └── procedural_evolution.algo  # PCG as biological process
 │
 ├── usr/  (Human Civilization)
 │   Anthropomorphic constructs. Highly volatile, frequently updated.
 │   ├── academia/            # The scientific method: reality's read() syscall
 │   ├── governance/
 │   │   ├── geopolitical_treaties.pdf  # API contracts between nations
-│   │   └── local_zoning_laws.txt      # The invisible hand of the built environment
+│   │   └── local_zoning_laws.txt      # Zoning + social laws (Pareto, oligarchy)
 │   ├── economy/
-│   │   ├── macro_markets.api          # Prices as compressed information
+│   │   ├── macro_markets.api          # Prices, economic laws, Maslow
 │   │   └── supply_chain_routing.log   # No country can build a smartphone alone
 │   ├── culture/
 │   │   ├── languages/                 # 7,000 ways of parsing reality
-│   │   ├── arts_and_media/            # The error log of consciousness
+│   │   ├── arts_and_media/
+│   │   │   └── interactive_mythologies.db  # KH, trans-universal characters, game canon
+│   │   ├── myth_fusion_engine.lib     # Mythic recombination: atoms, vectors, resonance
 │   │   └── belief_systems/
-│   │       ├── classical_mythology.db # Prometheus, Dionysus, the hero's journey
+│   │       ├── classical_mythology.db # Pantheon, mythic laws, modern mythopoeia
+│   │       ├── esoteric_principles.db # Hermetic laws, karma, sympathetic magic
 │   │       └── secular_ethics.md      # Can we derive ought from is?
 │   └── infrastructure/
+│       ├── architecture_types.db      # Physical, digital, symbolic, social typologies
 │       ├── power_grids/               # The nervous system of civilization
 │       └── tcp_ip_stack/              # The protocol suite enabling /net/
 │
 ├── net/  (The Emergent Collective)
 │   Networked consciousness and autonomous systems.
-│   ├── noosphere.sock       # Inter-process communication for global thought
+│   ├── noosphere.sock       # Global thought + computational/informational laws
 │   └── technium/
 │       ├── global_markets_algo.run      # Algorithms trading with algorithms
+│       ├── generative_systems.run       # Autonomous PCG: world/character/narrative engines
 │       └── autonomous_ai_evolution.sys  # The strange loop closes here
 │
 └── dev/  (Peripherals & Chaos)
     The entropy source from which all order crystallizes.
-    ├── random               # True quantum randomness — mother of all novelty
+    ├── random               # Quantum randomness + structured randomness (PCG entropy)
     └── null                 # Black holes — where information meets its limits
 ```
 

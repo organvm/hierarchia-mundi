@@ -1,0 +1,229 @@
+# procedural_evolution.algo
+# Procedural generation as a biological process.
+#
+# Procedural content generation (PCG) is the algorithmic creation
+# of content through rules rather than manual design.
+# But PCG is not a human invention. Biology got there first.
+#
+# Natural selection IS procedural generation:
+# variation (random mutation from /dev/random) +
+# selection (fitness filter from environment) +
+# inheritance (DNA as seed) +
+# iteration (generations as render passes) =
+# the entire tree of life, generated procedurally.
+#
+# This file maps computational PCG techniques to their
+# biological originals, because the originals came first.
+
+# ============================================================
+# NOISE FUNCTIONS — The texture of possibility
+# ============================================================
+
+[perlin_noise]
+# Perlin (1983): coherent noise for natural-looking terrain.
+# Smooth gradients, no sharp discontinuities.
+# Used for: terrain heightmaps, cloud textures, water surfaces.
+#
+# Biological analog: morphogen gradients in embryonic development.
+# Bicoid protein concentration forms a smooth gradient
+# across the Drosophila embryo — anterior high, posterior low.
+# The gradient IS a noise function. Cells read their position
+# from the local concentration and differentiate accordingly.
+# Perlin noise generates landscapes. Morphogen gradients generate bodies.
+type = "gradient_noise"
+output = "continuous, smooth, deterministic for given seed"
+biological_analog = "morphogen gradient (Turing patterns, reaction-diffusion)"
+
+[simplex_noise]
+# Perlin's improvement (2001). Better scaling to higher dimensions.
+# Less directional artifact. More isotropic.
+# Used for: 3D terrain, volumetric clouds, procedural planets.
+#
+# Biological analog: reaction-diffusion systems (Turing, 1952).
+# Two chemicals diffusing at different rates create spontaneous patterns:
+# stripes on zebras, spots on leopards, ridges on fingerprints.
+# Alan Turing: the father of computation AND of biological pattern formation.
+type = "lattice_noise"
+biological_analog = "reaction-diffusion (Turing patterns)"
+
+# ============================================================
+# L-SYSTEMS — Recursive growth
+# ============================================================
+
+[l_systems]
+# Lindenmayer (1968): formal grammars for modeling plant growth.
+# Axiom: A
+# Rules: A → AB, B → A
+# Iteration 0: A
+# Iteration 1: AB
+# Iteration 2: ABA
+# Iteration 3: ABAAB
+#
+# This generates Fibonacci-like growth patterns.
+# With geometric interpretation: realistic trees, ferns, flowers.
+#
+# L-systems ARE how plants grow. Apical meristems follow
+# branching rules encoded in gene regulatory networks.
+# The grammar IS the genome. The derivation IS development.
+# Lindenmayer didn't invent a technique — he discovered a notation
+# for something biology had been doing for 400 million years.
+#
+# Mythic analog: the World Tree (Yggdrasil, Tree of Life).
+# A recursive structure connecting realms.
+# The branching tree as universal symbol is not arbitrary —
+# it IS the shape that recursive growth produces.
+type = "string_rewriting_grammar"
+output = "branching structures, self-similar at multiple scales"
+biological_analog = "meristematic growth, vascular branching, bronchial trees"
+
+# ============================================================
+# CELLULAR AUTOMATA — Emergence from simple rules
+# ============================================================
+
+[cellular_automata]
+# Von Neumann, Ulam (1940s). Conway's Game of Life (1970).
+# Grid of cells. Each cell: alive or dead.
+# Rules: birth if 3 neighbors, survive if 2-3, die otherwise.
+# From these three rules: gliders, oscillators, Turing-complete computation.
+#
+# Biological analog: tissue differentiation.
+# Each cell "decides" its fate based on signals from neighbors.
+# Lateral inhibition: a cell becoming a neuron tells its neighbors
+# NOT to become neurons. Local rules → global pattern.
+#
+# Wolfram (2002): some CAs generate every possible complexity class.
+# Rule 110 is Turing-complete. The universe itself may be
+# a cellular automaton at the Planck scale (/sys/quantum_mechanics/planck_scale.api).
+# This is speculation. But the math permits it.
+type = "local_rule_grid"
+output = "emergent global patterns from local interactions"
+biological_analog = "tissue patterning, lateral inhibition, neural tube formation"
+
+# ============================================================
+# AGENT-BASED MODELS — Autonomous entities in an environment
+# ============================================================
+
+[agent_based_models]
+# Autonomous agents with local perception and rules.
+# No central controller. Behavior emerges from interaction.
+#
+# Craig Reynolds' Boids (1987):
+#   Rule 1: Separation — avoid crowding neighbors
+#   Rule 2: Alignment — steer toward average heading of neighbors
+#   Rule 3: Cohesion — steer toward average position of neighbors
+# Three rules. Result: flocking behavior indistinguishable from real birds.
+#
+# Biological analog: literally everything in /bin/ecology_manager/.
+# Every organism is an autonomous agent.
+# Food webs, migration patterns, territorial behavior —
+# all emerge from agents following local rules.
+# The ecosystem is an agent-based model running on chemistry.
+type = "autonomous_agents"
+output = "emergent collective behavior, self-organization"
+biological_analog = "flocking, swarming, herding, ant colonies, immune response"
+
+# ============================================================
+# MARKOV CHAINS — Probabilistic state transitions
+# ============================================================
+
+[markov_chains]
+# The next state depends only on the current state, not the history.
+# Transition matrix: P(state_j | state_i) for all i, j.
+#
+# Used for: text generation (before transformers), weather models,
+# population dynamics, musical composition, name generation.
+#
+# Biological analog: gene regulatory networks.
+# A gene's expression depends on current transcription factor
+# concentrations, not on the history of how they got there
+# (approximately — epigenetics complicates this).
+#
+# Evolutionary analog: drift. Allele frequencies random-walk
+# through state space. The Hardy-Weinberg equilibrium is the
+# absorbing state. But selection biases the transition matrix.
+type = "stochastic_state_machine"
+output = "probabilistic sequences, stationary distributions"
+biological_analog = "gene regulation, genetic drift, protein folding pathways"
+
+# ============================================================
+# GENETIC ALGORITHMS — Evolution in silico
+# ============================================================
+
+[genetic_algorithms]
+# Holland (1975): apply natural selection to optimization.
+# Population of candidate solutions.
+# Fitness function evaluates each candidate.
+# Selection, crossover, mutation produce next generation.
+# Repeat until convergence.
+#
+# This is /bin/ecology_manager/natural_selection.cron
+# running inside a computer instead of a biosphere.
+# The mapping is not metaphorical — it is structural:
+#   genome → bit string / parameter vector
+#   phenotype → solution quality
+#   fitness → objective function
+#   crossover → recombination
+#   mutation → random perturbation
+#
+# GAs solve problems that resist analytical methods:
+# antenna design (NASA ST5), drug discovery, circuit layout,
+# scheduling, neural architecture search.
+# Evolution is a general-purpose optimizer.
+# It is slow, wasteful, and heartless. It also works.
+type = "population_based_optimization"
+output = "increasingly fit solutions via selection pressure"
+biological_analog = "natural selection itself — the original algorithm"
+
+# ============================================================
+# THE WORLD AS PROCEDURAL SYSTEM
+# ============================================================
+
+[world_state]
+# The key insight: the world is not a static level.
+# It is a LIVE DATA STRUCTURE that evolves.
+#
+# Invariant layers (cosmology, deep geology): fixed seed values.
+# Regenerable layers (settlements, politics, weather): computed from state.
+# Memory layers (history, ruins, scars): accumulated delta logs.
+#
+# The biosphere does exactly this:
+#   Invariant: laws of physics, plate tectonics (mostly)
+#   Regenerable: ecosystems, populations, weather
+#   Memory: fossils, geology, ice cores, tree rings
+#
+# A well-designed procedural world is a model of how
+# the actual world works. Not a simplification — a recognition
+# that reality itself is procedurally generated from rules
+# (/sys/) operating on initial conditions (/boot/)
+# through iterated transformation (/dev/random → selection → order).
+
+[temporal_phases]
+# Procedural worlds evolve through recognizable eras:
+#   1. Genesis / Seed — initial conditions set, basic rules active
+#   2. Growth / Expansion — systems fill available space
+#   3. Conflict / Transformation — competition, adaptation, upheaval
+#   4. Collapse / Ruin — overextension, entropy, decline
+#   5. Rebirth / Renewal — new seeds from the ruins
+#
+# This maps directly to:
+#   Cosmic: Big Bang → expansion → star formation → heat death → (?)
+#   Biological: origin → radiation → mass extinction → recovery
+#   Civilizational: founding → growth → crisis → collapse → renaissance
+#   See /logic_gates.sys L3_ENTROPY — the cycle IS the entropy gradient,
+#   surfed and resurfed across every scale.
+phases = ["genesis", "growth", "conflict", "collapse", "rebirth"]
+recursion_depth = "infinite — each phase contains sub-phases of the same pattern"
+
+# ============================================================
+# EXPORT INTERFACE
+# ============================================================
+# This algorithm file is loaded by:
+#   /bin/ecology_manager/natural_selection.cron — the original PCG
+#   /net/technium/generative_systems.run — computational PCG
+#   /net/technium/autonomous_ai_evolution.sys — AI as PCG product
+#
+# Procedural generation is not a technique borrowed from biology.
+# Biology IS procedural generation, running on chemistry,
+# running on physics, running on mathematics.
+# The algorithms above are humanity's attempt to reverse-engineer
+# the method by which reality generates itself.

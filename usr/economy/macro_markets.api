@@ -78,3 +78,49 @@ GET /interest_rate/{central_bank}
 # The 20th century tested both. Neither worked perfectly.
 # The 21st century is trying hybrids.
 # The economy resists being fully understood by any participant in it.
+
+# ============================================================
+# ECONOMIC LAWS — The physics of scarcity
+# ============================================================
+
+[supply_and_demand]
+# Price rises → supply increases, demand decreases → equilibrium.
+# Price falls → supply decreases, demand increases → equilibrium.
+# This is negative feedback (/bin/organism_behavior.sh [feedback_loop])
+# applied to allocation. The market IS a thermostat.
+
+[diminishing_returns]
+# Each additional unit of input yields less additional output.
+# The 1st employee doubles productivity. The 100th barely moves the needle.
+# The 1st hour of study teaches a lot. The 10th hour, less.
+# This is entropy (/sys/thermodynamics/entropy.daemon) in economic form:
+# extracting order from a system gets harder as you extract more.
+
+[metcalfes_law]
+# The value of a network is proportional to n².
+# (Where n = number of connected users.)
+# 10 phones → 45 possible connections. 100 phones → 4,950.
+# This is why network effects produce monopolies:
+# the biggest network is disproportionately more valuable.
+# The rich get richer. The network gets networker.
+# See /net/noosphere.sock — the noosphere IS Metcalfe's law at scale.
+
+[narrative_sovereignty]
+# Markets move on stories as much as data.
+# "The housing market always goes up" → 2008.
+# "Tech companies will change the world" → dot-com bubble.
+# "Crypto is the future of money" → multiple boom/bust cycles.
+# Shiller (2019): "Narrative Economics" — viral stories drive
+# economic events more than fundamentals.
+# The economy runs on /usr/culture/ as much as on /sys/.
+# Beliefs are economic forces. Confidence IS capital.
+
+[maslow_hierarchy]
+# Physiological → Safety → Belonging → Esteem → Self-actualization.
+# A hierarchy of needs, not unlike this filesystem.
+# You don't worry about art (/usr/culture/) when you're hungry
+# (/bin/organism_behavior.sh [feeding]).
+# Economic development follows Maslow: subsistence economies
+# prioritize food. Wealthy economies prioritize meaning.
+# The hierarchy is not rigid — but the priority ordering
+# is real enough that policy ignoring it fails.

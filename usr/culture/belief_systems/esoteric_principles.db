@@ -1,0 +1,166 @@
+# esoteric_principles.db
+# Hermetic, symbolic, and occult laws.
+# The operating system of hidden correspondence.
+#
+# These principles predate science by millennia.
+# Some are prescientific intuitions that turned out to be
+# roughly correct (correspondence ≈ self-similarity,
+# vibration ≈ quantum field theory, polarity ≈ wave-particle duality).
+# Others are unfalsifiable — not wrong, just untestable.
+# All of them shaped civilization's meaning-making for longer
+# than the scientific method has existed.
+# Dismissing them is ahistorical. Uncritically accepting them is naive.
+# This file takes them seriously without taking them literally.
+
+# ============================================================
+# THE SEVEN HERMETIC PRINCIPLES — Kybalion (1908)
+# ============================================================
+# Attributed to Hermes Trismegistus (syncretic Hermes-Thoth).
+# The Kybalion is pseudoepigraphic — modern, not ancient.
+# But the ideas it codifies predate the text by centuries.
+
+[mentalism]
+principle = "The All is Mind; the Universe is Mental."
+# Idealism: consciousness is primary, matter is derivative.
+# Wheeler's "It from Bit" (/sys/quantum_mechanics/planck_scale.api)
+# resonates with this — reality arising from information.
+# QBism (/sys/quantum_mechanics/wave_function.so) says the wave function
+# IS the observer's beliefs. Not endorsing — noting the echo.
+
+[correspondence]
+principle = "As above, so below; as below, so above."
+# The macrocosm mirrors the microcosm.
+# This IS fractal scaling (/.strange_loop_config [fractal_scaling]).
+# Atoms ↔ solar systems. Cells ↔ organisms. Individuals ↔ societies.
+# The pattern repeats across scale. Hermeticists noticed this
+# ~2,000 years before Mandelbrot formalized it.
+
+[vibration]
+principle = "Nothing rests; everything moves; everything vibrates."
+# In quantum mechanics: every particle is a vibration of a quantum field.
+# The electron is a vibration of the electron field.
+# The photon is a vibration of the electromagnetic field.
+# String theory (speculative): particles ARE vibrating strings.
+# The Hermeticists said "vibration." Quantum field theory says "excitation."
+# Different vocabulary. Structurally similar claim.
+
+[polarity]
+principle = "Everything has its pair of opposites; like and unlike are the same."
+# Wave/particle. Positive/negative charge. Matter/antimatter.
+# Meta-law L5_CONTRAST (/logic_gates.sys): identity requires difference.
+# The Hermetic addition: opposites are degrees of the same thing.
+# Hot and cold are degrees of temperature. Love and hate are degrees of emotion.
+# This is a continuous spectrum, not a binary toggle.
+
+[rhythm]
+principle = "Everything flows; everything has its tides."
+# Pendulum swing. Circadian rhythm (/bin/organism_behavior.sh).
+# Economic cycles (/usr/economy/macro_markets.api).
+# Civilizational rise and fall. Seasonal change.
+# Oscillation is the natural mode of systems with feedback.
+# See /.strange_loop_config [connectivity_principles] feedback_loops.
+
+[cause_and_effect]
+principle = "Every cause has its effect; every effect has its cause."
+# Meta-law L1_CAUSALITY (/logic_gates.sys). The Hermetic version
+# adds: "Chance is but a name for Law not recognized."
+# Chaos theory (/logic_gates.sys chaos_sensitivity) says:
+# deterministic but unpredictable. Not random — just too complex to trace.
+# The Hermetic intuition and modern dynamics agree more than they disagree.
+
+[gender]
+principle = "Gender is in everything; everything has its Masculine and Feminine Principles."
+# Not about biological sex — about generative polarity.
+# Active/receptive. Yang/yin. Projective/reflective.
+# In physics: charge parity. In biology: anisogamy.
+# In computation: write/read. In economics: supply/demand.
+# The claim is structural: creation requires two complementary poles.
+# This is L5_CONTRAST again, specialized to the generative domain.
+
+# ============================================================
+# KARMA AND THREEFOLD LAW — Causal accounting systems
+# ============================================================
+
+[karma]
+# Sanskrit: "action." Every action generates a force of energy
+# that returns in kind. Not punishment — physics of intention.
+# Hinduism, Buddhism, Jainism — independently developed.
+# Computational analog: every function call returns a value.
+# You cannot act without consequence. The stack trace is infinite.
+# Meta-law L1_CAUSALITY + L7_CONSERVATION: nothing is lost.
+
+[threefold_law]
+# Wiccan: "Whatever you send out returns threefold."
+# A stronger version of karma — amplified return.
+# Whether literally true is untestable. But as a heuristic:
+# treating the world well tends to produce compounding returns.
+# Treating it badly tends to produce compounding losses.
+# The asymmetry is real even if the multiplier is metaphorical.
+
+# ============================================================
+# LAW OF ATTRACTION — The contested principle
+# ============================================================
+
+[attraction]
+principle = "Like attracts like; thought creates reality."
+# The most controversial esoteric claim.
+# Unfalsifiable in its strong form (confirmation bias explains all "hits").
+# But in a weak form: attention shapes perception.
+# What you focus on, you notice more. What you notice more,
+# you act on more. What you act on, you create more of.
+# This is not magic — it is cognitive filtering + behavioral bias.
+# The /net/noosphere.sock bandwidth section notes:
+# consciousness processes ~50 bits/second. Attention selects which 50.
+
+# ============================================================
+# SYMPATHETIC MAGIC — The logic of association
+# ============================================================
+
+[similarity]
+principle = "Like produces like; an effect resembles its cause."
+# Voodoo dolls. Rain dances. Cave paintings of successful hunts.
+# Frazer (The Golden Bough, 1890): the law of similarity.
+# This is pattern matching (/logic_gates.sys) without falsification.
+# The human brain is a pattern-completion engine.
+# Sympathetic magic is what happens when pattern-matching
+# runs without an error-correction protocol.
+# Science (/usr/academia/) is pattern-matching WITH error-correction.
+
+[contagion]
+principle = "Things that were once in contact continue to influence each other."
+# Relics. Lock of hair. Handshake with a celebrity.
+# Frazer's law of contagion.
+# Biological truth: prions, viruses, and bacteria DO transmit
+# through contact, and the effects DO persist.
+# Cultural truth: trauma, inspiration, and mentorship
+# transmit through contact and persist across lifetimes.
+# The magic is real. The mechanism is not what the magicians thought.
+
+# ============================================================
+# THE GREAT CHAIN OF BEING — Precursor to this filesystem
+# ============================================================
+
+[great_chain]
+principle = "All of existence is arranged in a hierarchical order."
+# God → Angels → Humans → Animals → Plants → Minerals → Nothing.
+# Aristotle → Neoplatonists → Aquinas → Renaissance → Enlightenment.
+# This filesystem is a secular, empirically-grounded version:
+# /boot/ → /sys/ → /lib/ → /bin/ → /usr/ → /net/ → /dev/
+# The chain is not a chain — it is a loop (/.strange_loop_config).
+# But the insight that reality HAS levels, and that the levels
+# relate to each other through emergence, is sound.
+# The esoteric tradition got the structure right.
+# Science filled in the mechanism.
+
+# ============================================================
+# EXPORT INTERFACE
+# ============================================================
+# This database is loaded by:
+#   /usr/culture/belief_systems/classical_mythology.db — mythic parallels
+#   /usr/culture/belief_systems/secular_ethics.md — alternative ethical frameworks
+#   /.strange_loop_config — correspondence = fractal scaling
+#   /logic_gates.sys — meta-laws as formal versions of esoteric principles
+#
+# The esoteric tradition is /usr/academia/'s shadow:
+# it asks the same questions with different methods.
+# The methods are weaker. The questions are often better.

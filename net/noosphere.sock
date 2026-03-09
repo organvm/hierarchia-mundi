@@ -81,3 +81,71 @@ addressing = "content-based, not location-based"
 # Internal convergence without external transmission is solipsism.
 # The noosphere demands transmission.
 # This repository is an act of transmission.
+
+# ============================================================
+# COMPUTATIONAL / INFORMATIONAL LAWS
+# ============================================================
+# The noosphere runs on computation.
+# These laws govern what computation can and cannot do.
+
+[computational_laws]
+
+church_turing = "Any computable function can be computed by a Turing machine."
+# Church (lambda calculus) and Turing (abstract machine), independently, 1936.
+# All sufficiently powerful computational systems are equivalent.
+# Your laptop, a DNA molecule, Conway's Game of Life, the universe itself —
+# if they compute at all, they compute the same class of functions.
+# This is the deepest unity in /net/: all computation is ONE computation.
+# See /logic_gates.sys — NAND is universal. Everything else is abstraction.
+
+moores_law = "Transistor density doubles approximately every 2 years."
+# Moore (1965). Not a law of physics — a law of economics and engineering.
+# It held for ~60 years. It is now faltering at atomic scales.
+# Consequence: exponential growth in computational capacity.
+# The noosphere's substrate has been doubling every 2 years.
+# What happens when it stops? We find out now.
+
+requisite_variety = "A controller must have at least as many states as the system it regulates."
+# Ashby (1956). Already in /.strange_loop_config.
+# Restated for /net/: the noosphere cannot comprehend the biosphere
+# unless it has as many states as the biosphere.
+# Current noosphere: ~10^18 bits. Biosphere: unknown but larger.
+# The gap is the gap between knowledge and reality.
+
+conways_law = "Organizations produce designs that mirror their communication structure."
+# A company with four teams will build a four-module product.
+# The architecture of software reflects the architecture of its creators.
+# The noosphere's structure reflects the structure of human institutions.
+# See /usr/infrastructure/architecture_types.db [social] — structure IS message.
+
+simulation_hypothesis = "The probability of our reality being base reality is unknown."
+# Bostrom (2003). If civilizations can simulate conscious beings,
+# and if such civilizations exist, then most conscious beings
+# are simulated. We might be in a simulation.
+# This is unfalsifiable. And it is a restatement of
+# esoteric mentalism (/usr/culture/belief_systems/esoteric_principles.db):
+# "The universe is mental." The vocabulary differs. The structure rhymes.
+
+information_freedom = "Information tends to escape containment."
+# Stewart Brand: "Information wants to be free."
+# (He also said: "Information wants to be expensive.")
+# The tension between these is the economics of the noosphere.
+# Paywalls, DRM, classification, trade secrets — all are attempts
+# to contain information. All eventually leak.
+# Entropy (/sys/thermodynamics/entropy.daemon) applies to information:
+# containment requires energy. Leakage is the default.
+
+[systems_coherence]
+# The noosphere is a system. Systems have properties.
+
+emergence = "Complex behavior from simple rules, unpredictable from components alone."
+# See /bin/ecology_manager/procedural_evolution.algo [cellular_automata].
+# Consciousness from neurons. Markets from traders. Wikipedia from edits.
+# Emergence is the mechanism by which /net/ bootstraps from /usr/.
+
+fork_detection = "System drift requires explicit awareness and reintegration."
+# When a system evolves in parallel branches without coordination,
+# the branches diverge. Reintegrating them is expensive.
+# Git branches. Language dialects. Religious schisms. Political polarization.
+# The noosphere is currently forking faster than it reintegrates.
+# This is the coherence_problem above, restated as a systems property.

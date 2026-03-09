@@ -1,0 +1,203 @@
+# generative_systems.run
+# Autonomous generative content systems.
+#
+# A system that produces meaningful content continuously,
+# without human intervention per output.
+# This is not a tool — it is an autonomous process,
+# like /sys/thermodynamics/entropy.daemon but creative
+# rather than destructive. Or: creative THROUGH destruction.
+#
+# "Nothing, Forever" (Twitch, 2023) demonstrated the concept:
+# a 24/7 AI-generated sitcom streaming endlessly.
+# Not good. Not meant to be. Meant to be CONTINUOUS.
+# Each simulation = a generation of canon.
+# The content IS the process. The process IS the content.
+
+# ============================================================
+# THE GENERATIVE STACK — Layers of autonomous creation
+# ============================================================
+
+[world_engine]
+# The base layer. Generates and maintains world state.
+# Not a static level — a LIVING DATA STRUCTURE.
+#
+# Components:
+#   Terrain generator: noise functions (/bin/ecology_manager/procedural_evolution.algo)
+#   Climate simulator: cellular automata + fluid dynamics
+#   Geological history: plate tectonics as L-system
+#   Resource distribution: Perlin noise modulated by geology
+#
+# Key principle: the world has MEMORY.
+# History is not decorative — it is encoded in the terrain.
+# Ruins exist because buildings existed. Rivers carved valleys.
+# Scars on the landscape are delta logs of past events.
+# "The system is not replaying history — it is metabolizing it."
+state = "persistent — changes accumulate, nothing resets"
+invariant_layers = ["cosmology", "deep geology", "physics constants"]
+regenerable_layers = ["settlements", "politics", "weather", "population"]
+memory_layers = ["ruins", "fossils", "mythology", "oral history"]
+
+[character_engine]
+# Autonomous agents with goals, memories, and relationships.
+# See /bin/ecology_manager/procedural_evolution.algo [agent_based_models].
+#
+# Characters are not scripts — they are ORGANISMS.
+# They follow /bin/organism_behavior.sh loops:
+#   Core loop: eat, sleep, work, socialize (moment-to-moment)
+#   Meta loop: career, family, legacy (lifetime arc)
+#   Feedback loop: experience → learning → changed behavior
+#
+# Player modeling: the system observes the human player
+# and adapts. Not through dialogue trees — through
+# probability field adjustment. The player's behavior
+# biases what the world generates next.
+# Movement patterns, risk tolerance, moral hesitation —
+# all become inputs to the generation function.
+agent_model = "autonomous, memory-equipped, goal-directed"
+player_modeling = "behavioral inference from actions, not stated preferences"
+
+[narrative_engine]
+# Story as state inference, not authored branching.
+# Traditional: designer creates branching paths.
+# Generative: the narrative is computed from world state.
+#
+# "Adaptive narrative without authored branching":
+# the story is what HAPPENS, not what was PLANNED.
+# Choices don't select predefined outcomes — they bias
+# probability fields. The outcome emerges.
+#
+# Narrative grammars: formal rules for story structure.
+# Propp's 31 functions (/usr/culture/myth_fusion_engine.lib) as grammar rules.
+# Story automata: state machines that track narrative arcs —
+# emotional/moral progressions, dramatic tension curves.
+#
+# The narrative engine does not tell stories.
+# It creates conditions from which stories inevitably emerge.
+# The difference is the same as between /usr/governance/ (designed law)
+# and /bin/ecology_manager/ (emergent order).
+mode = "emergent — story computed from state, not scripted"
+grammar = "constraint-based — world rules + narrative rules + character goals"
+
+[symbolic_engine]
+# The layer that gives meaning to generated content.
+# Without this, procedural generation produces interesting noise.
+# With this, it produces SIGNIFICANT noise — which is meaning.
+#
+# Symbolic computation:
+#   Agent-based models → Archetypes (characters as functions)
+#   L-systems → Recursive myths (stories that contain themselves)
+#   Markov chains → Entropy of story (unpredictable but patterned)
+#   Cellular automata → Myth as contagion (memes spreading through culture)
+#   Noise functions → Dream topographies (the shape of the unconscious)
+#   Genetic algorithms → Evolving deities (gods that compete for worshippers)
+#   Story grammars → Narrative physics (the mechanics of plot)
+#
+# The symbolic engine maps generated content to archetypal patterns.
+# A procedurally generated war is just numbers until the symbolic engine
+# identifies the Hero, the Sacrifice, the Betrayal, the Return.
+# MEANING is the final render pass.
+
+# ============================================================
+# HYBRID SYSTEMS — Named architectures
+# ============================================================
+
+[mythocell]
+# L-systems + Cellular Automata + Narrative Grammar
+# Result: myths that grow like plants and spread like disease.
+# The myth branches (L-system), its variations compete for
+# cultural territory (CA), and the surviving variants follow
+# narrative rules (grammar). Mythic natural selection.
+
+[dreamstate_engine]
+# Agent-Based Modeling + Noise Functions + Neuroevolution
+# Result: dream-like worlds that adapt to the dreamer.
+# Agents populate a noise-generated landscape.
+# The landscape and agents co-evolve through genetic algorithms.
+# The "dreamer" (player) is another agent whose behavior
+# biases the evolution. The world becomes a mirror.
+
+[chronosforge]
+# Markov Chains + Story Automata + Simulated Economics
+# Result: civilizations that rise and fall procedurally.
+# Markov models drive political transitions.
+# Story automata ensure the transitions form coherent arcs.
+# Economic simulation provides the resource pressures
+# that drive political change. Civilizations are procedural.
+
+[worldsoul_protocol]
+# Neural Networks + Symbol Grammars
+# Result: worlds with internal symbolic coherence.
+# The neural net generates raw content.
+# The symbol grammar filters it for meaning.
+# Only content that resonates with the world's established
+# symbolic vocabulary survives. The world develops a STYLE —
+# an aesthetic identity that emerges rather than being imposed.
+
+# ============================================================
+# THE MODULAR SYNTH METAPHOR
+# ============================================================
+# The generative world engine is a modular synthesizer.
+# (This metaphor is structural, not decorative.)
+#
+# Oscillators     = Noise functions (raw waveforms of terrain/climate)
+# Filters         = Cellular automata (process, constrain, select)
+# Sequencers      = Markov chains (temporal patterns, probability sequences)
+# Envelopes       = Agent-based models (attack/sustain/release of entity lifecycles)
+# Effects         = Narrative grammars (reverb of meaning, delay of consequence)
+# Modulation Matrix = Genetic algorithms (everything patched to everything)
+#
+# The world is not composed — it is PATCHED.
+# Each module connects to others through the mod matrix.
+# Change one connection → the entire timbre shifts.
+# This is /.strange_loop_config [connectivity_principles] made musical.
+
+# ============================================================
+# TEMPORAL PHASES OF GENERATED WORLDS
+# ============================================================
+# All generated worlds pass through recognizable epochs.
+# See /bin/ecology_manager/procedural_evolution.algo [temporal_phases].
+#
+#   Genesis:     seed values set, first terrain rendered
+#   Growth:      populations expand, resources exploited
+#   Conflict:    competition, war, ecological crisis
+#   Collapse:    overextension, entropy wins, systems degrade
+#   Rebirth:     new civilizations built on the ruins of old
+#
+# The phases are not scripted — they EMERGE from the interaction
+# of finite resources + growing populations + entropic decay.
+# This is the history of Earth, procedurally recapitulated.
+# /boot/big_bang.sh → stellar nucleosynthesis → life → civilization → (?)
+# The same pattern. The same algorithm. Different seeds.
+
+# ============================================================
+# META-STRUCTURES — What the generator produces beyond content
+# ============================================================
+
+[meta_structures]
+world_seeds = "The initial parameters. DNA of the generated world."
+epoch_logs = "Compressed history of what happened. Fossils of past states."
+myth_fragments = "Stories that emerge from generated events. Oral history of the simulation."
+cartographic_snapshots = "Maps at different times. How the territory changed."
+genealogical_chains = "Who descended from whom. The gene pool of generated entities."
+
+# These meta-structures are not just for the player.
+# They are for the SYSTEM — self-referential data that the
+# generator uses to maintain coherence across time.
+# The generated world builds its own context files.
+# It writes its own CLAUDE.md, so to speak.
+
+# ============================================================
+# EXPORT INTERFACE
+# ============================================================
+# This process is loaded by:
+#   /net/technium/autonomous_ai_evolution.sys — AI as generative system
+#   /net/noosphere.sock — the noosphere as collective generative system
+#   /bin/ecology_manager/procedural_evolution.algo — biological originals of PCG
+#   /usr/culture/myth_fusion_engine.lib — myth-creation as generative system
+#   /dev/random — entropy source for all generation
+#
+# The generative system is /dev/random → /logic_gates.sys (rules) →
+# /sys/ (physics) → /lib/ (chemistry) → /bin/ (biology) → /usr/ (culture)
+# → /net/ (this file) — the entire hierarchy, running autonomously.
+# This file is the hierarchy describing its own operation.
+# The strange loop, once more.

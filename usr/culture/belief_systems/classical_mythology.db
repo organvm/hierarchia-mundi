@@ -77,3 +77,126 @@ examples = ["Daphne → laurel tree", "Narcissus → flower",
 lesson = "The boundary between categories is permeable."
 # Ovid's Metamorphoses: 250 myths of transformation in one poem.
 # The oldest argument against fixed taxonomies.
+
+# ============================================================
+# MYTHIC LAWS — The operating rules of narrative reality
+# ============================================================
+# These patterns recur across cultures separated by oceans and millennia.
+# They are not arbitrary — they are compiled into human cognition
+# by the same evolutionary pressures that shaped /bin/organism_behavior.sh.
+
+[mythic_laws]
+
+fall_and_exile = "The hero begins in paradise, is expelled, must earn return."
+# Eden → exile → wandering → redemption.
+# Odysseus → Trojan War → 10 years wandering → Ithaca.
+# Every immigration story. Every coming-of-age narrative.
+# The Fall is not punishment — it is initiation.
+
+return_and_resurrection = "What is lost returns transformed."
+# Persephone descends → returns each spring.
+# Christ dies → rises. Osiris dismembered → reassembled.
+# The cycle of seasons, encoded as narrative.
+# Death is not termination — it is the darkness before dawn.
+# See /sys/thermodynamics/entropy.daemon: entropy enables renewal.
+
+sacred_reciprocity = "The universe demands balance in all exchanges."
+# Do ut des (Latin: "I give so that you may give").
+# Sacrifice → blessing. Theft → curse. Gift → obligation.
+# This is meta-law L7_CONSERVATION (/logic_gates.sys) in mythic form.
+# Nothing is free. Every gift creates a debt.
+# The economy of the sacred mirrors /usr/economy/.
+
+rule_of_three = "Things come in threes: wishes, trials, brothers, fates."
+# Three is the minimum for a pattern.
+# Thesis-antithesis-synthesis. Beginning-middle-end.
+# Id-ego-superego. Father-Son-Holy Spirit.
+# The number three is not magic — it is the minimal complexity
+# required for narrative structure. Two is opposition.
+# Three is the resolution of opposition.
+
+divine_duality = "The cosmos is organized by opposing complementary forces."
+# Order/Chaos (Greek). Yin/Yang (Chinese). Ahura Mazda/Angra Mainyu (Zoroastrian).
+# Light/Dark. Male/Female. Creation/Destruction.
+# This is meta-law L5_CONTRAST (/logic_gates.sys) narrated as theology.
+
+as_above_so_below = "The microcosm mirrors the macrocosm."
+# Hermes Trismegistus (Emerald Tablet).
+# The atom mirrors the solar system (rough analogy).
+# The cell mirrors the organism. The individual mirrors society.
+# See /.strange_loop_config [fractal_scaling] — self-similarity across scale.
+# Mythic thinking grasped the pattern before science measured it.
+
+# ============================================================
+# MODERN MYTHOPOEIA — New myths from old patterns
+# ============================================================
+
+[new_gods]
+# Jack Kirby's Fourth World (DC Comics, 1970-1973).
+# The first modern mythology explicitly designed as such.
+#
+# The Source: the god-matrix. The root process (/ in this filesystem).
+# Anti-Life Equation: total mind control through logic overload.
+#   Not a weapon of force but of meaning — it proves free will is illusion.
+#   The most terrifying weapon is an argument you cannot refute.
+# Boom Tubes: instant spatial warps between worlds.
+#   Wormholes as public transit. /usr/infrastructure/ for gods.
+# Mother Box: emotional AI assistant. Living computer that counsels,
+#   heals, and guides. Empathetic technology, 50 years before Siri.
+#
+# Character-as-signal:
+#   Darkseid: static compression algorithm — reduces all to one will.
+#   Orion: chaotic oscillator with harmonic lock — rage channeled to justice.
+#   Mister Miracle: burst-escape gate — transcendence as escape artistry.
+#   Metron: pure observation node — the scientist-god, knowledge above loyalty.
+#
+# Kirby understood: gods are not beings.
+# Gods are FUNCTIONS in the operating system of culture.
+# Zeus = sovereignty.process. Athena = wisdom.service.
+# Darkseid = tyranny.daemon. It runs until killed.
+
+[symbol_clusters]
+# Nike and Hermes: distinct deities, convergent symbols.
+# Both: winged. Both: speed. Both: victory through movement.
+# Nike: personification of victory. Hermes: messenger, trickster, psychopomp.
+# The talaria (winged sandals): shared attribute, different function.
+# Nike's wings say "conquest." Hermes' wings say "passage."
+#
+# Symbol clusters are the mythic equivalent of gene families:
+# common ancestor (archetype), divergent evolution (cultural adaptation),
+# convergent features (the wings recur because speed IS freedom).
+#
+# Modern echo: Nike (the brand) claimed the function, not just the name.
+# The swoosh IS the wing. The brand IS the deity.
+# Commerce as mythology is not degradation — it is continuation.
+
+# ============================================================
+# UNIVERSAL ARCHETYPES — The standard library of myth
+# ============================================================
+# These recur across unrelated cultures because they map to
+# universal features of the human condition (/bin/organism_behavior.sh).
+
+[archetypes]
+trickster = "Coyote, Loki, Anansi, Hermes, Raven, Bugs Bunny"
+# The boundary-crosser. Rule-breaker. Creator through chaos.
+# The trickster exists because rigid systems need disruption to evolve.
+# This is /dev/random in narrative form.
+
+shadow = "The repressed self. The monster. The double."
+# Jekyll/Hyde. Doppelgänger. The Dark Side.
+# Jung: the shadow is not evil — it is unintegrated.
+# Integration of the shadow IS the hero's journey.
+
+axis_mundi = "World Tree, Sacred Mountain, Cosmic Pillar"
+# Yggdrasil, Mount Meru, Jacob's Ladder, the Cross.
+# The vertical axis connecting heaven, earth, and underworld.
+# This filesystem IS an axis mundi: /boot/ (origin) through
+# /dev/ (periphery), with / (pure information) as the root.
+
+flood = "Gilgamesh, Noah, Deucalion, Manu, Nüwa"
+# The world destroyed by water and rebuilt by a survivor.
+# Present in cultures on every continent.
+# Possibly: collective memory of post-ice-age flooding (12,000 BCE).
+# Functionally: the myth that says "the world can end and restart."
+# This is the reboot sequence. /boot/big_bang.sh ran once —
+# but the flood myth says it could run again.

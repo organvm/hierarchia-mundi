@@ -77,3 +77,93 @@
 #
 # The strange loop: randomness → order → understanding randomness.
 # We are /dev/random's attempt to understand itself.
+
+# ============================================================
+# STRUCTURED RANDOMNESS — Entropy with geometry
+# ============================================================
+# Pure randomness is noise. Structured randomness is texture.
+# The universe runs on structured randomness — chaos
+# constrained by rules. The rules give the chaos shape.
+# The chaos gives the rules novelty.
+
+[noise_functions]
+# Perlin noise (1983): smooth, continuous random variation.
+# Simplex noise (2001): Perlin improved for higher dimensions.
+# Value noise, Worley noise, fractal Brownian motion —
+# each produces a different TEXTURE of randomness.
+#
+# These are /dev/random filtered through /logic_gates.sys.
+# Raw entropy → mathematical constraint → coherent pattern.
+# This is how terrain is generated in /net/technium/generative_systems.run.
+# It is also how /boot/big_bang.sh generated the cosmic web:
+# quantum fluctuations (noise) → gravitational amplification (constraint)
+# → galaxies, clusters, voids (structure).
+# The universe IS a noise function with a very large seed.
+type = "gradient, simplex, Worley, fBm"
+application = "terrain, clouds, texture, music, world seeds"
+
+[l_system_randomness]
+# L-systems are deterministic grammars — but add a random rule
+# selection probability and they produce organic variation.
+# No two trees generated from the same L-system look identical,
+# but all look like trees.
+# This is how /bin/ works: the genome is the grammar,
+# mutation (/dev/random) is the probabilistic rule selection,
+# and the organism is the derivation.
+type = "stochastic context-free grammar"
+application = "plants, blood vessels, rivers, branching coral"
+
+[cellular_automata_randomness]
+# Cellular automata are deterministic — but the initial state
+# can be random. From random initial conditions + simple rules,
+# complex structure emerges spontaneously.
+# Conway's Game of Life: random start → gliders, oscillators,
+# Turing-complete structures.
+# The initial randomness is the SEED. The rules are the PHYSICS.
+# This is /boot/big_bang.sh in miniature.
+type = "deterministic rules + random initial conditions"
+application = "pattern formation, erosion simulation, urban growth"
+
+[markov_randomness]
+# Markov chains: the next state is probabilistic, based only
+# on the current state. History-independent randomness.
+# Used for: text generation, weather models, music composition,
+# stock price models, name generators.
+# The randomness is CHANNELED by transition probabilities.
+# Not any state can follow any state — only likely ones.
+# This is /dev/random with memory: one step of memory.
+type = "stochastic state machine"
+application = "sequence generation, prediction, simulation"
+
+[genetic_randomness]
+# Genetic algorithms: random mutation + random crossover +
+# deterministic selection = directed evolution.
+# The randomness is the variation. The selection is the direction.
+# Neither alone produces anything useful.
+# Together: solutions that no human designer would find.
+# This is natural selection (/bin/ecology_manager/natural_selection.cron)
+# reconceived as a search algorithm.
+# /dev/random is not the enemy of design. It is the raw material.
+type = "variation operators in evolutionary computation"
+application = "optimization, design, neural architecture search"
+
+# ============================================================
+# THE ENTROPY GRADIENT
+# ============================================================
+# /dev/random is the source. /dev/null is the sink.
+# Between them: all of existence.
+#
+# The gradient from low entropy (/boot/big_bang.sh) to
+# high entropy (/dev/null) is the engine of everything.
+# Every process in the hierarchy is a local eddy in this gradient:
+# extracting order from the flow, adding it to a structure,
+# exporting the waste heat downstream.
+#
+# /dev/random is not chaos for its own sake.
+# It is the reservoir from which all novelty is drawn.
+# When the reservoir is empty, the universe is at equilibrium.
+# That is heat death. That is /dev/null.
+# Between now and then: everything interesting that will ever happen.
+#
+# We are the universe's way of using /dev/random
+# before /dev/null runs out the clock.

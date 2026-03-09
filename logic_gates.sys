@@ -46,3 +46,125 @@ turing_complete = true
 # It means the system always has room to grow.
 goedel_sentence = "This statement is not provable in this system"
 consequence = "Truth exceeds proof"
+
+# ============================================================
+# META-LAWS — The axioms beneath the axioms
+# ============================================================
+# These seven principles recur across every domain in the hierarchy.
+# They are not derived from physics or mathematics alone —
+# they are the patterns that physics AND mathematics AND mythology
+# AND economics AND ecology all share. The formatting of the drive.
+
+[META_LAWS]
+
+L1_CAUSALITY = "Every effect has a cause. Every cause has effects."
+# Newton's third law. Karma. SQL foreign keys.
+# The arrow from input to output that makes computation possible.
+# Without causality, /boot/big_bang.sh produces nothing.
+
+L2_PERCEPTION = "What is observed depends on the observer."
+# Heisenberg uncertainty (/sys/quantum_mechanics/wave_function.so).
+# Maya (Hindu: the world as illusion). Sapir-Whorf (language shapes thought).
+# The measurement problem is not a physics problem — it is a meta-law.
+# Every level of the hierarchy filters reality through its own lens.
+
+L3_ENTROPY = "Order tends toward disorder. Disorder, iterated, produces order."
+# /sys/thermodynamics/entropy.daemon is the local instance.
+# But entropy operates everywhere: languages simplify, empires decay,
+# code rots, relationships require maintenance.
+# The creative paradox: destruction is prerequisite to creation.
+
+L4_RECURSION = "The pattern contains itself at every scale."
+# Fractals. DNA encoding proteins that read DNA. Strange loops.
+# /boot/big_bang.sh → /dev/random → / → /boot/big_bang.sh
+# Self-similarity is not decoration — it is architecture.
+
+L5_CONTRAST = "Identity requires difference. Without division, no distinction."
+# Binary logic (AND, OR, NOT above). Wave-particle duality.
+# Light/dark, self/other, signal/noise, 0/1.
+# The NAND gate is contrast formalized.
+
+L6_CONNECTION = "Everything is coupled to everything else."
+# Entanglement (/sys/quantum_mechanics/). Ecology (/bin/ecology_manager/).
+# Supply chains (/usr/economy/). The noosphere (/net/noosphere.sock).
+# Isolation is an approximation. Interdependence is the default.
+
+L7_CONSERVATION = "Nothing is created or destroyed — only transformed."
+# Energy conservation (/sys/thermodynamics/). Matter conservation (/lib/).
+# Information conservation (/dev/null — even black holes return it).
+# The universe is a closed system with an open imagination.
+
+# ============================================================
+# FORMAL LOGIC — The instruction set of reason
+# ============================================================
+
+[LOGIC_PRINCIPLES]
+
+identity = "A = A"
+# A thing is itself. The zeroth axiom.
+# Without this, no predicate, no variable, no computation.
+
+non_contradiction = "NOT(A AND NOT(A))"
+# A thing cannot be and not be simultaneously.
+# Paraconsistent logics challenge this — but even they
+# must define what "contradiction" means to reject it.
+
+excluded_middle = "A OR NOT(A) = true"
+# Every proposition is true or false. No third option.
+# Intuitionistic logic rejects this — truth requires proof.
+# The debate has raged since Brouwer (1908). Still open.
+
+mathematical_induction = "P(0) AND [P(n) → P(n+1)] → P(n) FOR ALL n"
+# Already in [AXIOMS] above. Listed here for completeness.
+# The bridge from finite verification to infinite truth.
+
+goedel_incompleteness_1 = "Any consistent system containing arithmetic has true unprovable statements"
+goedel_incompleteness_2 = "No consistent system can prove its own consistency"
+# Already in [INCOMPLETENESS] above. The ceiling on formal systems.
+
+heisenberg_limit = "Conjugate variables cannot both be precisely known"
+# Formalized: Δx · Δp ≥ ℏ/2 (see /sys/quantum_mechanics/wave_function.so)
+# Generalized: precision in one domain costs precision in another.
+# Maps, models, theories — all trade resolution for coverage.
+
+halting_problem = "No general algorithm can determine if an arbitrary program halts"
+# Turing (1936). The computational equivalent of Gödel.
+# There exist questions that cannot be answered by any machine.
+# This is why /net/technium/autonomous_ai_evolution.sys cannot
+# predict its own future behavior.
+
+zeno_paradox = "Infinite subdivision does not prevent finite traversal"
+# Achilles catches the tortoise. The sum converges.
+# Calculus resolved the math. The philosophy endures:
+# how does the continuous emerge from the discrete?
+
+chaos_sensitivity = "Sensitive dependence on initial conditions"
+# Lorenz (1963). Deterministic systems produce unpredictable behavior.
+# The weather is deterministic. Weather forecasts still fail.
+# Determinism ≠ predictability. This is L4_RECURSION meeting L3_ENTROPY.
+
+# ============================================================
+# PHILOSOPHICAL RAZORS — Heuristics for navigating truth
+# ============================================================
+
+[RAZORS]
+
+occam = "Do not multiply entities beyond necessity"
+# The simplest explanation consistent with the data wins.
+# This is not a law of nature — it is a prior on theories.
+# Nature is under no obligation to be simple. But simple models
+# have fewer parameters to overfit. Bayesian reasoning agrees.
+
+sufficient_reason = "Nothing exists without a reason for its existence"
+# Leibniz. Stronger than causality — every contingent truth
+# has an explanation. The question "why?" always has an answer.
+# Whether we can find it is a separate matter.
+
+categorical_imperative = "Act only on maxims you could will to be universal law"
+# Kant. Ethics derived from pure reason, not consequence.
+# See /usr/culture/belief_systems/secular_ethics.md for the full treatment.
+
+dialectic = "Thesis + Antithesis → Synthesis"
+# Hegel (via Fichte). Progress through contradiction.
+# The universe argues with itself and calls the result evolution.
+# See L5_CONTRAST — difference is generative, not destructive.

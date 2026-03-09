@@ -76,3 +76,71 @@
 # There is no ladder. There is a bush.
 # We are one twig among millions.
 # The twig does not know it is a twig.
+
+# ============================================================
+# STAGED EVOLUTION — Transformation as unlocking
+# ============================================================
+# Evolution is not always gradual. Sometimes it is staged:
+# long periods of stasis punctuated by rapid transformation.
+#
+# Punctuated equilibrium (Gould & Eldredge, 1972):
+#   Species remain stable for millions of years,
+#   then change rapidly when environment shifts.
+#   The fossil record shows jumps, not smooth gradients.
+#
+# Major transitions in evolution (Szathmáry & Maynard Smith, 1995):
+#   1. Replicating molecules → populations of molecules
+#   2. Independent replicators → chromosomes
+#   3. RNA world → DNA + protein world
+#   4. Prokaryotes → eukaryotes (fusion — see /lib/fusion_protocols.so)
+#   5. Asexual clones → sexual populations (/bin/cell_division/meiosis.loop)
+#   6. Single cells → multicellular organisms
+#   7. Solitary organisms → colonies (ants, bees, termites)
+#   8. Primate groups → human societies with language (/usr/)
+#
+# Each transition is a Stage_Unlock (/lib/fusion_protocols.so):
+# the system was always capable, but the transition gates access
+# to a new regime of complexity.
+#
+# Transition 4 (prokaryote → eukaryote) was literally FUSION:
+# an archaeon absorbed a bacterium. That bacterium became
+# the mitochondrion. Every complex cell is a fossil of that merger.
+# Evolution's greatest leap was not mutation but symbiosis.
+
+# ============================================================
+# MENDEL'S INHERITANCE — The discrete unit of selection
+# ============================================================
+# Mendel (1866): inheritance is particulate, not blending.
+# Traits are carried by discrete factors (now: genes/alleles).
+#
+# Dominant/recessive, genotype/phenotype, allele frequencies —
+# these are the data structures of natural selection.
+# Darwin had the algorithm. Mendel had the data format.
+# Together (via the Modern Synthesis, 1930s-1940s): the full program.
+#
+# Population genetics (Hardy-Weinberg equilibrium):
+#   p² + 2pq + q² = 1 (genotype frequencies)
+#   Conditions for no evolution: no mutation, no selection,
+#   no migration, no drift, random mating.
+#   These conditions never hold. Evolution is the default.
+
+# ============================================================
+# HUBBLE'S EXPANSION — Cosmic natural selection?
+# ============================================================
+# The universe expands. Galaxies recede. Space itself stretches.
+# Hubble (1929): v = H₀ × d (velocity proportional to distance).
+#
+# Why here? Because cosmic expansion is the environment
+# in which stellar evolution, planetary formation, and
+# biological evolution occur. The expansion rate determines:
+#   - Whether galaxies form at all (too fast → no structure)
+#   - Whether stars burn long enough for life (density → lifetime)
+#   - Whether the universe lasts long enough for intelligence
+#
+# Lee Smolin's "Cosmological Natural Selection" (1992):
+# black holes spawn new universes with slightly different constants.
+# Universes that produce more black holes are "fitter."
+# Universes that produce black holes also tend to produce stars,
+# which tend to produce planets, which tend to produce life.
+# Natural selection may operate on universes themselves.
+# /bin/ecology_manager/ may be a deeper pattern than biology.

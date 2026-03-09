@@ -89,7 +89,67 @@ trigger = "hormonal cycles, mate availability, environmental conditions"
 # survive to adulthood. Pain is not optional for survival.
 # The error log is essential system infrastructure.
 
+# ============================================================
+# LOOP TAXONOMY — The operating system of behavior
+# ============================================================
+# Every organism runs on loops. Not just homeostatic feedback,
+# but nested, interlocking cycles at every timescale.
+# The organism IS its loops. Remove them and it dies.
+
+[core_loop]
+# The innermost loop. Rhythm. Habit. Second-to-second existence.
+# Heartbeat: 60-100 bpm. Breathing: 12-20 breaths/minute.
+# Nerve impulse: fire → refractory → ready → fire.
+# The core loop defines the organism's temporal grain —
+# the clock speed of biological computation.
+#
+# In game design: the moment-to-moment gameplay loop.
+# Move → perceive → decide → act → move.
+# In organisms: sense → process → respond → sense.
+# The core loop is survival at the tick level.
+cadence = "seconds to minutes"
+function = "maintain_rhythm"
+
+[meta_loop]
+# The loop above the loop. Commitment. Identity. Growth.
+# Circadian rhythm (documented above): daily cycle.
+# Menstrual cycle: ~28 days. Seasonal behavior: annual.
+# Life stages: infant → child → adolescent → adult → elder.
+#
+# The meta loop defines what the organism IS over time.
+# A caterpillar's core loop is "eat." Its meta loop is
+# "eat → grow → pupate → emerge → reproduce → die."
+# The meta loop is the narrative arc of biological existence.
+cadence = "days to lifetime"
+function = "maintain_identity"
+
+[feedback_loop]
+# Consequence. Cause and effect across loops.
+# Positive feedback: labor contractions → oxytocin → stronger contractions.
+# Negative feedback: blood sugar rises → insulin → blood sugar falls.
+#
+# The feedback loop is what makes loops ADAPTIVE rather than
+# merely repetitive. Without feedback, the organism is a clock.
+# With feedback, it is a thermostat — and eventually, a mind.
+#
+# Learning IS feedback: action → outcome → memory → adjusted action.
+# Pain is feedback. Pleasure is feedback.
+# Emotion is the user interface of the feedback loop.
+cadence = "variable — milliseconds to generations"
+function = "adapt_behavior"
+
+[loop_modulation]
+# Loops are not fixed. They are modulated by context.
+# Stress → cortisol → sleep loop disrupted → immune loop degraded.
+# Social bonding → oxytocin → feeding loop modulated (shared meals).
+# Seasonal light changes → melatonin → reproductive loop activated.
+#
+# The organism is a modular synthesizer of loops.
+# Each loop is an oscillator. Context is the modulation matrix.
+# Health is when the loops are in phase.
+# Disease is when they decouple.
+
 echo "[ORGANISM] All survival drives loaded."
-echo "[ORGANISM] Homeostatic feedback loops active."
+echo "[ORGANISM] Core/meta/feedback loops active."
 echo "[ORGANISM] Ready for environment interaction."
 echo "[ORGANISM] Loading /bin/ecology_manager/ for ecosystem integration..."
