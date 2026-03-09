@@ -1,0 +1,87 @@
+# periodic_table.db
+# Relational database of 118 base elements.
+# Each element is a unique configuration of protons, neutrons,
+# and electrons — emergent from /sys/quantum_mechanics/ and
+# /sys/standard_model.lib. Chemistry is applied quantum mechanics.
+
+# ============================================================
+# SCHEMA
+# ============================================================
+# CREATE TABLE elements (
+#     atomic_number   INTEGER PRIMARY KEY,
+#     symbol          TEXT NOT NULL,
+#     name            TEXT NOT NULL,
+#     mass            REAL,          -- atomic mass units
+#     group_number    INTEGER,       -- column (1-18)
+#     period          INTEGER,       -- row (1-7)
+#     category        TEXT,          -- metal, nonmetal, metalloid, noble_gas
+#     electron_config TEXT,          -- e.g., "[He] 2s² 2p²"
+#     abundance       TEXT           -- cosmic abundance rank
+# );
+
+# ============================================================
+# THE FIRST 30 — The foundation of chemistry
+# ============================================================
+# H   1   Hydrogen     1.008      Most abundant element in the universe (73%)
+# He  2   Helium       4.003      Second most abundant (25%). Inert. Born in Big Bang.
+# Li  3   Lithium      6.941      Lightest metal. Made in Big Bang (trace amounts).
+# Be  4   Beryllium    9.012      Toxic. Transparent to X-rays.
+# B   5   Boron        10.81      Cosmic oddity — rare, made only by cosmic rays.
+# C   6   Carbon       12.01      THE element of life. 4 bonds. Infinite combinations.
+# N   7   Nitrogen     14.01      78% of Earth's atmosphere. Triple bond is very strong.
+# O   8   Oxygen       16.00      Third most abundant in universe. Highly reactive.
+# F   9   Fluorine     19.00      Most electronegative element. Aggressively reactive.
+# Ne  10  Neon         20.18      Noble gas. Glows red-orange when electrified.
+# Na  11  Sodium       22.99      Explodes in water. Essential for nerve impulses.
+# Mg  12  Magnesium    24.31      Center of chlorophyll. Makes photosynthesis possible.
+# Al  13  Aluminum     26.98      Most abundant metal in Earth's crust.
+# Si  14  Silicon      28.09      Semiconductors. The backbone of computation.
+# P   15  Phosphorus   30.97      DNA backbone. ATP energy currency.
+# S   16  Sulfur       32.07      Amino acid cross-links. Volcanic.
+# Cl  17  Chlorine     35.45      Disinfectant. Half of table salt.
+# Ar  18  Argon        39.95      Third most abundant gas in atmosphere. Inert.
+# K   19  Potassium    39.10      Essential for heart rhythm and neural signaling.
+# Ca  20  Calcium      40.08      Bones, teeth, muscle contraction, signaling.
+# Fe  26  Iron         55.85      Hemoglobin. Steel. Earth's core. Peak of binding energy.
+# Cu  29  Copper       63.55      Electrical wiring. Antimicrobial.
+# Zn  30  Zinc         65.38      Enzyme cofactor. Immune function.
+
+# ============================================================
+# NUCLEOSYNTHESIS — Where elements come from
+# ============================================================
+# Big Bang:        H, He, Li (trace)
+# Stellar fusion:  C, N, O, up to Fe
+# Supernovae:      Everything heavier than Fe
+# Neutron stars:   r-process elements (gold, platinum, uranium)
+# Cosmic rays:     Li, Be, B (spallation)
+#
+# You are literally made of dead stars.
+# Every atom in your body (except hydrogen) was forged
+# in a stellar core or a supernova explosion.
+
+# ============================================================
+# THE MAGIC OF CARBON (Element 6)
+# ============================================================
+# Carbon has four valence electrons and can form:
+#   - Single bonds (ethane)
+#   - Double bonds (ethylene)
+#   - Triple bonds (acetylene)
+#   - Rings (benzene)
+#   - Chains (polymers)
+#   - Branched structures (proteins)
+#   - Self-referential structures (DNA)
+#
+# No other element has this combinatorial versatility.
+# This is why life is carbon-based.
+# Silicon comes close but can't form stable double bonds
+# in the presence of oxygen. Carbon wins.
+
+# ============================================================
+# QUERY INTERFACE
+# ============================================================
+# SELECT * FROM elements WHERE category = 'noble_gas';
+# SELECT symbol, name FROM elements WHERE period = 2;
+# SELECT * FROM elements WHERE atomic_number > 92;  -- transuranic
+#   → All are radioactive. Many synthesized in labs.
+#   → Lifetimes range from years to microseconds.
+#   → Island of stability predicted around Z=114, N=184.

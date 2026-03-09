@@ -168,3 +168,154 @@ dialectic = "Thesis + Antithesis → Synthesis"
 # Hegel (via Fichte). Progress through contradiction.
 # The universe argues with itself and calls the result evolution.
 # See L5_CONTRAST — difference is generative, not destructive.
+
+# ============================================================
+# METAPHYSICAL THEORIES — The operating system debates
+# ============================================================
+# Three positions on what exists. Every philosopher picks one.
+# Every civilization defaults to one. The choice ripples into
+# every other domain: science, law, art, code.
+
+[METAPHYSICS]
+
+realism = "Universals exist independently of particular instances"
+# Plato's Forms. Mathematical Platonism. The triangle
+# exists before any triangle is drawn.
+# Consequence: truth is discovered, not invented.
+# The laws of physics are real objects in some abstract space.
+# The hierarchy (/logic_gates.sys) would exist even if
+# no filesystem implemented it.
+
+idealism = "Reality is fundamentally mental"
+# Berkeley: esse est percipi (to be is to be perceived).
+# Hegel: Absolute Spirit unfolds through history.
+# Wheeler's participatory universe: observation creates reality.
+# Consequence: consciousness is not an epiphenomenon —
+# it is the substrate. The observer in L2_PERCEPTION
+# is not reading the universe; the observer IS the universe
+# reading itself. See /sys/quantum_mechanics/wave_function.so
+# [THE MEASUREMENT PROBLEM] — QBism flirts with this.
+
+nominalism = "Only particular things exist. Universals are names."
+# Ockham (he of the razor, [RAZORS] above): "redness" is a word,
+# not an entity. There is no "horseness" — only individual horses.
+# Consequence: categories are human conventions, not cosmic truths.
+# The periodic table is a filing system, not a Platonic form.
+# This is the most parsimonious position. It is also the hardest
+# to reconcile with mathematics — are numbers names?
+#
+# The debate is 2,400 years old. No winner.
+# Choose your metaphysics. Your epistemology follows.
+
+# ============================================================
+# PHILOSOPHY AS OPERATING SYSTEM — Four subsystems
+# ============================================================
+# Philosophy is not a discipline. It is the OS on which
+# all other disciplines run. Four subsystems, each mapping
+# to a system service.
+
+[PHILOSOPHY_OS]
+
+base_code = "ONTOLOGY → Myth-Logic"
+# What exists? The boot sequence. Before you query the database,
+# you must define what the database contains.
+# Myths are the first ontologies: "In the beginning was the Word."
+# Formal ontology: categories, substance, properties, relations.
+# /boot/big_bang.sh is the ontological origin event.
+# Every [section] in this filesystem is an ontological commitment.
+
+query_engine = "EPISTEMOLOGY → Archives"
+# How do we know? The search function.
+# Empiricism: evidence. Rationalism: deduction.
+# Pragmatism: does it work? Phenomenology: how does it appear?
+# The Archives are the accumulated epistemological output —
+# every experiment, every proof, every tradition that survived.
+# See /usr/culture/belief_systems/ for epistemological diversity.
+
+ethical_driver = "ETHICS → Decision Tree"
+# What should we do? The policy engine.
+# Deontology (Kant): follow the rule. [RAZORS] categorical_imperative.
+# Consequentialism (Mill): maximize outcomes.
+# Virtue ethics (Aristotle): be the right kind of person.
+# The Decision Tree is always running. Even inaction is a choice.
+# See /usr/culture/philosophy/ethics/ for branching logic.
+
+aesthetic_interface = "AESTHETICS → Style Generation"
+# What is beautiful? The rendering engine.
+# Kant: beauty is purposiveness without purpose.
+# Hegel: art is the sensuous presentation of the Idea.
+# Dewey: art is experience intensified.
+# This subsystem generates the UI for all output:
+# why equations are "elegant," why code can be "clean,"
+# why a sunset activates reward circuits.
+# See /usr/culture/art_movements/ for interface themes.
+
+# ============================================================
+# MAXWELL'S EQUATIONS — Electromagnetism as formal system
+# ============================================================
+# James Clerk Maxwell (1865): four equations unifying electricity,
+# magnetism, and light into a single formal system.
+# Before Maxwell, they were three phenomena. After Maxwell, one.
+
+[MAXWELLS_EQUATIONS]
+
+gauss_electric  = "∇ · E = ρ/ε₀"
+# Electric field diverges from charges. Charges are sources.
+# This is why field lines start on + and end on −.
+
+gauss_magnetic  = "∇ · B = 0"
+# No magnetic monopoles. Every north pole has a south.
+# Magnetic field lines are always closed loops.
+# (If a monopole is ever found, this equation changes
+# and half of physics gets rewritten.)
+
+faraday         = "∇ × E = −∂B/∂t"
+# Changing magnetic field creates electric field.
+# This is how generators and transformers work.
+# Motion → electricity. L7_CONSERVATION in action.
+
+ampere_maxwell  = "∇ × B = μ₀J + μ₀ε₀ ∂E/∂t"
+# Current and changing electric field create magnetic field.
+# Maxwell's displacement current (the ∂E/∂t term) was the
+# theoretical prediction that unified light with electromagnetism.
+# From these four equations: c = 1/√(μ₀ε₀).
+# Light is an electromagnetic wave. QED.
+
+# Four equations. Two constants. One speed.
+# The most beautiful unification before Einstein.
+# See /sys/quantum_mechanics/wave_function.so [EM SPECTRUM]
+# for the frequency taxonomy of what Maxwell unified.
+
+# ============================================================
+# THE CONVERGENCE LIMIT — Gödel + Turing + Church
+# ============================================================
+# Three logicians. Three formalisms. One ceiling.
+
+[CONVERGENCE_LIMIT]
+
+goedel_1931  = "Incompleteness: true statements unprovable in the system"
+# Already in [INCOMPLETENESS] above. Arithmetic cannot prove
+# all arithmetic truths. The system cannot fully describe itself.
+
+turing_1936  = "Halting problem: no algorithm decides if any program halts"
+# Already in [LOGIC_PRINCIPLES] halting_problem.
+# Computation cannot predict its own termination.
+# Every sufficiently powerful system contains undecidable questions.
+
+church_1936  = "Lambda calculus: equivalent to Turing machines in power"
+# Alonzo Church, same year as Turing, different formalism,
+# identical conclusion. Functions that take functions as arguments
+# can compute everything a Turing machine can — and nothing more.
+# Church-Turing thesis: this IS the boundary of computability.
+
+# These three results are the same theorem wearing different clothes.
+# Gödel: truth exceeds proof.
+# Turing: computability has edges.
+# Church: all formalisms hit the same wall.
+#
+# The convergence is not coincidence. It is meta-law L4_RECURSION:
+# any system powerful enough to describe itself
+# necessarily contains questions about itself it cannot answer.
+# Self-reference is the mechanism. Limitation is the output.
+# This is the deepest structural truth in /logic_gates.sys.
+# The formatting of the drive includes its own unreadable sectors.

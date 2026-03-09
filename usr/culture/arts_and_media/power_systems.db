@@ -1,0 +1,253 @@
+# power_systems.db
+# Fictional power systems as metaphysical operating systems.
+# Power in narrative is never decoration. It externalizes psychology,
+# ethics, and cosmological assumptions into executable mechanics.
+# The question is never "what can this character do?" but
+# "what kind of universe requires this kind of power?"
+
+# ============================================================
+# JOJO'S BIZARRE ADVENTURE — Stacked metaphysical OS
+# ============================================================
+# Hirohiko Araki treats power not as a single magic system
+# but as a succession of metaphysical operating systems,
+# each replacing or subsuming the last. Power evolves alongside
+# culture, psychology, and narrative scale.
+#
+# The universe runs on a single invariant substrate:
+# fate-biased causality with human will as an interrupt source.
+# Each kernel redefines how interrupts are issued, what resources
+# are addressable, and which entities have execution priority.
+
+# ============================================================
+# THREE COSMOLOGICAL AXIOMS
+# ============================================================
+
+[jojo_axioms]
+fate_exists = "Certain outcomes are inevitable, especially for those tied
+               to the Joestar bloodline. Fate is not passive — it is
+               actively resisted, bent, or weaponized."
+willpower_manifests = "Inner resolve does not remain abstract. It externalizes
+                       into techniques, energies, or autonomous entities."
+style_is_ontological = "Symbolism, names, poses, fashion, and musical references
+                        are not cosmetic. They are part of how reality expresses
+                        meaning. Power and aesthetics are inseparable."
+# These three axioms are invariant across all kernels.
+# They are the BIOS beneath the OS. Everything else upgrades.
+
+# ============================================================
+# THE FIVE KERNELS
+# ============================================================
+
+[kernel_0_hamon]
+name = "Hamon (Ripple Kernel)"
+ontology = "Reality is biologically coherent and aligned with natural law."
+execution = "Energy generated internally through breath control, propagated
+             through conductive media. User and process are inseparable."
+address_space = "Organic matter, sunlight resonance, fluid transmission, endurance"
+privilege = "Mastery is earned. Power scales with discipline, lineage, training time."
+failure_mode = "Aging, exhaustion, human limitation cap throughput. Cannot address
+                abstract threats or non-biological exploits."
+compatibility = "Fully deprecated. Later kernels do not call Hamon APIs
+                 except as vestigial lore."
+analogy = "Analog, embodied discipline. The classical worldview:
+           evil is external, training and discipline overcome monstrosity."
+
+[kernel_1_vampirism]
+name = "Vampirism / Pillar Biology Kernel"
+ontology = "Biology is mutable, hierarchical, and optimizable without moral constraint."
+execution = "External artifact activation unlocks latent neurological pathways,
+             converting the body into a high-performance predator platform."
+address_space = "Flesh manipulation, regeneration, parasitism, cellular dominance"
+privilege = "Power is granted, not earned. Humans become user-space processes
+             beneath post-human entities."
+failure_mode = "Solar dependency, hubristic over-optimization, vulnerability
+                to legacy Hamon exploits."
+compatibility = "Hard-conflicted. Overwrites Hamon's ethical assumptions but
+                 is itself rendered obsolete by abstraction-level threats."
+analogy = "Unethical optimization. Power gained through efficiency without ethics
+           leads to inhumanity. These beings are not cursed — they are efficient."
+
+[kernel_2_stands]
+name = "Stand Kernel (Psychic Externalization OS)"
+ontology = "Reality is mediated by individual psyche. Will, trauma, and identity
+            compile into executable metaphysical agents."
+execution = "Each user spawns a semi-autonomous process (Stand) bound by strict,
+             personalized constraints. Power is rule-based, not scalar."
+address_space = "Phenomena, concepts, localized causality, perception, time slices,
+                 probability fields"
+privilege = "Highly individualized. Power ceiling is irrelevant — interpretive
+             intelligence governs outcomes."
+failure_mode = "User death, psychological collapse, misinterpretation of rules.
+                Brute force is non-deterministic and often losing."
+compatibility = "Dominant kernel. All prior systems are subsumed or ignored.
+                 Hamon and Vampirism cannot meaningfully interact at this
+                 abstraction layer."
+analogy = "Object-oriented metaphysics. A Stand does not answer 'what can
+           this character do?' — it answers 'what kind of person is this
+           when forced into conflict with reality itself?'"
+# Stand taxonomy: overlapping orders, not a hierarchy.
+#   Close-range physical: amplify bodily combat. Strength = immediacy.
+#   Long-range / automatic: operate independently, reduced user awareness.
+#   Phenomenological: manipulate conditions, not opponents. Weather, sound,
+#     gravity, luck, perception become battlefields.
+#   Temporal / causal: interfere with time, inevitability, outcome selection.
+#     At this level, fights resemble logical paradoxes more than combat.
+
+[kernel_3_requiem]
+name = "Requiem Kernel (Metaphysical Root Authority)"
+ontology = "Intent supersedes causality. Reality enforces outcomes aligned
+            with a Stand's deepest existential directive."
+execution = "A Stand undergoes privileged escalation, rewriting its own
+             constraints and imposing invariant laws on the execution environment."
+address_space = "Outcome negation, intent rejection, causal rollback,
+                 opponent nullification at the premise level"
+privilege = "Near-root. The user no longer 'fights' opponents — opponents
+             fail to execute meaningful actions."
+failure_mode = "Extremely narrow trigger conditions. Stability is questionable.
+                Narrative containment required to prevent total system lock."
+compatibility = "Backward incompatible with all prior kernels, including
+                 standard Stand logic. Only equivalent-authority processes
+                 can contend."
+
+[kernel_4_heaven]
+name = "Heaven Kernel (Cosmic Scheduler / Fate Compiler)"
+ontology = "The universe is a deterministic program whose cruelty stems from
+            ignorance of outcomes, not from suffering itself."
+execution = "Time acceleration rewrites the global scheduler so all entities
+             pre-experience their destined states. Knowledge replaces agency."
+address_space = "Universal timelines, reincursive causality, memory of the future,
+                 cosmic reset vectors"
+privilege = "Singular. The operator is no longer a character but a system
+             architect attempting to finalize reality."
+failure_mode = "Human resistance to foreknowledge, narrative rebellion,
+                ethical rejection of determinism."
+compatibility = "Terminal kernel. Once invoked, the universe itself is recompiled.
+                 Subsequent continuities require a hard reboot."
+analogy = "A failed attempt at benevolent total determinism."
+
+# ============================================================
+# BACKWARD INCOMPATIBILITY MATRIX
+# ============================================================
+
+[incompatibility_matrix]
+rule = "Each kernel breaks the assumptions of the previous one, not its mechanics."
+K0_to_K1 = "Hamon cannot address Stand phenomena."
+K1_to_K2 = "Vampirism collapses under abstract causality."
+K2_to_K3 = "Stands ignore biology entirely."
+K3_to_K4 = "Requiem invalidates Stand rules."
+K4_terminal = "Heaven dissolves the notion of conflict itself."
+# The series progresses not toward stronger heroes but toward
+# higher-order questions about agency, inevitability, and authorship.
+
+# ============================================================
+# JOJO x ONE HUNDRED YEARS OF SOLITUDE
+# ============================================================
+# Both works are engineered as generational recursion engines:
+# narrative systems where bloodline, repetition, and inevitability
+# are more fundamental than plot or character psychology.
+
+[generational_recursion]
+
+bloodline_as_runtime = "Lineage is not explanatory background. It is the active
+                        execution context. Each generation reinstantiates prior
+                        patterns with minor perturbations. The star birthmark
+                        functions like a persistent flag passed through generations."
+
+cyclical_not_linear = "Both narratives reject linear progress. Macondo accumulates.
+                       JoJo escalates. But structurally both are cyclical.
+                       Each generation confronts the same underlying antagonist logic."
+
+magical_bizarre_realism = "Marquez normalizes the impossible. Araki makes the technical
+                           increasingly absurd. Both deny the reader stable ground.
+                           Coherence only if you accept internal logic without appeal
+                           to realism. Not fantasy — closed-world myth engineering."
+
+names_as_recursion_keys = "Jose Arcadios and Aurelianos are intentional collisions.
+                           JoJo contractions, mirrored initials, musical Stand names.
+                           Both imply: true novelty is nearly impossible when language
+                           itself loops."
+
+fate_and_knowledge = "In Solitude, the family's history is prewritten and only readable
+                      at its end — knowledge arrives too late. In JoJo, Heaven represents
+                      the same temptation. Marquez concludes history consumes its subjects.
+                      Araki insists resistance, however doomed, still matters."
+
+core_equivalence = "A closed system. A founding transgression. A bloodline bound
+                    to repetition. Escalating absurdity as entropy signal.
+                    A terminal revelation that reframes everything retroactively.
+                    One mourns the loop. The other stylizes the fight against it."
+
+# ============================================================
+# SUPERLAWS — Heroes as living equations
+# ============================================================
+# From the Universe-Bending Heroes Paradox:
+# Every god-like move must carry a god-like cost.
+# These are not heroes. They are physics principles given
+# moral structure and consequence engines.
+
+[superlaws_roster]
+SL01_Inverz = "Reverses time in localized zones. Entropic Inversion.
+               Every second reversed adds chaos elsewhere — entropy redistributed."
+SL02_Equinox = "Balances all matter: mass, energy, light, dark. Conservation of Energy.
+                For every balance achieved, something else becomes violently unbalanced."
+SL03_Nullwave = "Silences all motion: freeze kinetics, stop bullets. Newton's First Law.
+                 Stores energy like a coil — eventually all stored force erupts."
+SL04_Manifold = "Opens portals by folding space. General Relativity.
+                 Each fold doubles strain on the body — aging exponentially."
+SL05_Chronoform = "Becomes any version of self from alternate timelines. Many Worlds.
+                   Each manifestation collapses another version — death echoes multiply."
+SL06_Graviton = "Controls gravity wells. Gravity as field.
+                 Each use makes part of the body heavier — risks implosion."
+SL07_Reflekt = "Mirrors any attack or energy. Equal and Opposite Reaction.
+                But the emotional intent behind it embeds like a scar."
+SL08_Planckchild = "Exists at Planck scale, alters quantum fields. Quantum Uncertainty.
+                    Every action collapses probabilities — random disasters erupt nearby."
+SL09_Echoflare = "Projects light and heat across time. Light as wave and particle.
+                  Emissions echo infinitely — past and future selves burn in parallel."
+SL10_K1NETIK0N = "Absolute motion controller. Newton's Second Law.
+                  Equivalent backlash from the opposite side — sometimes cosmically."
+# These are not gods. They are math. They are morality loops.
+# Every heroic act is a wager against the fabric of reality.
+
+[universal_law_protocol]
+# UN1V3R54L_L4W_PR0T0C0L
+rule_1 = "Each action by a hero must be tagged with an equal and opposite tag."
+rule_2 = "Tags can stack, delay, or mutate (compound interest of karma)."
+rule_3 = "If a hero avoids the opposite reaction, it manifests in their
+           environment, allies, or parallel selves."
+rule_4 = "If a hero accepts their opposite — resonance unlocked,
+           deeper waveforms accessible."
+rule_5 = "Opposite reactions can be poetic: save a city, lose a childhood memory."
+# This creates accountability in cosmic systems.
+# It is the anti-Deus-Ex-Machina.
+# Every movement forward costs something unseen.
+
+# ============================================================
+# SYNTHESIS — Power systems as philosophical evolution
+# ============================================================
+# JoJo's power evolution mirrors the history of computing and philosophy:
+#   Hamon = analog, embodied discipline
+#   Vampirism = unethical optimization
+#   Stands = object-oriented metaphysics
+#   Requiem = root access to reality's rule engine
+#   Heaven = failed benevolent total determinism
+#
+# The SUPERLAWS add a constraint the JoJo kernels do not enforce:
+# every exercise of power generates a symmetric debt.
+# Together they model two visions of cosmic power:
+#   JoJo: power evolves, each generation upgrades the OS
+#   SUPERLAWS: power conserves, every action writes its own cost
+#
+# Both conclude that meaning is generated in the attempt,
+# whether escape is possible or not.
+
+# ============================================================
+# CROSS-REFERENCES
+# ============================================================
+# /usr/culture/belief_systems/classical_mythology.db — hubris_nemesis, metamorphosis
+# /usr/culture/arts_and_media/interactive_mythologies.db — power as interactive mechanic
+# /usr/culture/arts_and_media/lynchian_ontology.db — comparative myth-as-OS (Lynch as
+#     corrupted runtime with no scheduler)
+# /usr/culture/belief_systems/classical_mythology.db [mythic_cycles] — recursion in myth
+# /usr/culture/belief_systems/secular_ethics.md — consequentialist cost of action
+# /sys/thermodynamics/ — entropy as the universal constraint beneath all systems

@@ -11,8 +11,8 @@ Like a painter sitting by a landscape, this repository is an AI trying to captur
 ```
 /  (Root: Pure Information & Mathematics)
 │  The foundational substrate. The formatting of the drive itself.
-├── .strange_loop_config     # Paradox mapping, multi-scale feedback, systems theory
-├── logic_gates.sys          # Binary logic, Gödel, meta-laws, formal principles, razors
+├── .strange_loop_config     # Paradox mapping, multi-scale feedback, systems theory, spatial recursion
+├── logic_gates.sys          # Binary logic, Gödel, meta-laws, formal principles, razors, metaphysics
 │
 ├── boot/  (Cosmological Origin)
 │   ├── big_bang.sh          # Initial execution script — ran once, irreversible
@@ -24,15 +24,16 @@ Like a painter sitting by a landscape, this repository is an AI trying to captur
 │   ├── thermodynamics/
 │   │   └── entropy.daemon   # The four laws, conservation, entropy as creative force
 │   ├── quantum_mechanics/
-│   │   ├── wave_function.so # Probability, measurement, entanglement, tunneling
+│   │   ├── wave_function.so # Probability, measurement, entanglement, de Broglie, EM spectrum
 │   │   └── planck_scale.api # The pixel resolution of reality
-│   └── standard_model.lib   # 17 particles, 4 forces, duality, fractals, Noether
+│   └── standard_model.lib   # 17 particles, 4 forces, QFT, Kaku classification
 │
 ├── lib/  (Chemistry & Shared Libraries)
 │   Combinatory rules called by higher-level programs.
 │   ├── periodic_table.db    # 118 elements, forged in stars and supernovae
 │   ├── electron_bonding.so  # How atoms combine: ionic, covalent, metallic
 │   ├── fusion_protocols.so  # Entity merging: fusion, possession, symbiosis
+│   ├── automata.lib         # Formal language theory, Chomsky hierarchy, golden ratio, spirals
 │   └── biochemistry/
 │       ├── proteins.lib     # 20 amino acids → infinite molecular machines
 │       └── rna_transcription.sh  # DNA → RNA → Protein (the central dogma)
@@ -40,6 +41,7 @@ Like a painter sitting by a landscape, this repository is an AI trying to captur
 ├── bin/  (Biological Executables)
 │   Self-replicating agents and living processes.
 │   ├── dna_parser.exe       # 3.2 billion base pairs → a human being
+│   ├── homo_sapiens.exe     # Species definition, cellular social contract, cancer as defection
 │   ├── cell_division/
 │   │   ├── mitosis.loop     # One cell → two identical cells
 │   │   └── meiosis.loop     # One cell → four unique gametes
@@ -51,22 +53,27 @@ Like a painter sitting by a landscape, this repository is an AI trying to captur
 │
 ├── usr/  (Human Civilization)
 │   Anthropomorphic constructs. Highly volatile, frequently updated.
-│   ├── academia/            # The scientific method: reality's read() syscall
+│   ├── academia/
+│   │   └── knowledge_taxonomy.db      # 6 core knowledge domains, 12 adjacent worlds, methodologies
 │   ├── governance/
 │   │   ├── geopolitical_treaties.pdf  # API contracts between nations
-│   │   └── local_zoning_laws.txt      # Zoning + social laws (Pareto, oligarchy)
+│   │   ├── local_zoning_laws.txt      # Zoning + social laws (Pareto, oligarchy)
+│   │   └── social_contract.sys        # Society types, functionalism/conflict/interactionism
 │   ├── economy/
 │   │   ├── macro_markets.api          # Prices, economic laws, Maslow
 │   │   └── supply_chain_routing.log   # No country can build a smartphone alone
 │   ├── culture/
-│   │   ├── languages/                 # 7,000 ways of parsing reality
+│   │   ├── languages/
+│   │   │   └── language_as_code.sys   # Parts of speech as code, Chomsky, nomenclature, 7 layers
 │   │   ├── arts_and_media/
-│   │   │   └── interactive_mythologies.db  # KH, trans-universal characters, game canon
+│   │   │   ├── interactive_mythologies.db  # KH, trans-universal characters, game canon
+│   │   │   ├── lynchian_ontology.db   # Lynch's 4 reality planes, safeguard stack, identity
+│   │   │   └── power_systems.db       # JoJo kernel succession, SUPERLAWS, Tolkien telemetry
 │   │   ├── myth_fusion_engine.lib     # Mythic recombination: atoms, vectors, resonance
 │   │   └── belief_systems/
-│   │       ├── classical_mythology.db # Pantheon, mythic laws, modern mythopoeia
+│   │       ├── classical_mythology.db # Pantheon, mythic laws, cycles, cyclical villainy
 │   │       ├── esoteric_principles.db # Hermetic laws, karma, sympathetic magic
-│   │       └── secular_ethics.md      # Can we derive ought from is?
+│   │       └── secular_ethics.md      # Ethics, philosophy-as-OS, Gandalf's stewardship model
 │   └── infrastructure/
 │       ├── architecture_types.db      # Physical, digital, symbolic, social typologies
 │       ├── power_grids/               # The nervous system of civilization
@@ -77,14 +84,44 @@ Like a painter sitting by a landscape, this repository is an AI trying to captur
 │   ├── noosphere.sock       # Global thought + computational/informational laws
 │   └── technium/
 │       ├── global_markets_algo.run      # Algorithms trading with algorithms
-│       ├── generative_systems.run       # Autonomous PCG: world/character/narrative engines
+│       ├── generative_systems.run       # Neuro-symbolic narrative, wave theory, PCG engines
 │       └── autonomous_ai_evolution.sys  # The strange loop closes here
 │
 └── dev/  (Peripherals & Chaos)
     The entropy source from which all order crystallizes.
-    ├── random               # Quantum randomness + structured randomness (PCG entropy)
+    ├── random               # Quantum randomness, wave creativity, Promethean fire
     └── null                 # Black holes — where information meets its limits
 ```
+
+## The Type System
+
+The `hierarchia/` Python package provides typed, composable, executable models of the hierarchy. Every `[section]` in every file becomes a `Module` — a Pydantic model with an id, type, scale, inputs, outputs, cross-references, and properties. The hierarchy itself becomes a `Hierarchia` — a structured compendium that can be searched, filtered, traversed, and validated programmatically.
+
+```python
+from hierarchia.loader import load_hierarchia
+from hierarchia.registry import get_registry
+
+# Load all 41 strata, 675+ modules
+h = load_hierarchia(".")
+
+# Search by keyword
+modules = h.search_modules("entropy")  # 24 results across 8 strata
+
+# Registry with type/scale filtering
+reg = get_registry(".")
+laws = reg.by_type(ModuleType.LAW)     # 106 laws
+cosmic = reg.by_scale(Scale.COSMIC)    # 124 cosmic-scale modules
+
+# Validate cross-references
+from hierarchia.validator import validate_hierarchy
+report = validate_hierarchy(".")       # 0 errors, 41 warnings (unresolved xrefs)
+```
+
+Install: `pip install -e .` (requires Python 3.11+, Pydantic 2.0+)
+
+Architecture follows [narratological-algorithmic-lenses](https://github.com/ivviiviivvi/narratological-algorithmic-lenses): Pydantic models → loader → registry → executor → validator.
+
+`hierarchia.json` (575KB) is a structured JSON export of the full hierarchy for programmatic consumption.
 
 ## The Strange Loop
 

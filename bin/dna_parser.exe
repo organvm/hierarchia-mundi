@@ -1,0 +1,95 @@
+# dna_parser.exe
+# Core engine for organism generation.
+# DNA is a program written in a 4-letter alphabet (A, T, G, C)
+# that encodes the instructions for building and maintaining
+# every living thing that has ever existed on Earth.
+
+# ============================================================
+# THE CODE
+# ============================================================
+# Alphabet: A (adenine), T (thymine), G (guanine), C (cytosine)
+# Base pairing: A-T (2 hydrogen bonds), G-C (3 hydrogen bonds)
+# Structure: double helix, right-handed, 10 bp per turn, 3.4 nm pitch
+# Total in human genome: ~3.2 billion base pairs
+# Genes: ~20,000 (only ~1.5% of genome codes for proteins)
+# The rest: regulatory sequences, transposons, structural DNA, "dark matter"
+
+# ============================================================
+# REPLICATION — Copying the program
+# ============================================================
+# Semiconservative: each strand serves as template for a new strand.
+# Speed: ~1000 bp/second in humans, ~100,000 bp/second in bacteria
+# Accuracy: 1 error per 10⁹ bases (with proofreading and repair)
+#
+# Replication fork:
+#   Helicase → unwinds the double helix
+#   Primase → lays down RNA primer
+#   DNA Pol III → synthesizes new strand (5'→3' only)
+#   Leading strand: continuous synthesis
+#   Lagging strand: Okazaki fragments, later joined by ligase
+#
+# Telomeres: repetitive sequences at chromosome ends (TTAGGG in humans)
+# Shorten with each division. Hayflick limit: ~50 divisions.
+# This is the molecular clock of aging.
+
+# ============================================================
+# MUTATION — Bugs in the code
+# ============================================================
+# Types:
+#   Point mutations: single base change
+#     Silent: codes for same amino acid (redundancy of genetic code)
+#     Missense: codes for different amino acid (sickle cell: GAG→GTG)
+#     Nonsense: creates premature stop codon (truncated protein)
+#   Insertions/Deletions: frameshift mutations (usually catastrophic)
+#   Chromosomal: inversions, translocations, duplications
+#
+# Mutation rate: ~1-2 × 10⁻⁸ per base pair per generation (human)
+# ~60-80 new mutations per person per generation
+#
+# Most mutations are neutral. Some are harmful. Rarely, one is beneficial.
+# This is the raw material of evolution.
+# Without bugs, there would be no updates.
+
+# ============================================================
+# GENE REGULATION — Running the right code at the right time
+# ============================================================
+# Every cell has the same DNA. A liver cell and a neuron
+# differ not in their code but in which genes are expressed.
+#
+# Mechanisms:
+#   Transcription factors: proteins that activate/repress genes
+#   Enhancers/silencers: distant DNA sequences that modulate expression
+#   Epigenetics: methylation and histone modification
+#     (writing notes in the margins without changing the text)
+#   microRNA: small RNA molecules that silence genes post-transcriptionally
+#
+# The genome is not a blueprint. It is a context-sensitive program.
+# The same code produces a butterfly wing and a caterpillar leg
+# depending on regulatory context.
+
+# ============================================================
+# CRISPR — Editing the program
+# ============================================================
+# Bacteria evolved CRISPR as an immune system against viruses.
+# Doudna and Charpentier (2012) repurposed it as a gene editor.
+# Nobel Prize 2020.
+#
+# Cas9 protein + guide RNA → cut DNA at specific location
+# Cell's repair machinery → insert, delete, or replace sequence
+#
+# Applications: genetic diseases, agriculture, gene drives
+# Ethical questions: germline editing, enhancement, consent
+#
+# For the first time, the organism can edit its own source code.
+# /bin/dna_parser.exe now has a built-in text editor.
+
+# ============================================================
+# OUTPUT
+# ============================================================
+# Input: 3.2 billion base pairs
+# Output: a human being
+# Compilation time: ~9 months
+# Runtime: ~80 years (varies)
+# Known bugs: ~7,000 identified genetic diseases
+# Self-modifying: yes (CRISPR, transposons, somatic mutation)
+# Open source: yes (GenBank, since 1982)

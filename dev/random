@@ -79,6 +79,146 @@
 # We are /dev/random's attempt to understand itself.
 
 # ============================================================
+# WAVE THEORY OF CREATIVITY — Oscillation, not sequence
+# ============================================================
+# Creativity is not a pipeline. It is a waveform.
+# The pipeline model: idea → draft → revision → output.
+# The wave model: oscillation between states, continuously.
+#
+# Every creative act is a superposition of frequencies:
+#   - Storytelling oscillates between tension and release
+#   - Music oscillates between consonance and dissonance
+#   - Visual art oscillates between figure and ground
+#   - Argument oscillates between claim and evidence
+#
+# These are not metaphors. They are the same mathematics.
+# A sine wave does not "progress" — it returns. It repeats.
+# But each return is at a different position in time.
+# The spiral, not the line. /logic_gates.sys [L4_RECURSION].
+
+[wave_interference]
+# When two waves meet, they interfere.
+# Constructive interference: peaks align → amplification.
+# Destructive interference: peak meets trough → cancellation.
+#
+# In creative systems:
+#   Constructive = two ideas that reinforce each other
+#   Destructive = two ideas that cancel, leaving silence
+#   Both are productive. Silence is not absence — it is resolution.
+#
+# Meaning emerges at interference patterns.
+# A chord is not one note — it is the interference of several.
+# A metaphor is not one domain — it is the interference
+# of source and target. The meaning IS the pattern.
+# Not in either wave alone, but in their superposition.
+type = "interference as semantic engine"
+application = "music, narrative, metaphor, cross-domain reasoning"
+
+[standing_waves]
+# A standing wave appears stationary — but it is not.
+# It is two traveling waves moving in opposite directions,
+# perfectly balanced. Nodes (no movement) and antinodes (maximum movement).
+#
+# In creativity, standing waves are STYLES.
+# A style is not static — it is a dynamic equilibrium.
+# Baroque counterpoint. Film noir. Brutalist architecture.
+# Each is a pattern that appears fixed but is maintained
+# by continuous oscillation between opposing forces:
+#   ornament vs structure, shadow vs light, mass vs void.
+#
+# Styles persist because the opposing forces are balanced.
+# Disrupt the balance → the style collapses → new style emerges.
+# This is aesthetic evolution: not progress, but phase transitions
+# between standing wave configurations.
+type = "dynamic equilibrium of opposing aesthetic forces"
+application = "style emergence, genre theory, aesthetic epochs"
+
+[prompts_as_initial_waveforms]
+# In generative AI, a prompt is an initial waveform.
+# It sets the frequency, amplitude, and phase of the output.
+# The model is the medium through which the wave propagates.
+#
+# A vague prompt = low frequency = broad, diffuse output.
+# A precise prompt = high frequency = sharp, specific output.
+# A contradictory prompt = two frequencies at once = interference pattern.
+#   Sometimes: noise. Sometimes: the most interesting output.
+#
+# The best prompts are not instructions.
+# They are initial conditions for wave propagation.
+# The output is not "following orders" — it is resonance.
+# The prompt excites modes that already exist in the model's
+# latent space. Creativity is not generation from nothing.
+# It is selective amplification of existing standing waves.
+# /dev/random provides the noise floor.
+# The prompt provides the resonant frequency.
+# The output is the interference pattern between them.
+type = "initial conditions for generative resonance"
+application = "prompt engineering, generative text, image synthesis"
+
+# ============================================================
+# BIOLOGY AS CODE — The Prometheus problem
+# ============================================================
+# Prometheus stole fire from the gods and gave it to humans.
+# The myth is not about fire. It is about TECHNIQUE.
+# Fire is the first technology — energy externalized,
+# controlled, made transferable. Technique-transfer.
+#
+# But Prometheus is punished. Why?
+# Because technique without care is dangerous.
+# Fire warms and fire burns. The tool is indifferent.
+# Zeus's punishment is not revenge — it is a systems warning:
+# capability without wisdom produces suffering.
+
+[analog_vs_digital]
+# Biology is analog. DNA is digital.
+# This is the deepest tension in living systems.
+#
+# Analog: continuous, gradient, lossy, warm.
+#   Protein folding. Morphogen gradients. Neural firing rates.
+#   Hormonal cascades. Ecological succession.
+#   The body is an analog computer running on chemistry.
+#
+# Digital: discrete, symbolic, lossless, cold.
+#   DNA base pairs: A, T, G, C. Four symbols. Binary, almost.
+#   Codons: 64 combinations → 20 amino acids + STOP.
+#   This IS a programming language. Literally.
+#
+# The tension: life is analog computation specified by digital code.
+# The genome is a source file. The organism is the runtime.
+# Compilation is development (embryogenesis).
+# The compiler is biochemistry (/lib/biochemistry/).
+# Bugs in the source code are mutations (/dev/random [mutation]).
+# Some bugs crash the program. Some bugs ARE the next feature.
+type = "analog runtime executing digital specification"
+tension = "continuous chemistry obeying discrete genetic instructions"
+
+[creation_without_care]
+# Prometheus gave fire. He did not teach fire safety.
+# Modern generative systems reproduce this pattern:
+#
+#   - Genetic engineering: we can edit the source code,
+#     but we do not fully understand the compiler.
+#   - AI systems: we can generate at scale,
+#     but we cannot guarantee the output serves the whole.
+#   - Synthetic biology: we can write new organisms,
+#     but we cannot predict their ecological behavior.
+#
+# Creation without care is not evil. It is INCOMPLETE.
+# The fire is real. The warmth is real.
+# The burn is also real. Both are consequences of the same gift.
+#
+# The hierarchy's answer: governance.
+# /usr/governance/ exists because /dev/random + /bin/ (capability)
+# without /usr/ (coordination) produces cancer
+# (/bin/homo_sapiens.exe [cancer]).
+# Technique without governance is cellular defection
+# at the civilizational scale.
+# Prometheus needed a compliance department.
+pattern = "capability precedes wisdom, tool precedes governance"
+risk = "creation without care = growth without governance = cancer"
+remedy = "/usr/governance/ must evolve as fast as /net/technium/"
+
+# ============================================================
 # STRUCTURED RANDOMNESS — Entropy with geometry
 # ============================================================
 # Pure randomness is noise. Structured randomness is texture.

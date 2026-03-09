@@ -1,0 +1,343 @@
+# knowledge_taxonomy.db
+# Unified taxonomy of human knowledge: domains, disciplines, meta-axes.
+# Integrated from Core Knowledge Domains, Academic Disciplines Hierarchy,
+# and Study of World Systems.
+#
+# Every discipline is a lens. No single lens captures reality.
+# The taxonomy itself is a map — and the map is never the territory.
+# But without maps, you wander. With bad maps, you wander confidently.
+# This is the best map we can draw with the instruments we have.
+
+# ============================================================
+# CORE KNOWLEDGE DOMAINS — The six pillars
+# ============================================================
+# These are not arbitrary. Each domain addresses a fundamental
+# axis of human experience. Together they span the space of
+# everything that can be known, felt, or made.
+
+[history]
+axis = "Time"
+orientation = "temporal"
+question = "What happened, and why does it still matter?"
+method = "Archival research, oral tradition, archaeology, historiography"
+lesson = "The present is a footnote to the past.
+          Those who do not study history are condemned to repeat it.
+          Those who do study history are condemned to watch others repeat it."
+# History is the temporal axis of knowledge.
+# It does not repeat, but it rhymes — /sys/thermodynamics/ ensures
+# that entropy makes every repetition slightly degraded.
+# See /usr/governance/ for the political consequences of forgetting.
+
+[natural_sciences]
+axis = "Nature"
+orientation = "spatial, physical, empirical"
+question = "What is the universe made of, and how does it behave?"
+domains = ["physics", "chemistry", "biology", "earth sciences",
+           "astronomy", "ecology"]
+method = "Observation, hypothesis, experiment, falsification"
+foundation = "/sys/quantum_mechanics/, /sys/thermodynamics/,
+              /sys/standard_model.lib, /lib/periodic_table.db"
+lesson = "Nature does not care what you believe.
+          The electron has no opinion about your theory."
+# The natural sciences are the spatial-physical axis.
+# They converge downward: biology → chemistry → physics → mathematics.
+# The hierarchy is not a value judgment — it is a dependency graph.
+
+[philosophy]
+axis = "Mind"
+orientation = "abstract, conceptual, reflexive"
+question = "What can we know? What should we do? What may we hope?"
+branches = ["metaphysics", "epistemology", "ethics", "aesthetics",
+            "logic", "phenomenology", "philosophy of mind"]
+method = "Dialectic, thought experiment, conceptual analysis"
+tool = "/logic_gates.sys"
+lesson = "Philosophy asks the questions that science cannot yet formalize
+          and religion cannot bear to doubt."
+# The abstract-conceptual axis. Every other discipline rests on
+# philosophical assumptions it rarely examines.
+# Physics assumes causality. Biology assumes function.
+# History assumes that narrative is explanatory.
+# Philosophy is the audit layer.
+
+[mathematics]
+axis = "Universal bridge"
+orientation = "structural, formal, transcendent"
+question = "What patterns are necessary, independent of substrate?"
+branches = ["algebra", "analysis", "geometry", "topology",
+            "number theory", "combinatorics", "statistics",
+            "logic", "category theory"]
+lesson = "Mathematics is not about numbers. It is about structure.
+          It is the only discipline whose truths hold in every possible world."
+# Mathematics is the universal bridge between all other domains.
+# Physics is mathematics applied to matter.
+# Music is mathematics applied to time. (/usr/culture/arts_and_media/)
+# Economics is mathematics applied to desire. (/usr/economy/)
+# Without mathematics, the sciences are stamp-collecting (Rutherford).
+
+[arts_and_literature]
+axis = "Expression"
+orientation = "symbolic, aesthetic, performative"
+question = "What does it mean to be human, and how do we say so?"
+domains = ["visual arts", "music", "literature", "theater", "cinema",
+           "dance", "architecture", "digital art"]
+method = "Creation, interpretation, critique, performance"
+cross_ref = "/usr/culture/arts_and_media/, /usr/infrastructure/architecture_types.db"
+lesson = "Art does not solve problems. It makes problems visible.
+          The novel is the only art form that can hold two contradictory
+          truths simultaneously and declare both valid."
+
+[theology_and_mythology]
+axis = "Belief"
+orientation = "transcendent, sacred, cosmological"
+question = "Is there something beyond what can be measured?"
+domains = ["theology", "comparative religion", "mythology",
+           "mysticism", "eschatology"]
+method = "Revelation, exegesis, contemplation, ritual"
+cross_ref = "/usr/culture/belief_systems/, /usr/culture/belief_systems/classical_mythology.db"
+lesson = "Every civilization produces a theology.
+          The question is not whether gods exist but why humans
+          keep inventing them. The answer is structural, not optional."
+# See /usr/culture/belief_systems/esoteric_principles.db
+# for the hidden currents running beneath institutional religion.
+
+[social_sciences]
+axis = "Society"
+orientation = "interpersonal, systemic, institutional"
+question = "How do humans organize, cooperate, and fail to cooperate?"
+domains = ["sociology", "anthropology", "psychology", "economics",
+           "political science", "linguistics", "geography"]
+method = "Fieldwork, surveys, modeling, case study, experiment"
+cross_ref = "/usr/governance/, /usr/economy/"
+lesson = "No individual is comprehensible outside a social context.
+          The self is a social construction — but the society
+          is also a construction of selves. Both are true."
+
+# ============================================================
+# META-AXES — The coordinate system of knowledge
+# ============================================================
+# The six domains above map onto six fundamental axes.
+# Any phenomenon can be located by its coordinates in this space.
+
+[meta_axes]
+time = "History: when did it happen? What preceded it? What followed?"
+mind = "Philosophy: what concepts frame it? What assumptions hide beneath?"
+nature = "Sciences: what physical laws govern it? What substrates compose it?"
+expression = "Arts: how is it represented, performed, felt?"
+belief = "Theology: what sacred meaning, if any, does it carry?"
+society = "Social sciences: who benefits? Who is excluded? What power flows?"
+# To understand anything deeply, interrogate it along all six axes.
+# A building is engineering (nature), investment (society), style (expression),
+# memory (time), symbol (belief), and concept (mind) simultaneously.
+# See /usr/infrastructure/architecture_types.db for this principle in action.
+
+# ============================================================
+# THE TWELVE ADJACENT WORLDS — World-systems topology
+# ============================================================
+# Every phenomenon exists within overlapping world-systems.
+# These are not metaphors. They are operational environments
+# with distinct rules, actors, currencies, and failure modes.
+
+[world.political]
+domain = "Power, governance, sovereignty, law"
+currency = "Authority, legitimacy"
+methodology = "Policy analysis, comparative politics, game theory"
+cross_ref = "/usr/governance/"
+
+[world.economic]
+domain = "Production, exchange, value, scarcity"
+currency = "Capital (financial, human, social)"
+methodology = "Econometrics, market modeling, institutional analysis"
+cross_ref = "/usr/economy/"
+
+[world.cultural]
+domain = "Identity, aesthetics, narrative, tradition"
+currency = "Symbolic capital, prestige, attention"
+methodology = "Semiotics, ethnography, cultural criticism"
+cross_ref = "/usr/culture/"
+
+[world.technological]
+domain = "Tools, systems, infrastructure, computation"
+currency = "Capability, efficiency, technical debt"
+methodology = "Systems engineering, network analysis"
+cross_ref = "/net/technium/"
+
+[world.ecological]
+domain = "Biosphere, climate, resources, interdependence"
+currency = "Ecosystem services, biodiversity"
+methodology = "Systems ecology, lifecycle analysis, earth science"
+
+[world.spiritual]
+domain = "Meaning, transcendence, practice, the numinous"
+currency = "Faith, contemplative depth, communitas"
+methodology = "Phenomenology of religion, contemplative inquiry"
+cross_ref = "/usr/culture/belief_systems/"
+
+[world.psychological]
+domain = "Cognition, emotion, unconscious, development"
+currency = "Attention, emotional regulation, insight"
+methodology = "Experimental psychology, psychoanalysis, neuroscience"
+
+[world.linguistic]
+domain = "Language, grammar, translation, discourse"
+currency = "Communicative competence, terminological precision"
+methodology = "Corpus linguistics, sociolinguistics, pragmatics"
+cross_ref = "/usr/culture/languages/"
+
+[world.mythic]
+domain = "Archetypes, hero cycles, cosmogony, eschatology"
+currency = "Narrative coherence, symbolic resonance"
+methodology = "Comparative mythology, depth psychology"
+cross_ref = "/usr/culture/belief_systems/classical_mythology.db"
+
+[world.digital]
+domain = "Cyberspace, data, algorithms, virtual environments"
+currency = "Bandwidth, storage, compute cycles"
+methodology = "Computer science, information theory, HCI"
+cross_ref = "/net/"
+
+[world.legal]
+domain = "Rights, obligations, precedent, procedure"
+currency = "Enforceability, jurisdictional reach"
+methodology = "Case analysis, statutory interpretation, jurisprudence"
+cross_ref = "/usr/governance/geopolitical_treaties.pdf"
+
+[world.scientific]
+domain = "Empirical investigation, reproducibility, peer review"
+currency = "Evidence, statistical significance, citation"
+methodology = "Scientific method: hypothesis → experiment → revision"
+cross_ref = "/sys/"
+
+# ============================================================
+# META-WORLDS — The architecture beneath the worlds
+# ============================================================
+# These four do not sit alongside the twelve. They underlie them.
+# Every adjacent world operates within all four meta-worlds
+# whether it acknowledges them or not.
+
+[meta_world.symbolic]
+domain = "Signs, codes, representation, meaning-making"
+governs = "How any world communicates its content"
+# Language is a symbolic system. So is mathematics. So is ritual.
+# The symbolic meta-world is the medium through which all others
+# become thinkable. Without symbols, experience remains raw sensation.
+
+[meta_world.ontological]
+domain = "What exists, what categories are real, what is fundamental"
+governs = "What any world considers to be its furniture"
+# Physics says particles are real. Economics says markets are real.
+# Mythology says gods are real. The ontological meta-world is where
+# these claims collide — and where the collisions are productive.
+
+[meta_world.epistemological]
+domain = "How we know, what counts as evidence, where certainty ends"
+governs = "What any world accepts as valid knowledge"
+# Science demands reproducibility. Law demands precedent.
+# Art demands resonance. Each world has its own epistemology.
+# The epistemological meta-world is the audit layer — /logic_gates.sys
+# applied to the question of truth itself.
+
+[meta_world.temporal]
+domain = "Duration, sequence, periodicity, irreversibility"
+governs = "How any world experiences and measures change"
+# /sys/thermodynamics/ ensures that time has a direction.
+# History and geology read the record. Physics writes the laws.
+# The temporal meta-world reminds us: all structures are temporary.
+
+# ============================================================
+# SUSTAINABILITY TRIAD — The constraint triangle
+# ============================================================
+
+[sustainability]
+pillars = ["Social", "Economic", "Environmental"]
+social = "Equity, justice, community resilience, human dignity"
+economic = "Viable livelihoods, fair exchange, long-term solvency"
+environmental = "Ecological integrity, resource stewardship, climate stability"
+# Any system optimizing for one pillar at the expense of the others
+# is running a deficit it will eventually have to pay.
+# Growth without equity is extraction. Equity without ecology is delusion.
+# Ecology without economy is romanticism.
+
+# ============================================================
+# UNIFIED WAVE PRINCIPLE — Physics as universal pattern
+# ============================================================
+# Wave behavior is scale-invariant: identical from macro to quantum.
+# Ocean waves, sound waves, light waves, probability waves —
+# the mathematics is the same. Only the substrate changes.
+
+[wave_principle]
+property = "Superposition, interference, diffraction, resonance"
+scales = ["quantum (electron orbitals)", "atomic (phonons)",
+          "human (sound, music)", "planetary (seismic, tidal)",
+          "cosmic (gravitational waves)"]
+cross_ref = "/sys/quantum_mechanics/, /sys/gravity.conf"
+lesson = "The wave is the most universal pattern in physics.
+          Resonance is how distributed systems synchronize.
+          Interference is how they cancel. Both are information."
+# This is not metaphor. The Schrodinger equation and the
+# classical wave equation share the same formal structure.
+# When a discipline discovers waves, it has found the deep grammar.
+
+# ============================================================
+# COMPUTATIONAL-HERMENEUTIC CONVERGENCE
+# ============================================================
+# Where algorithmic methods meet literary-philosophical analysis.
+# The machine reads the text. The human reads the machine's reading.
+# Neither alone is sufficient.
+
+[comp_hermeneutics]
+domains = ["algorithmic literary theory", "stylometrics",
+           "computational narratology", "digital rhetoric",
+           "corpus-driven philosophy", "automated exegesis",
+           "network analysis of intertextuality"]
+paradigm = "Quantitative pattern recognition applied to qualitative meaning"
+shatterpoints = ["When statistical models reveal structures no human noticed",
+                 "When algorithmic classification fails on irony, ambiguity, beauty",
+                 "When the corpus is larger than any human could read in a lifetime"]
+trajectory = "Not replacement of human interpretation but augmentation.
+              The algorithm finds the pattern. The human finds the significance."
+cross_ref = "/net/technium/"
+# Stylometrics can attribute authorship with >95% accuracy.
+# But it cannot tell you why the author wrote what they wrote.
+# That gap is where the humanities remain indispensable.
+
+# ============================================================
+# SUPERLAWS — Hero archetypes as living equations
+# ============================================================
+# Ten physics-grounded hero archetypes. Each embodies a
+# fundamental law expressed through narrative agency.
+
+[superlaws]
+description = "Physics-based hero archetypes as living equations"
+protocol = "UN1V3R54L_L4W_PR0T0C0L: action → tag → opposite_reaction"
+
+archetypes = ["Conservation (nothing is created or destroyed, only transformed)",
+              "Entropy (disorder increases; the hero who slows the decay)",
+              "Relativity (perspective determines measurement; the observer-hero)",
+              "Superposition (existing in multiple states until observed)",
+              "Entanglement (action at a distance; the bonded pair)",
+              "Resonance (amplification through frequency matching)",
+              "Inertia (resistance to change; the immovable and the unstoppable)",
+              "Symmetry (the law that governs all other laws)",
+              "Emergence (the whole exceeds the sum; the collective hero)",
+              "Uncertainty (precision in one domain costs precision in another)"]
+cross_ref = "/sys/quantum_mechanics/, /sys/thermodynamics/,
+             /usr/culture/belief_systems/classical_mythology.db"
+# Every superhero is a law of physics wearing a costume.
+# Every myth encodes a physical principle before physics existed
+# to formalize it. The SUPERLAWS make the encoding explicit.
+
+# ============================================================
+# ARCHIVIST'S COMMANDMENTS — Operational principles
+# ============================================================
+
+[archivist_codex]
+c1 = "Preserve context. A fact without context is a weapon."
+c2 = "Cross-reference relentlessly. Isolation is the enemy of understanding."
+c3 = "Distinguish signal from noise. Most data is noise."
+c4 = "Respect the hierarchy but question its categories."
+c5 = "The taxonomy is a tool, not a truth. Update it when reality shifts."
+c6 = "Every classification is a theory. Every theory is provisional."
+c7 = "The map serves the territory. When they conflict, trust the territory."
+# These commandments apply to this file, to the entire /usr/academia/
+# subtree, and to the knowledge-organizing impulse itself.
+# The archivist who stops questioning the archive becomes its prisoner.

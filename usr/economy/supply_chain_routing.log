@@ -1,0 +1,48 @@
+# supply_chain_routing.log
+# How physical goods traverse the planet.
+# The logistics layer that makes civilization possible.
+
+[2024-01-15T06:00:00Z] ROUTE: Shanghai → Rotterdam
+  container: TEMU-4821753
+  contents: 2,400 smartphones (components from 12 countries)
+  vessel: Ever Given (irony noted)
+  transit_time: 32 days
+  route: East China Sea → Strait of Malacca → Indian Ocean →
+         Suez Canal → Mediterranean → North Sea → Rotterdam
+  # 40% of global trade passes through the Strait of Malacca.
+  # It is 1.5 miles wide at its narrowest.
+  # One chokepoint. Half the world's commerce.
+
+[2024-01-15T06:00:01Z] DEPENDENCY GRAPH: single smartphone
+  # A modern smartphone contains:
+  #   Lithium (Chile/Australia) — battery
+  #   Cobalt (DRC) — battery cathode
+  #   Silicon (China) — processor wafer
+  #   Rare earths (China, 60% global supply) — magnets, display
+  #   Gold (multiple) — connectors
+  #   Copper (Chile/Peru) — wiring
+  #   Aluminum (Australia/Guinea) — casing
+  #   Glass (Corning, USA) — Gorilla Glass
+  #   Design (Cupertino, USA)
+  #   Assembly (Zhengzhou, China — Foxconn)
+  #   Software (Cupertino + Mountain View, USA)
+  #
+  # No single country can build a smartphone.
+  # The supply chain IS the product.
+  # Autarky is a fantasy. Interdependence is the architecture.
+
+[2024-03-26T05:00:00Z] INCIDENT: Suez Canal blockage (reference)
+  event: "Container ship Ever Given ran aground (2021)"
+  duration: "6 days"
+  cost: "$9.6 billion/day in delayed trade"
+  lesson: "Single points of failure in global logistics
+           have billion-dollar-per-day consequences"
+  # See also: /sys/thermodynamics/entropy.daemon
+  # Entropy finds the chokepoint. Always.
+
+[ROUTING_PRINCIPLES]
+  just_in_time = "Minimize inventory → minimize cost → maximize fragility"
+  just_in_case = "Buffer inventory → increase cost → increase resilience"
+  # Toyota invented JIT (1970s). COVID-19 (2020) stress-tested it.
+  # The world is rebalancing toward just-in-case.
+  # Resilience has a cost. Fragility has a higher cost.

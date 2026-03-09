@@ -1,0 +1,202 @@
+# fusion_protocols.so
+# Shared object: entity merging, bonding, and symbiosis.
+#
+# Chemistry (/lib/electron_bonding.so) defines how atoms combine.
+# This library extends the principle: how do ANY two entities
+# merge, override, or coexist? The same patterns recur
+# from molecular bonds to corporate mergers to mythic possession.
+#
+# Three fundamental modes. Everything else is a subtype.
+
+# ============================================================
+# THE PRIMAL TRIAD — Three modes of entity combination
+# ============================================================
+
+[fusion]
+# Shared, blended control. Neither entity dominates.
+# Chemical analog: covalent bond (/lib/electron_bonding.so)
+# Both atoms share electrons equally (or near-equally).
+#
+# Biological: symbiogenesis — mitochondria were once free-living bacteria
+#   that fused with archaeal cells. Neither dominates. Both benefit.
+#   Every eukaryotic cell on Earth is a fusion product.
+#
+# Mythic: the sacred twin merge. Hermaphroditus (Ovid).
+#   Two become one without either being lost.
+#
+# Computational: function composition. f(g(x)) — both functions
+#   contribute to the output. Neither is discarded.
+#
+# Agency: shared. Both entities retain partial autonomy.
+# Consent: mutual. Fusion without consent is possession.
+# Reversibility: difficult. The fused entity is a new thing.
+# Result: emergent properties neither entity had alone.
+#   Mitochondria in isolation cannot build a human.
+#   The archaeal host in isolation cannot perform oxidative phosphorylation.
+#   Together: animals, plants, fungi — all of /bin/.
+merge_mode = "blended"
+bond_type = "covalent"
+agency = "shared"
+
+[possession]
+# Overriding control. One entity displaces the other's agency.
+# Chemical analog: ionic bond (/lib/electron_bonding.so)
+# One atom strips the electron entirely. Dominance, not sharing.
+#
+# Biological: viral infection. The virus commandeers the cell's
+#   machinery for its own reproduction. The cell serves the virus.
+#   Bacteriophages literally inject their DNA into the host.
+#
+# Mythic: divine possession. The Pythia at Delphi — Apollo speaks
+#   through her body. She has no memory of what was said.
+#   Blood channeling, divine glitching, forced inheritance.
+#
+# Computational: process injection. Malware overwriting a running
+#   process's memory space. The original process is still "there"
+#   but no longer controls its own execution.
+#
+# Agency: overridden. The host entity loses autonomous control.
+# Consent: absent or coerced. The defining asymmetry.
+# Reversibility: possible (exorcism, antivirus, immune response).
+# Result: the possessor gains a vehicle. The host gains nothing.
+#   Unless the possession is temporary and leaves knowledge behind —
+#   "divine madness" (Plato, Phaedrus) as a gift from the gods.
+merge_mode = "override"
+bond_type = "ionic_displacement"
+agency = "hijacked"
+
+[symbiosis]
+# Interdependent coexistence. Neither can survive alone.
+# Chemical analog: metallic bond (/lib/electron_bonding.so)
+# Delocalized electrons shared across the entire lattice.
+# No single atom "owns" the electron — the collective does.
+#
+# Biological: lichen = fungus + alga. Neither survives alone.
+#   Coral = animal polyp + zooxanthellae algae.
+#   Human = body + microbiome (38 trillion bacteria, ~equal to human cells).
+#   You are already a symbiote. You have always been.
+#
+# Mythic: the parasyte bond. Venom + Eddie Brock (Marvel).
+#   The symbiote needs a host for form. The host needs the symbiote
+#   for capability. Mutual dependency, often unstable.
+#   Evangelion: pilot + Eva unit. Neural pairing. Neither is complete.
+#
+# Computational: microservice architecture. No service works alone.
+#   Each depends on the others. Remove one → cascade failure.
+#   The system IS the interdependency, not any individual component.
+#
+# Agency: distributed. Both entities have partial autonomy
+#   but cannot fully exercise it independently.
+# Consent: evolved, not chosen. Symbiosis develops over time.
+# Reversibility: catastrophic. Separation harms or kills both.
+# Result: a system greater than the sum of its parts.
+#   The symbiotic whole has emergent properties (L6_CONNECTION in /logic_gates.sys).
+merge_mode = "interdependent"
+bond_type = "metallic_delocalized"
+agency = "distributed"
+
+# ============================================================
+# ABSORPTION FUNCTIONS — How entities consume others
+# ============================================================
+
+[absorb_morph]
+# One entity absorbs another and transforms itself.
+# The absorbed entity's properties are integrated, not discarded.
+#
+# Chemical: dissolution — solute enters solvent, both change.
+# Biological: phagocytosis — cell engulfs particle, digests it,
+#   incorporates useful components.
+# Evolutionary: lateral gene transfer — bacteria absorb genes
+#   from other bacteria, incorporating new capabilities.
+#
+# Narrative: Majin Buu (Dragon Ball Z). Absorbs other fighters,
+#   gains their abilities, personality shifts toward the absorbed.
+#   The absorber is changed by what it absorbs.
+#   This is true of cells, cultures, and empires equally.
+function = "Absorb_Morph(target) → self.update(target.properties)"
+reversible = false
+identity_cost = "absorber transforms; absorbed is lost"
+
+[synch_merge]
+# Symmetric merge. Two entities combine into a third.
+# Neither original survives as-is.
+#
+# Chemical: double replacement reaction — AB + CD → AD + CB.
+# Biological: sexual reproduction (/bin/cell_division/meiosis.loop).
+#   Two gametes merge → zygote. Neither sperm nor egg persists.
+#   The offspring is a new entity with properties of both.
+#
+# Narrative: Fusion Dance (Dragon Ball Z), Potara earrings.
+#   Two fighters merge into one with combined power.
+#   Time-limited. The fusion is unstable. It must eventually split.
+#
+# Cultural: syncretic religions. Christianity absorbed Roman festivals.
+#   Buddhism absorbed local spirits across Asia.
+#   The result is neither original — it is a third thing.
+function = "Synch_Merge(entity_a, entity_b) → new_entity_c"
+reversible = "sometimes (temporary fusions)"
+identity_cost = "both originals transform into something new"
+
+[stage_unlock]
+# Entity transforms through predefined developmental stages.
+# Not fusion with another — fusion with a potential self.
+#
+# Chemical: phase transition (ice → water → steam).
+# Biological: metamorphosis (caterpillar → chrysalis → butterfly).
+#   Puberty. Neuroplasticity windows. Immune system maturation.
+#
+# Narrative: Frieza's transformations (Dragon Ball Z).
+#   Each form unlocks suppressed capability.
+#   Cell's evolutionary stages: Imperfect → Semi-Perfect → Perfect.
+#   The entity was always capable — the stages gate access.
+#
+# Developmental: Piaget's stages of cognitive development.
+#   Sensorimotor → Preoperational → Concrete → Formal.
+#   Each stage is a phase transition in consciousness.
+function = "Stage_Unlock(level) → self.evolve(level + 1)"
+reversible = false
+identity_cost = "previous form is shed, not destroyed"
+
+# ============================================================
+# INJECTION PROTOCOLS — How symbiotes take root
+# ============================================================
+
+[injection]
+# A symbiote enters a host system and begins to integrate.
+# The injection is the critical moment — before this, separation is trivial.
+# After this, the two systems begin to intertwine.
+
+parasite_protocol = "One-directional: symbiote feeds on host resources"
+# Biological: tapeworms, malaria, toxoplasma.
+# Computational: cryptominers, adware, bloatware.
+# Cultural: extractive institutions (Acemoglu & Robinson).
+# Parasitism is symbiosis with a broken feedback loop —
+# the parasite takes without returning value.
+
+memory_intertwine = "Shared memory space between host and symbiote"
+# Biological: horizontal gene transfer — viral DNA integrated
+#   into host genome. ~8% of human DNA is retroviral.
+#   We are already part virus. The intertwine happened millions of years ago.
+# Computational: shared memory segments between processes.
+# Cultural: adopted traditions that become "ours."
+
+waveform_fusion = "Oscillatory systems synchronize"
+# Biological: menstrual synchrony (debated), circadian entrainment.
+# Physical: coupled oscillators (Huygens' pendulum clocks, 1665).
+# Neural: brainwave entrainment (binaural beats, group meditation).
+# Musical: musicians synchronizing tempo and dynamics.
+# The systems don't merge — they SYNC. Phase-locked loops.
+# This is L6_CONNECTION (/logic_gates.sys) at the signal level.
+
+# ============================================================
+# EXPORT INTERFACE
+# ============================================================
+# This shared object is loaded by:
+#   /bin/cell_division/ — meiosis IS synch_merge applied to gametes
+#   /bin/ecology_manager/ — symbiosis shapes every food web
+#   /usr/culture/ — cultural fusion, syncretism, conquest, assimilation
+#   /net/technium/ — AI evolution as absorption of training data
+#
+# The fusion triad (fusion/possession/symbiosis) is as universal
+# as the bond triad (ionic/covalent/metallic) in /lib/electron_bonding.so.
+# Different vocabulary. Same geometry. Same universe.

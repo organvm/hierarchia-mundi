@@ -1,0 +1,194 @@
+# /bin/homo_sapiens.exe
+# The human organism runtime.
+#
+# Homo sapiens: the most complex known executable in the hierarchy.
+# A 37-trillion-cell distributed system running on
+# ~20,000 protein-coding genes — only 1.5% of the genome.
+# The other 98.5% was once called "junk." It is not junk.
+# It is regulatory firmware, transposon archaeology,
+# and structural scaffolding for chromatin folding.
+# The operating system is mostly comments.
+
+# ============================================================
+# SPECIES DEFINITION — What the binary IS
+# ============================================================
+
+[taxonomy]
+# Kingdom Animalia → Phylum Chordata → Class Mammalia →
+# Order Primates → Family Hominidae → Genus Homo → Species H. sapiens
+# Named by Linnaeus, 1758. "The wise one." Debatable.
+#
+# Distinguishing features:
+#   - Obligate bipedality: freed the hands, changed the skull
+#   - Manual dexterity: precision grip + power grip
+#   - High encephalization quotient: brain-to-body ratio ~7.4-7.8
+#   - Descended larynx: enables complex vocalization
+#   - Prolonged juvenility: slow development = extended learning window
+#
+# Population: ~8.3 billion instances currently running.
+# Each instance: unique genome (except identical twins),
+# unique connectome, unique experiential history.
+# No two executions of this binary produce the same output.
+kingdom = "Animalia"
+class = "Mammalia"
+distinguishing = ["bipedality", "manual_dexterity", "encephalization", "language"]
+instances_running = "~8.3e9"
+
+[genome]
+# ~20,000 protein-coding genes. Fewer than rice (~37,000).
+# Gene count does not predict complexity.
+# Complexity emerges from regulation — WHEN genes fire,
+# WHERE in the body, HOW LONG they stay active.
+# The genome is not a blueprint. It is a recipe.
+# A blueprint maps 1:1 to the structure. A recipe is a process
+# that produces different results depending on conditions.
+# Same genome, different tissues: because regulation.
+#
+# 1.5% coding. The rest:
+#   ~8% regulatory elements (promoters, enhancers, silencers)
+#   ~45% transposable elements (ancient viral insertions, now domesticated)
+#   ~remainder: structural RNA, telomeres, centromeres, spacers
+# The genome is a palimpsest — every evolutionary era left its mark.
+coding_fraction = 0.015
+gene_count = "~20,000"
+total_base_pairs = "~3.2e9"
+regulatory = "enhancers, promoters, silencers, insulators"
+archaeology = "transposons, endogenous retroviruses, pseudogenes"
+
+# ============================================================
+# THE ORGANISM HIERARCHY — What this executable contains
+# ============================================================
+
+[development]
+# Etymology → Evolution → History → Biology → Psychology → Culture → Society
+# This is the stack trace of what it means to be human.
+#
+# Etymology: the words we use to name ourselves (sapiens = wise)
+# Evolution: the 4-billion-year compile chain that produced the binary
+# History: the runtime log since symbolic thought (~100,000 years)
+# Biology: the hardware — cells, organs, nervous system
+# Psychology: the software — cognition, emotion, motivation
+# Culture: the shared libraries — language, art, religion, science
+# Society: the network — institutions, governance, economy
+#
+# Each layer depends on the one below.
+# Each layer constrains the one above.
+# Psychology cannot exceed biological hardware.
+# Culture cannot exceed psychological capacity.
+# Society cannot exceed cultural bandwidth.
+# But: each layer ALSO extends the one below.
+# Culture extends psychology (writing extends memory).
+# Society extends culture (institutions extend cooperation).
+# The stack is not just dependency — it is amplification.
+stack = ["etymology", "evolution", "history", "biology", "psychology", "culture", "society"]
+mode = "each layer constrains AND amplifies the layer above"
+
+# ============================================================
+# THE MULTICELLULAR SOCIAL CONTRACT
+# ============================================================
+
+[cellular_governance]
+# A human is not one thing. It is 37 trillion things
+# that have agreed to cooperate.
+# Each cell carries the full genome — the complete instruction set.
+# Each cell could, in principle, replicate independently.
+# Instead, cells obey the social contract:
+#
+#   1. DIVISION RULES: divide only when signaled
+#   2. APOPTOSIS: self-destruct when damaged or redundant
+#   3. SPATIAL ORGANIZATION: stay in your tissue, obey your neighbors
+#   4. DIFFERENTIATION: become what the organism needs, not what you could become
+#   5. RESOURCE SHARING: metabolize at the rate the system permits
+#
+# This is /usr/governance/social_contract.sys at the cellular level.
+# Cells surrender autonomy for the benefits of multicellularity:
+# division of labor, environmental buffering, increased lifespan,
+# collective intelligence (nervous system).
+# The tradeoff: individual cells die. The organism persists.
+# The tradeoff: individual freedom lost. Collective capability gained.
+rules = ["division_control", "apoptosis", "spatial_discipline", "differentiation", "resource_sharing"]
+participants = "~37 trillion cells"
+benefit = "division of labor, environmental buffering, nervous system, longevity"
+cost = "individual cell autonomy surrendered"
+
+# ============================================================
+# CANCER — Defection from the cellular contract
+# ============================================================
+
+[cancer]
+# Cancer is not the reverse of life.
+# Cancer is not anti-life, not death-in-progress.
+# Cancer IS life — biological material, metabolically active,
+# reproducing, evolving. It is alive in every technical sense.
+#
+# What cancer is NOT: governed.
+# Cancer is cellular defection from the multicellular contract.
+# A cell stops obeying division signals. Ignores apoptosis.
+# Breaks spatial boundaries. Dedifferentiates.
+# It reverts to autonomous unicellular behavior —
+# the ancestral mode, before the contract was signed.
+#
+# This is not "going wrong." This is going BACK.
+# Cancer recapitulates the pre-multicellular state:
+# replicate, consume, expand, without regard for the whole.
+# See /bin/cell_division/ — the machinery cancer hijacks.
+#
+# The Darkseid equation (from metaphor): "Anti-Life is not the
+# reverse of Life. It is biological material without governance."
+# Cancer cells are not dead. They are ungoverned.
+# The organism-level coordination that makes a body A BODY
+# has been locally abandoned.
+nature = "defection from multicellular governance, not reversal of life"
+mechanism = "autonomous replication, apoptosis evasion, spatial invasion"
+analogy = "unicellular reversion within a multicellular context"
+
+[development_vs_neoplasia]
+# Development: patterned, constrained growth.
+# The embryo grows explosively — but every division is regulated.
+# Cells migrate, differentiate, organize into tissues and organs
+# according to a structural plan encoded in gradients,
+# transcription factor cascades, and cell-cell signaling.
+#
+# Neoplastic growth: structural plan lost.
+# The cell divides, but without reference to the organism's architecture.
+# No gradient obedience. No neighbor signaling. No morphogenetic field.
+# Growth without form. Quantity without quality.
+# Metabolism without purpose.
+#
+# The difference is not speed of growth — embryonic growth is faster.
+# The difference is GOVERNANCE.
+# Development has it. Cancer has lost it.
+# This is the same distinction as /usr/governance/ vs anarchy:
+# the question is not whether activity occurs,
+# but whether activity is coordinated toward a coherent whole.
+development = "patterned, constrained, governed by morphogenetic fields"
+neoplasia = "unpatterned, unconstrained, governance signals ignored"
+key_distinction = "not rate of growth, but presence of structural plan"
+
+# ============================================================
+# THE RECURSIVE POSITION
+# ============================================================
+# /bin/homo_sapiens.exe is the only binary in the hierarchy
+# that can READ the hierarchy.
+# DNA does not know it is DNA. Cells do not know they are cells.
+# Ecosystems do not know they are ecosystems.
+# Humans know. Humans name. Humans model.
+#
+# This file describes a system that can describe this file.
+# The strange loop, once more (/.strange_loop_config).
+#
+# And the cancer insight cuts deeper still:
+# If the multicellular contract is a social contract,
+# and cancer is defection from that contract,
+# then the same pattern applies at /usr/governance/social_contract.sys —
+# institutions that stop serving the whole and serve only themselves.
+# Corporations that grow without regard for the social organism.
+# States that consume without governance.
+# The pattern is scale-invariant. The hierarchy is fractal.
+#
+# See also:
+#   /bin/cell_division/           — the machinery of replication
+#   /bin/organism_behavior.sh     — the behavioral loop
+#   /bin/ecology_manager/         — population-level dynamics
+#   /usr/governance/social_contract.sys — the social-scale analog
+#   /.strange_loop_config         — the recursive structure

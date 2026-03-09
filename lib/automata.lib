@@ -1,0 +1,297 @@
+# automata.lib
+# Shared library: formal machines, formal languages, and recursive spirals.
+#
+# The universe computes. Atoms follow rules. Grammars generate structure.
+# Spirals encode self-similarity from galaxies to sunflower heads.
+# This library defines the abstract machines that recognize patterns,
+# the grammars that generate them, and the golden geometry
+# that recurs wherever growth meets constraint.
+#
+# Loaded by:
+#   /sys/quantum_mechanics/ — computability limits mirror measurement limits
+#   /logic_gates.sys — automata are logic gates composed in sequence
+#   /bin/dna_parser.exe — DNA is a context-free language with context-sensitive constraints
+#   /lib/fusion_protocols.so — stage_unlock is a state machine transition
+#   /net/technium/ — every compiler is a cascade of automata
+
+# ============================================================
+# AUTOMATA ELEMENTS — The five components of every machine
+# ============================================================
+
+[automaton]
+# Every automaton, from the simplest to the universal, has exactly five parts.
+# This is the atom of computation.
+states              = "Q: finite set of configurations the machine can be in"
+alphabet            = "Sigma: finite set of symbols the machine can read"
+transition_function = "delta: Q x Sigma → Q (the rule table — this IS the machine)"
+start_state         = "q0: where computation begins (there is always exactly one)"
+accept_states       = "F: subset of Q — reaching these means YES"
+#
+# The transition function is the soul.
+# Change the function, change the machine, change what it can recognize.
+# Everything else is scaffolding.
+
+# ============================================================
+# THE CHOMSKY HIERARCHY — Four levels of formal power
+# ============================================================
+# Strict inclusion: Type 3 ⊂ Type 2 ⊂ Type 1 ⊂ Type 0.
+# Each level adds exactly one capability and exactly one machine.
+# Nothing in computer science is more elegant than this.
+
+[type_3_regular]
+# The simplest interesting languages. No memory required.
+grammar     = "A → aB | a (right-linear productions only)"
+machine     = "DFA / NFA (finite automaton — finite states, no stack, no tape)"
+closure     = ["union", "intersection", "complement", "concatenation", "kleene_star", "reversal"]
+decidable   = ["membership", "emptiness", "equivalence", "inclusion"]
+recognizes  = "tokens, identifiers, regular expressions, email formats"
+limitation  = "cannot count. Cannot match parentheses. Cannot parse nesting."
+#
+# Kleene's theorem (1956): regular expressions = finite automata = regular grammars.
+# Three formalisms, one power. The deepest kind of mathematical equivalence.
+# DFA and NFA have identical power — nondeterminism buys no expressiveness here.
+# It buys convenience. The subset construction converts NFA→DFA but may
+# explode the state space exponentially. Same language. Different cost.
+
+[type_2_context_free]
+# The languages of hierarchy and nesting. This is where structure begins.
+grammar     = "A → alpha (single nonterminal → any string of terminals/nonterminals)"
+machine     = "PDA (pushdown automaton — finite states + infinite stack)"
+closure     = ["union", "concatenation", "kleene_star"]
+not_closed  = ["intersection", "complement"]  # this asymmetry matters
+decidable   = ["membership (CYK: O(n^3))", "emptiness"]
+undecidable = ["equivalence", "inclusion", "ambiguity"]
+recognizes  = "HTML nesting, arithmetic expressions, programming language syntax"
+#
+# The stack is the key. One stack = one level of memory = nesting.
+# Parenthesis matching: push on '(', pop on ')'. Accept if stack empty.
+# Every parser you have ever used (JSON, XML, Python) is a PDA in disguise.
+# Deterministic CFLs (DPDA) ⊂ CFLs — ambiguity is the gap.
+
+[type_1_context_sensitive]
+# The languages of cross-reference and agreement.
+grammar     = "alpha A beta → alpha gamma beta (context constrains rewriting)"
+machine     = "LBA (linear bounded automaton — TM restricted to input length)"
+closure     = ["union", "intersection", "complement", "concatenation", "kleene_star"]
+decidable   = ["membership"]
+undecidable = ["emptiness", "equivalence"]
+recognizes  = "type agreement across clauses, cross-file invariants, natural language morphology"
+#
+# The tape exists but cannot grow beyond the input.
+# This is computation with a space budget — powerful but bounded.
+# Natural language lives here: subject-verb agreement across arbitrary
+# distance is context-sensitive. "The dog that chased the cats runs."
+# Regular grammars cannot track this. CFGs struggle. CSGs handle it.
+
+[type_0_recursively_enumerable]
+# The languages of everything computable — and the edge of the abyss.
+grammar     = "alpha → beta (any production, no restrictions)"
+machine     = "TM (Turing machine — infinite tape, read/write head)"
+closure     = ["union", "intersection", "concatenation", "kleene_star"]
+not_closed  = ["complement"]  # RE \ co-RE is the halting frontier
+decidable   = "nothing is guaranteed — the machine may run forever"
+recognizes  = "anything computable: build scripts, proof search, program behavior"
+#
+# The Turing machine is the ceiling.
+# Church-Turing thesis (1936): anything that can be computed by any
+# physical process can be computed by a Turing machine.
+# Not a theorem — a physical claim. Unrefuted for 90 years.
+# Lambda calculus = Turing machines = mu-recursive functions = Post systems.
+# Four formalisms, one boundary. Same pattern as Kleene at Type 3.
+
+# ============================================================
+# THE HALTING PROBLEM — The wall at the edge
+# ============================================================
+
+[halting]
+# Does program P halt on input X?
+# Turing (1936): no algorithm can decide this for all P, X.
+# Proof: assume such a decider H exists. Construct D that runs H on itself
+# and does the opposite. Contradiction. H cannot exist.
+#
+# This is not a failure of engineering. It is a law of mathematics.
+# The same diagonal argument powers Cantor's uncountability proof,
+# Godel's incompleteness theorem, and Rice's theorem.
+# One technique. Four walls. The universe has edges.
+#
+# Consequence: no compiler can detect all infinite loops.
+# No antivirus can detect all malware. No type system catches all bugs.
+# These are not todo items. They are theorems.
+#
+# See also: /sys/quantum_mechanics/ — uncertainty is structural there too.
+method = "diagonalization"
+implies = ["Rice's theorem", "Godel's incompleteness", "undecidability of equivalence"]
+
+# ============================================================
+# FORMAL LANGUAGE OPERATIONS — The algebra of languages
+# ============================================================
+
+[operations]
+# Languages are sets of strings. Sets have operations.
+# Closure under an operation means applying it stays within the type.
+union           = "L1 ∪ L2 — strings in either language"
+concatenation   = "L1 · L2 — all xy where x ∈ L1, y ∈ L2"
+kleene_star     = "L* — zero or more concatenations of strings from L"
+intersection    = "L1 ∩ L2 — strings in both languages"
+complement      = "Sigma* \ L — everything the language does NOT contain"
+reversal        = "L^R — every string reversed"
+homomorphism    = "h(L) — systematic symbol substitution across every string"
+#
+# Regular languages: closed under ALL seven. Total algebraic stability.
+# Context-free: closed under union, concat, star. NOT intersection, complement.
+#   This is why parsing is tractable but semantic analysis is hard.
+# Context-sensitive: closed under all. The algebra returns.
+# Recursively enumerable: closed under all except complement.
+#   Complement-closure would make the halting problem decidable. It does not.
+
+# ============================================================
+# GRAMMAR → ARTIFACT MAP — Where formal languages live in practice
+# ============================================================
+
+[artifact_map]
+# Every level of the Chomsky hierarchy corresponds to a layer of
+# real-world software construction.
+regular         = "lexer tokens — identifiers, keywords, literals, operators"
+context_free    = "parse trees — the hierarchical skeleton of any structured document"
+context_sensitive = "type checking, cross-file constraints, semantic invariants"
+recursively_enumerable = "build scripts, makefiles, CI pipelines — may not terminate"
+#
+# A compiler is a descent through the Chomsky hierarchy:
+#   Source text → tokens (Type 3) → AST (Type 2) → typed IR (Type 1) → output (Type 0)
+# Each pass requires a more powerful machine than the last.
+# The compiler pipeline IS the Chomsky hierarchy made operational.
+
+# ============================================================
+# PHI AND THE GOLDEN RATIO — Self-similarity as universal constant
+# ============================================================
+
+[golden_ratio]
+# phi = (1 + sqrt(5)) / 2 = 1.6180339887...
+# The most irrational number — hardest to approximate by rationals.
+# This is not numerology. It is a consequence of continued fractions.
+phi = 1.6180339887
+conjugate = 0.6180339887  # 1/phi = phi - 1 (unique among all numbers)
+fibonacci_convergence = "F(n+1)/F(n) → phi as n → infinity"
+#
+# Fibonacci: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
+# Each term is the sum of the previous two.
+# The ratio of consecutive terms converges to phi.
+# This connects additive recursion to multiplicative geometry.
+#
+# Phi appears in:
+#   pentagon geometry (diagonal/side = phi)
+#   Penrose tilings (nonperiodic, quasicrystalline)
+#   Feigenbaum cascades (period-doubling approaches phi)
+#   optimal search algorithms (golden section search)
+#
+# Quasicrystals (Shechtman, 1982): atoms arranged with phi-based symmetry.
+# Fivefold rotational symmetry. No translational periodicity.
+# Nonrepeating order — phi enforces it. /sys/quantum_mechanics/ needed
+# to explain why these crystals diffract as if they were periodic.
+
+# ============================================================
+# SPIRALS — Growth under constraint
+# ============================================================
+
+[spiral_types]
+# A spiral is what happens when linear growth meets angular constraint.
+# Different constraints produce different spirals.
+
+archimedean = "r = a + b*theta — equal spacing between turns"
+# Grooves on a vinyl record. Coiled rope. Clock springs.
+# Linear accumulation made circular. No self-similarity.
+
+logarithmic = "r = a * e^(b*theta) — self-similar at every scale"
+# Nautilus shells. Hurricane arms. Spiral galaxies.
+# Zoom in and the shape is identical. Scale invariance.
+# Also called the spira mirabilis (Bernoulli, 1692).
+# Bernoulli loved it so much he asked for it on his tombstone.
+# They carved an Archimedean spiral instead. Wrong spiral. Forever.
+
+fermat = "r = a * sqrt(theta) — optimal packing"
+# Sunflower seed heads. Pine cone scales. Romanesco broccoli.
+# Seeds arranged at the golden angle fill space most efficiently.
+# No seed aligns with any previous seed's radius. Maximum packing.
+
+[golden_angle]
+# 360 / phi^2 = 360 * (2 - phi) = 137.507764...degrees
+# The angle between consecutive primordia in phyllotaxis.
+# Why? Because phi is maximally irrational.
+# Any rational angle creates radial alignment — wasted space.
+# The golden angle guarantees no alignment ever occurs.
+angle_degrees = 137.507764
+mechanism = "each primordium placed at golden angle from previous"
+result = "Fermat spiral with Fibonacci-count parastichy arms"
+# Count the spirals on a sunflower: 34 clockwise, 55 counterclockwise.
+# Or 55 and 89. Always consecutive Fibonacci numbers.
+# The plant does not know Fibonacci. It follows a local rule.
+# The global pattern is an emergent consequence of phi.
+
+# ============================================================
+# SPIRAL DYNAMICS — Waves that turn
+# ============================================================
+
+[spiral_waves]
+# When excitable media propagate signals, spirals form spontaneously.
+
+bz_reaction = "Belousov-Zhabotinsky reaction — chemical oscillation in a dish"
+# Concentric waves break into spirals via perturbation.
+# The spiral tip is a phase singularity — a point where all phases coexist.
+# This is topological, not chemical. The same pattern forms in:
+
+cardiac = "Reentrant spiral waves on heart tissue"
+# Normal heartbeat: planar wave across the atrium.
+# Fibrillation: spiral wave locks onto heart tissue, overrides the pacemaker.
+# Defibrillation works by resetting the excitable medium — breaking the spiral.
+# The same math that describes BZ chemistry describes cardiac death.
+
+galactic = "Density waves in disk galaxies"
+# Spiral arms are not material structures — stars orbit through them.
+# The arms are standing density waves. Traffic jams in stellar orbits.
+# Stars slow down entering the arm, speed up leaving. Compression triggers
+# star formation. The spiral pattern persists while individual stars do not.
+# Same principle as a wave on water: the wave moves, the water stays.
+
+# ============================================================
+# CASCADES AND CONVERGENCE — Where automata meet spirals
+# ============================================================
+
+[feigenbaum]
+# Period-doubling cascades: a dynamical system's route to chaos.
+# As a control parameter increases:
+#   fixed point → period 2 → period 4 → period 8 → ... → chaos
+# The ratio of successive bifurcation intervals converges to
+# the Feigenbaum constant delta = 4.6692...
+# The ratio of widths converges to alpha = 2.5029...
+#
+# At the accumulation point, the dynamics become self-similar.
+# The Feigenbaum constants are universal — they appear in
+# ANY system that undergoes period-doubling. Logistic map,
+# driven pendulum, dripping faucet, population dynamics.
+#
+# Phi appears in the scaling structure of the bifurcation tree.
+# Self-similarity in time (Feigenbaum) echoes self-similarity
+# in space (logarithmic spiral). Same geometry. Different medium.
+# See also: /sys/thermodynamics/ — chaos is entropy's accomplice.
+delta = 4.6692016
+alpha = 2.5029078
+route = "fixed → periodic → quasiperiodic → chaos"
+universality = "independent of the specific dynamical system"
+
+# ============================================================
+# EXPORT INTERFACE
+# ============================================================
+# This shared library is loaded by:
+#   /bin/dna_parser.exe — genetic code is parsed by the Chomsky hierarchy
+#   /logic_gates.sys — automata are sequential logic gates with memory
+#   /lib/fusion_protocols.so — stage_unlock transitions are state machine edges
+#   /sys/quantum_mechanics/ — quantum computation extends the Chomsky hierarchy
+#   /bin/ecology_manager/ — phyllotaxis and spiral packing shape every organism
+#   /sys/thermodynamics/ — Feigenbaum cascades bridge order and chaos
+#   /net/technium/ — every compiler, every regex engine, every parser
+#
+# The Chomsky hierarchy classifies what can be said.
+# The automata hierarchy classifies what can be heard.
+# Phi classifies what can grow without repeating.
+# Together: grammar, computation, and geometry —
+# the three legs of every structure in /hierarchia/.

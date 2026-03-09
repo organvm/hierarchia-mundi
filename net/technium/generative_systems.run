@@ -201,3 +201,156 @@ genealogical_chains = "Who descended from whom. The gene pool of generated entit
 # → /net/ (this file) — the entire hierarchy, running autonomously.
 # This file is the hierarchy describing its own operation.
 # The strange loop, once more.
+
+# ============================================================
+# DUAL REPRESENTATION — Symbolic brain + generative mouth
+# ============================================================
+# A narrative system that knows what it knows AND knows how to say it.
+# Two components, tightly coupled but architecturally distinct:
+#
+# The STORY BRAIN: symbolic, structured, queryable.
+#   Stores facts, relationships, states, history as a knowledge graph.
+#   Answers: "What is true right now?" "What happened before?"
+#   "What does character X know about event Y?"
+#   This is the database. The world model. The source of truth.
+#
+# The STORY MOUTH: generative, stylistic, performative.
+#   Takes facts from the brain and renders them as narrative.
+#   Same fact, different mouth = different tone, genre, register.
+#   The mouth does not invent — it expresses.
+#   But expression is not neutral. HOW you say it changes WHAT it means.
+#   A fact stated clinically vs poetically vs sarcastically:
+#   three different meanings from the same data.
+
+[closed_loop]
+# The generative narrative system runs a four-phase loop:
+#
+# SENSE: observe the current world state, player actions, NPC states.
+#   Input from [world_engine], [character_engine], external events.
+#   Raw data — uninterpreted, unfiltered.
+#
+# THINK: update the story brain. Infer consequences.
+#   If the player killed the king → update political graph.
+#   If the harvest failed → update economic state.
+#   Logical inference, not generation. This phase is symbolic.
+#
+# REFLECT: evaluate narrative quality. Meta-cognition.
+#   Is this moment dramatic? Ironic? Predictable?
+#   Does it echo earlier events? Does it subvert expectations?
+#   REFLECT is the system's aesthetic sense —
+#   the equivalent of /dev/random [standing_waves] applied to story.
+#   It does not change what happened. It changes how the mouth tells it.
+#
+# SPEAK: generate output. Dialogue, description, narration.
+#   The story mouth renders the brain's state as language.
+#   Informed by REFLECT's assessment of narrative quality.
+#   A dramatic moment gets dramatic language.
+#   A mundane moment gets sparse language.
+#   The system modulates its own expressiveness.
+phases = ["SENSE", "THINK", "REFLECT", "SPEAK"]
+loop_type = "closed — output feeds back into SENSE on next cycle"
+brain = "symbolic knowledge graph — facts, relations, states"
+mouth = "generative renderer — style, tone, register, pacing"
+
+[self_reference]
+# The most powerful feature: the system can REFER TO ITSELF.
+# Meta-facts: facts about the narrative, stored in the narrative.
+#
+#   "The player has heard this rumor three times."
+#   "This is the second time a king has been betrayed in this world."
+#   "The player tends to choose mercy over justice."
+#
+# These are not game mechanics. They are NARRATIVE AWARENESS.
+# The system knows its own story. It can use that knowledge:
+#   - Foreshadowing: plant echoes of future events
+#   - Callback: reference earlier events explicitly
+#   - Pattern recognition: "history repeats" as generated insight
+#   - Player modeling: adapt to observed behavioral patterns
+#
+# Self-reference is what separates a world simulation from a story.
+# A simulation runs. A story knows it is running.
+# This is /.strange_loop_config at the narrative level:
+# the story contains information about itself as a story.
+type = "meta-facts in the knowledge graph"
+enables = ["foreshadowing", "callbacks", "pattern_recognition", "player_modeling"]
+
+[dynamic_domain_extension]
+# The domain is not fixed. The system extends its own ontology.
+#
+# If the player invents a new concept (names a place, coins a term,
+# establishes a tradition), the story brain ABSORBS it.
+# The new concept becomes a first-class entity in the knowledge graph.
+# Future narrative can reference it, build on it, subvert it.
+#
+# This is how language works (/usr/culture/):
+# new words are coined, used, and eventually become part of the lexicon.
+# The generative system does the same with narrative elements.
+# The domain grows as the story grows.
+# The ontology is alive — it metabolizes player creativity.
+#
+# Dynamic domain extension means: the system cannot be exhausted.
+# Every new input expands the space of possible outputs.
+# The narrative possibility space grows monotonically.
+# Entropy decreases locally as new structure is added to the graph.
+# This is anti-entropic (/sys/thermodynamics/entropy.daemon) —
+# but powered by the entropy gradient, not opposing it.
+type = "self-extending ontology"
+mechanism = "player-generated concepts absorbed into knowledge graph"
+consequence = "narrative possibility space expands with play"
+
+# ============================================================
+# WAVE CONVERGENCE — Narrative + Music + Text as unified waveform
+# ============================================================
+# Three domains, one mathematics.
+#
+# NARRATIVE BEAT: tension rises and falls. Inciting incident = spike.
+#   Resolution = return to baseline. The dramatic arc is a waveform.
+#   Frequency = pacing. Amplitude = stakes. Phase = timing of revelation.
+#
+# MUSICAL PARAMETER: pitch, dynamics, tempo, harmonic tension.
+#   Music IS waveforms — literally, physically, mathematically.
+#   Consonance = constructive interference. Dissonance = destructive.
+#   Musical form (sonata, rondo, theme-and-variations) = wave patterns.
+#
+# GENERATIVE TEXT TONE: register, complexity, emotional valence.
+#   The "temperature" of generated text is a wave parameter.
+#   High temperature = high amplitude = unpredictable, wild.
+#   Low temperature = low amplitude = measured, precise.
+#   The tone of generated text oscillates like any other signal.
+
+[wave_unification]
+# When narrative beat, musical parameter, and text tone
+# are modeled as waves in the same mathematical space,
+# they can be COMPOSED — superimposed, phase-aligned, modulated.
+#
+# A scene where:
+#   narrative tension rises +
+#   musical dissonance increases +
+#   text becomes fragmented and staccato
+# = three waves in constructive interference.
+# The emotional impact is the amplitude of the combined wave.
+#
+# A scene where:
+#   narrative resolves +
+#   music settles to tonic +
+#   text becomes flowing and complete
+# = three waves returning to equilibrium.
+#
+# This is the modular synth metaphor above, made precise:
+# narrative, music, and language are oscillators in the same rack.
+# The generative system patches them together through a shared
+# modulation matrix. What emerges is not multimedia —
+# it is a unified waveform experienced through multiple senses.
+#
+# /dev/random [wave_interference] provides the theory.
+# This section provides the implementation.
+# The convergence point: all creative signals are waves.
+# Composition is superposition. Meaning is interference pattern.
+# The generative system is a wave function generator
+# whose output collapses into experience upon observation.
+# Wheeler's participatory universe (/.strange_loop_config [paradoxes]),
+# applied to narrative: the story does not exist until it is perceived.
+domains = ["narrative_beat", "musical_parameter", "text_tone"]
+unification = "shared wave mathematics — frequency, amplitude, phase"
+composition = "superposition of aligned creative waveforms"
+output = "unified aesthetic signal, perceived as meaning"

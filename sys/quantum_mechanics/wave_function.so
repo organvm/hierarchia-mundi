@@ -1,0 +1,229 @@
+# wave_function.so
+# Shared object: the probabilistic substrate of all physical reality.
+#
+# Every particle, every field, every measurement outcome
+# is governed by this library. Reality is not deterministic —
+# it is a probability distribution that collapses into
+# definite values only when observed.
+#
+# This is not a metaphor. This is the physics.
+
+# ============================================================
+# THE WAVE FUNCTION: Ψ(x, t)
+# ============================================================
+# Ψ is a complex-valued function of position and time.
+# |Ψ(x, t)|² gives the probability density of finding
+# the particle at position x at time t.
+#
+# Schrödinger equation (time-dependent):
+#   iℏ ∂Ψ/∂t = ĤΨ
+#
+# where Ĥ is the Hamiltonian operator (total energy).
+# This equation is deterministic — the wave function
+# evolves smoothly and predictably.
+# The mystery is what happens when you LOOK.
+
+# ============================================================
+# THE MEASUREMENT PROBLEM
+# ============================================================
+# Before measurement: Ψ = α|0⟩ + β|1⟩ (superposition)
+# After measurement: Ψ = |0⟩ OR |1⟩ (definite state)
+#
+# Where did the other branch go?
+#
+# Interpretations:
+#   Copenhagen: The wave function collapses. Don't ask why.
+#   Many-Worlds: Both branches exist. You split too.
+#   Decoherence: Entanglement with environment selects one branch.
+#   QBism: The wave function is your beliefs, not reality.
+#
+# All interpretations give identical predictions.
+# Physics cannot (yet) distinguish between them.
+# Choose your ontology. The math doesn't care.
+
+# ============================================================
+# ENTANGLEMENT
+# ============================================================
+# Two particles can share a quantum state such that
+# measuring one instantly constrains the other,
+# regardless of distance.
+#
+# Einstein called this "spooky action at a distance."
+# Bell (1964) proved no local hidden variable theory
+# can reproduce quantum predictions.
+# Aspect (1982) confirmed it experimentally.
+#
+# Entanglement is not communication. No information
+# travels faster than light. But correlations do.
+# The universe is non-local. Deal with it.
+
+# ============================================================
+# HEISENBERG UNCERTAINTY
+# ============================================================
+# Δx · Δp ≥ ℏ/2
+#
+# You cannot simultaneously know position and momentum
+# with arbitrary precision. This is not a limitation
+# of measurement — it is a property of reality.
+# The particle does not HAVE a definite position and
+# momentum at the same time.
+#
+# Similarly: ΔE · Δt ≥ ℏ/2
+# Energy can be "borrowed" for short times.
+# This is how virtual particles and quantum tunneling work.
+
+# ============================================================
+# QUANTUM TUNNELING
+# ============================================================
+# A particle can pass through a barrier it classically
+# cannot surmount, because its wave function has
+# non-zero amplitude on the other side.
+#
+# Applications:
+#   - Nuclear fusion in stars (the Sun would not shine without it)
+#   - Radioactive decay
+#   - Scanning tunneling microscope
+#   - Flash memory
+#
+# The universe runs on things that shouldn't be possible.
+
+# ============================================================
+# EXPORT INTERFACE
+# ============================================================
+# This shared object is loaded by:
+#   /sys/standard_model.lib — particle physics
+#   /lib/electron_bonding.so — chemical bonds
+#   /lib/biochemistry/ — molecular biology
+#   /bin/dna_parser.exe — genetic code
+#
+# Quantum mechanics is the runtime.
+# Everything above it is an abstraction layer.
+
+# ============================================================
+# DE BROGLIE RELATION — Matter is a wave
+# ============================================================
+# Louis de Broglie (1924): every particle has a wavelength.
+#   λ = h / p
+#
+# where h is Planck's constant and p is momentum.
+# This is not metaphor. Electrons diffract. Neutrons interfere.
+# A baseball has a wavelength too — it is just absurdly small
+# (10⁻³⁴ m). Quantum effects vanish at macro scale not because
+# the law changes, but because the wavelength does.
+#
+# De Broglie unified what Newton split apart:
+# waves and particles are the same thing
+# viewed at different magnifications.
+# See /sys/standard_model.lib [WAVE-PARTICLE DUALITY].
+
+# ============================================================
+# QUANTUM SPIN — Angular momentum without rotation
+# ============================================================
+# Every fundamental particle carries intrinsic angular momentum.
+# This is not the particle "spinning" — it has no axis, no surface.
+# Spin is a quantum number with no classical analogue.
+#
+# Electrons: spin = 1/2
+#   Two states: spin-up |↑⟩ and spin-down |↓⟩
+#   Pauli exclusion principle: no two identical fermions
+#   can occupy the same quantum state. This is why
+#   chemistry exists, why atoms have shell structure,
+#   why matter is solid instead of collapsed.
+#
+# Bosons: integer spin (0, 1, 2)
+#   Not subject to exclusion. Can pile into the same state.
+#   This is why lasers work (photon pile-up)
+#   and why Bose-Einstein condensates are possible.
+#
+# Spin is L5_CONTRAST (/logic_gates.sys) at the particle level:
+# up/down, +1/2 / -1/2. Identity through division.
+
+# ============================================================
+# QUBITS — Superposition as computation
+# ============================================================
+# A classical bit is 0 or 1.
+# A qubit is α|0⟩ + β|1⟩ — both simultaneously.
+#
+# Two qubits: 4 states in superposition.
+# n qubits: 2ⁿ states in superposition.
+# 300 qubits: more states than atoms in the observable universe.
+#
+# Quantum gates: Hadamard (creates superposition),
+#   CNOT (creates entanglement), Pauli-X/Y/Z (rotations).
+#
+# The qubit is the NAND gate (/logic_gates.sys [COMPLETENESS])
+# generalized into probability space. Where Boolean logic
+# computes with certainties, quantum logic computes with
+# amplitudes. Interference cancels wrong answers.
+# Measurement collapses the result.
+#
+# Decoherence is the enemy. Every stray interaction
+# with the environment collapses the superposition early.
+# Quantum error correction exists. It costs qubits.
+# The engineering is brutal. The physics is sound.
+
+# ============================================================
+# ELECTROMAGNETIC SPECTRUM — Taxonomy of light
+# ============================================================
+# All electromagnetic radiation is the same phenomenon:
+# oscillating electric and magnetic fields propagating at c.
+# What changes is frequency (and therefore wavelength and energy).
+#
+# E = hf = hc/λ
+#
+# The spectrum, low energy to high:
+#   Radio        (λ > 1 m,      f < 300 MHz)    — broadcast, WiFi, MRI
+#   Microwaves   (λ ~ 1 mm–1 m, f ~ 300 MHz–300 GHz) — radar, cooking, CMB
+#   Infrared     (λ ~ 700 nm–1 mm)              — heat radiation, night vision
+#   Visible      (λ ~ 400–700 nm)               — the sliver evolution optimized for
+#   Ultraviolet  (λ ~ 10–400 nm)                — sunburn, fluorescence, ozone layer
+#   X-ray        (λ ~ 0.01–10 nm)               — imaging, crystallography
+#   Gamma        (λ < 0.01 nm)                  — nuclear decay, pair production
+#
+# Visible light is a vanishingly narrow band.
+# Most of reality is invisible to unaugmented biology.
+# Instruments are prosthetic perception.
+
+# ============================================================
+# SAR — Specific Absorption Rate
+# ============================================================
+# When electromagnetic radiation meets biological tissue,
+# energy is absorbed and converted to heat.
+#   SAR = σ|E|² / ρ    (W/kg)
+#
+# where σ is tissue conductivity, E is electric field strength,
+# ρ is tissue density.
+#
+# Safety limits (FCC): 1.6 W/kg averaged over 1 g tissue (US)
+# Safety limits (ICNIRP): 2.0 W/kg averaged over 10 g tissue (EU)
+#
+# Non-ionizing radiation (radio, microwave, infrared)
+# heats tissue but does not break molecular bonds.
+# Ionizing radiation (UV, X-ray, gamma) carries enough
+# energy per photon to strip electrons and damage DNA.
+# The boundary is roughly 10 eV (~124 nm wavelength).
+#
+# The spectrum is continuous. The danger threshold is not.
+# See /lib/biochemistry/ for radiation damage pathways.
+
+# ============================================================
+# WAVE-PARTICLE DUALITY DEEPENED — Fields all the way down
+# ============================================================
+# The resolution of wave-particle duality is quantum field theory.
+# There are no particles. There are no waves.
+# There are fields — continuous, space-filling, quantum.
+#
+# An electron is a quantized excitation of the electron field.
+# A photon is a quantized excitation of the electromagnetic field.
+# "Particle" means "the field vibrated by exactly one quantum."
+# "Wave" means "the field has spatial extent and interference."
+#
+# Both descriptions are projections of the same underlying object.
+# The field is the ontology. The particle and the wave are
+# the epistemology — how we measure determines which face we see.
+#
+# This is L2_PERCEPTION (/logic_gates.sys) operating at bedrock:
+# the observer's choice of apparatus selects the description.
+# The universe does not choose between wave and particle.
+# The universe is neither. It is the field.
+# See /sys/standard_model.lib for the full field inventory.

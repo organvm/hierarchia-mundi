@@ -1,0 +1,270 @@
+# /usr/governance/social_contract.sys
+# The foundational protocol for persistent collective organization.
+#
+# A society is not a crowd. A crowd disperses.
+# A society persists — through shared territory, political authority,
+# and cultural expectations that outlive any individual member.
+# This file defines the operating system of collective human life:
+# how groups larger than kinship bands coordinate, constrain,
+# legitimize, and reproduce themselves across generations.
+
+# ============================================================
+# DEFINITION — What a society IS
+# ============================================================
+
+[society]
+# A society is a group of individuals involved in persistent
+# social interaction, typically subject to the same political authority
+# and dominant cultural expectations.
+#
+# Key properties:
+#   - PERSISTENT: outlives its members (institutions carry memory)
+#   - TERRITORIAL: bound to shared physical or conceptual space
+#   - HIERARCHICAL: political authority distributes unevenly
+#   - NORMATIVE: cultural expectations constrain behavior
+#   - SELF-REPRODUCING: socializes new members into existing patterns
+#
+# A society is to /usr/ what an organism is to /bin/:
+# a coordinated system whose behavior exceeds the sum of its parts.
+# Individual humans are /bin/homo_sapiens.exe instances.
+# Society is the distributed runtime that emerges when enough
+# instances are running on shared infrastructure.
+properties = ["persistent", "territorial", "hierarchical", "normative", "self-reproducing"]
+analogy = "organism : cells :: society : individuals"
+
+# ============================================================
+# THREE PARADIGMS — How to read the source code
+# ============================================================
+
+[functionalism]
+# Comte, Spencer, Durkheim, Parsons.
+# Society as organism — each institution serves a function.
+# Education socializes. Religion integrates. Economy distributes.
+# Law regulates. Family reproduces. Art expresses.
+#
+# Dysfunction = a part that no longer serves the whole.
+# Like an organ that fails: the organism compensates or dies.
+# Durkheim's "organic solidarity": complex societies cohere
+# through interdependence, not similarity.
+# You need the baker. The baker needs the farmer.
+# The farmer needs the toolmaker. Nobody is self-sufficient.
+# Dependency is the binding agent.
+#
+# Critique: functionalism naturalizes the status quo.
+# If everything serves a function, nothing needs to change.
+# But functions can be served by different structures.
+# Slavery was "functional" — that does not make it necessary.
+origin = "Comte (1830s), Durkheim (1893), Parsons (1951)"
+metaphor = "society as organism"
+binding = "organic solidarity through interdependence"
+weakness = "tends to justify existing power arrangements"
+
+[conflict_theory]
+# Marx, Weber, Dahrendorf, Collins.
+# Society as arena — groups compete for scarce resources.
+# Power is not distributed for the common good.
+# Power is seized, maintained, and legitimized by those who hold it.
+#
+# Marx: history is class struggle. Bourgeoisie vs proletariat.
+# The base (economic relations) determines the superstructure
+# (law, culture, religion, philosophy).
+# Ideology is not neutral — it is the ruling class's self-portrait
+# painted as universal truth.
+#
+# Weber: power is not only economic. It is also status (prestige)
+# and party (political organization). Three dimensions, not one.
+# Bureaucracy: the iron cage of rationalization.
+#
+# Critique: sees conflict everywhere, misses genuine cooperation.
+# Not every institution is pure domination.
+# But: every institution CONTAINS domination, even cooperative ones.
+origin = "Marx (1848), Weber (1922), Dahrendorf (1959)"
+metaphor = "society as arena"
+binding = "coercion, ideology, legitimized domination"
+weakness = "reduces cooperation to false consciousness"
+
+[symbolic_interactionism]
+# Mead, Blumer, Goffman.
+# Society as performance — meaning is constructed in interaction.
+# Not structures, not classes: MICRO-ENCOUNTERS.
+# Two people talking. A handshake. A glance. A uniform.
+#
+# Goffman: social life is dramaturgical. Front stage, backstage.
+# We perform roles for audiences. The self is not essence — it is act.
+# Mead: the self arises from taking the role of the other.
+# "I" vs "me" — the spontaneous self vs the socialized self.
+#
+# Society is not a thing — it is a PROCESS.
+# It exists only insofar as people continuously enact it.
+# Stop performing → society dissolves.
+# This is the runtime view: society is not a data structure,
+# it is a loop that must keep executing.
+origin = "Mead (1934), Blumer (1969), Goffman (1959)"
+metaphor = "society as performance"
+binding = "shared symbols, negotiated meaning"
+weakness = "ignores structural power, over-emphasizes individual agency"
+
+# ============================================================
+# IBN KHALDUN — The first sociologist (1377)
+# ============================================================
+
+[asabiyyah]
+# Muqaddimah (1377): six centuries before Western sociology.
+# Core concept: asabiyyah — group feeling, social cohesion,
+# the force that binds a group into a political unit.
+#
+# Nomadic societies: high asabiyyah. Hardship forges solidarity.
+# Sedentary societies: low asabiyyah. Luxury erodes cohesion.
+# The cycle: nomads with strong asabiyyah conquer sedentary states
+# with weak asabiyyah. The conquerors settle, grow soft,
+# lose asabiyyah, and are conquered in turn.
+#
+# This is /bin/ecology_manager/ applied to civilizations:
+# population dynamics, carrying capacity, competitive exclusion,
+# predator-prey cycles — but the predators are cultures
+# and the prey is complacency.
+cycle = "cohesion → conquest → settlement → luxury → decay → conquest"
+driver = "asabiyyah: the binding force of shared hardship"
+period = "~4 generations (120 years)"
+
+# ============================================================
+# SOCIETAL EVOLUTION — The type progression
+# ============================================================
+
+[society_types]
+# Not teleological — not every society "advances" through all stages.
+# But the pattern recurs across independent civilizations.
+#
+# HUNTING-GATHERING: 50-150 individuals. Egalitarian. Mobile.
+#   No surplus → no hierarchy → no specialization.
+#   Dunbar's number as hard constraint on group size.
+#
+# PASTORAL: animal domestication. Portable wealth. Tribal hierarchy.
+#   Surplus enables some specialization. Still mobile.
+#
+# HORTICULTURAL: plant cultivation. Semi-sedentary. Villages.
+#   Slash-and-burn. Temporary settlement. Modest surplus.
+#
+# AGRARIAN: plow agriculture. Permanent settlement. Cities.
+#   Large surplus → standing armies, priesthoods, bureaucracies.
+#   Writing emerges to track surplus. Law emerges to distribute it.
+#   This is where /usr/governance/ begins in earnest.
+#
+# INDUSTRIAL: fossil energy. Factory. Urbanization. Nation-state.
+#   Surplus becomes exponential. Population explodes.
+#   Clock time replaces seasonal time. Wage labor replaces land tenure.
+#
+# POST-INDUSTRIAL: information. Service economy. Knowledge work.
+#   Surplus is abstract (data, IP, financial instruments).
+#   /net/technium/ begins to rival /usr/ in organizing power.
+sequence = ["hunting_gathering", "pastoral", "horticultural", "agrarian", "industrial", "post_industrial"]
+driver = "energy capture technology"
+threshold_each = "new energy source → new surplus → new social organization"
+
+# ============================================================
+# DOCUMENT PRODUCTION — What societies write down
+# ============================================================
+
+[document_types]
+# Societies are document-producing organisms.
+# The documents ARE the society's extended phenotype —
+# its externalized memory, its institutional DNA.
+#
+# FOUNDATIONAL: constitutions, charters, declarations of independence
+#   The seed.yaml of a society. Declares what the society IS.
+#
+# GOVERNING: laws, regulations, executive orders, judicial opinions
+#   The runtime configuration. Updated continuously.
+#
+# ECONOMIC: contracts, deeds, currencies, ledgers, insurance policies
+#   The resource allocation protocol. Trust externalized as paper.
+#
+# CULTURAL: scriptures, literary canons, curricula, artistic manifestos
+#   The shared library. What the society considers worth remembering.
+#
+# PERSONAL: birth certificates, passports, marriage licenses, wills
+#   The identity registry. Each /bin/homo_sapiens.exe instance, tracked.
+#
+# SCIENTIFIC: papers, patents, standards, technical specifications
+#   The knowledge accumulation system. Ratcheted — never resets.
+#
+# SYMBOLIC: flags, seals, anthems, ceremonies, architectural codes
+#   The aesthetic nervous system. Identity made sensory.
+categories = ["foundational", "governing", "economic", "cultural", "personal", "scientific", "symbolic"]
+
+[document_bodies]
+# The institutions that PRODUCE the documents:
+#
+# SOVEREIGN: legislatures, courts, executive offices
+#   Source of governing documents. Legitimacy derived from
+#   foundational documents (or from force, depending on paradigm).
+#
+# ECONOMIC: banks, exchanges, regulatory agencies, trade bodies
+#   Source of economic documents. Trust infrastructure.
+#
+# CULTURAL: universities, religious institutions, media, arts councils
+#   Source of cultural documents. Canon maintenance.
+#
+# SOCIAL: registries, hospitals, census bureaus, civic organizations
+#   Source of personal documents. Population accounting.
+#
+# TECHNO-ADMINISTRATIVE: standards bodies, patent offices, archives
+#   Source of scientific documents. Knowledge governance.
+#
+# META: constitutional conventions, treaty organizations, reform movements
+#   Source of foundational documents. The bodies that write
+#   the rules for writing rules. Recursive governance.
+#   This is /.strange_loop_config at the institutional level.
+types = ["sovereign", "economic", "cultural", "social", "techno_administrative", "meta"]
+
+# ============================================================
+# THE CANCER ANALOGY — Defection at societal scale
+# ============================================================
+
+[institutional_cancer]
+# The multicellular social contract (/bin/homo_sapiens.exe [cellular_governance])
+# parallels the social contract at civilizational scale.
+#
+# Cells agree to:          | Citizens agree to:
+# - obey division signals  | - obey laws
+# - undergo apoptosis      | - accept institutional sunset
+# - respect spatial bounds  | - respect jurisdictional boundaries
+# - differentiate          | - specialize (division of labor)
+# - share resources        | - pay taxes, share infrastructure
+#
+# Cancer = a cell that defects from all five rules.
+# Institutional cancer = an institution that defects:
+#   - Grows without constraint (regulatory capture, monopoly)
+#   - Refuses to die when obsolete (zombie institutions)
+#   - Invades other domains (mission creep, jurisdictional overreach)
+#   - Dedifferentiates (a bank that becomes a hedge fund that becomes a landlord)
+#   - Hoards resources (wealth concentration beyond function)
+#
+# The pattern is scale-invariant.
+# /bin/homo_sapiens.exe [cancer] and this section describe
+# the same failure mode at different levels of the hierarchy.
+# The social contract is a multicellular contract
+# is a governance contract is a cellular contract.
+# Defection looks the same at every scale.
+# So does the remedy: restore governance, or the organism dies.
+cellular_parallel = "cell:organism :: citizen:society :: institution:civilization"
+defection_modes = ["unconstrained_growth", "apoptosis_refusal", "boundary_invasion", "dedifferentiation", "resource_hoarding"]
+remedy = "restore governance signals, or the superorganism fails"
+
+# ============================================================
+# EXPORT INTERFACE
+# ============================================================
+# This file is loaded by:
+#   /bin/homo_sapiens.exe       — the organism that forms societies
+#   /usr/governance/            — the directory this file lives in
+#   /usr/economy/               — resource allocation protocols
+#   /usr/culture/               — shared libraries and canons
+#   /.strange_loop_config       — recursive governance is a strange loop
+#   /net/technium/              — technology as society's extended phenotype
+#
+# The social contract is not a historical document.
+# It is a runtime protocol, continuously executed,
+# continuously renegotiated, continuously at risk of defection.
+# Every generation inherits the contract and must choose
+# whether to honor, amend, or break it.
+# The choice is the contract.

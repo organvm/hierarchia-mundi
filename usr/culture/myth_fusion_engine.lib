@@ -1,0 +1,166 @@
+# myth_fusion_engine.lib
+# The resonance engine for mythic recombination.
+#
+# Myths are not static. They fuse, split, recombine, and evolve
+# exactly like genes (/bin/dna_parser.exe) and species
+# (/bin/ecology_manager/natural_selection.cron).
+# This library formalizes the operations by which myths transform.
+#
+# The atom of myth is not the story — it is the MOTIF.
+# Stories are built from motifs the way proteins are built from amino acids.
+# Different combinations produce different narratives,
+# but the building blocks are finite and shared across cultures.
+
+# ============================================================
+# MYTH-ATOM SCHEMA — The amino acids of narrative
+# ============================================================
+# Aarne-Thompson-Uther (ATU) index: ~2,500 tale types.
+# Stith Thompson Motif-Index: ~45,000 motifs.
+# Propp's 31 narrative functions (Russian folktales, 1928).
+# Lévi-Strauss's mythemes: irreducible semantic units.
+#
+# The taxonomy below synthesizes these into a relational schema.
+
+[schema]
+
+character_entity = "Agent in the narrative: hero, villain, mentor, trickster, shadow"
+# Maps to: /bin/organism_behavior.sh — characters ARE organisms
+# with drives (feeding, fighting, fleeing, reproduction).
+# Every character is a behavioral profile wearing a costume.
+
+location_place = "Setting: underworld, mountain, sea, forest, city, void"
+# Maps to: /usr/infrastructure/ (built), /bin/ecology_manager/ (natural).
+# The place IS a character — it constrains, enables, threatens.
+# Mordor is not a backdrop. It is an antagonist with coordinates.
+
+object_artifact = "Significant objects: sword, ring, grail, apple, key"
+# Maps to: /lib/ (material composition), /usr/culture/ (symbolic weight).
+# Excalibur = iron + forging + legitimacy + destiny.
+# The object is matter (/lib/) carrying meaning (/usr/).
+
+event_action = "Plot points: quest, battle, sacrifice, betrayal, revelation"
+# Maps to: /bin/ecology_manager/ (competition, predation, cooperation).
+# Narrative events are behavioral ecology in costume.
+
+theme_motif = "Abstract patterns: good vs evil, fate vs free will, death and rebirth"
+# Maps to: /logic_gates.sys (meta-laws), /.strange_loop_config (paradoxes).
+# Themes are meta-laws expressed as dramatic tension.
+
+narrative_function = "Propp's functions: INTERDICTION, VIOLATION, DEPARTURE, RETURN"
+# 31 functions in fixed sequence. The grammar of folklore.
+# Not all stories use all 31, but the ORDER is invariant.
+# This is the syntax of the myth programming language.
+
+role_archetype = "Jung's archetypes: Hero, Shadow, Anima/Animus, Self, Trickster"
+# Maps to: /bin/organism_behavior.sh — archetypes are
+# evolutionary strategies abstracted into symbolic form.
+# The Hero = maximize agency. The Shadow = repressed potential.
+# The Trickster = exploit edge cases in the rules.
+
+# ============================================================
+# FUSION OPERATIONS — How myths combine
+# ============================================================
+# See /lib/fusion_protocols.so for the formal bonding types.
+# Mythic fusion uses the same three modes.
+
+[syncretic_blending]
+# Two mythic systems merge into one.
+# Method: deity fusion (Zeus + Jupiter), motif mapping (flood myths
+# across cultures), functional equivalence (Prometheus = Loki = Coyote).
+#
+# Historical: Roman absorption of Greek gods.
+#   Greek Aphrodite → Roman Venus. Function preserved, name changed.
+#   Deeper: Christianity absorbed pagan festivals.
+#   Christmas = Saturnalia + Sol Invictus + Yule + Nativity.
+#   The layers are still visible to anyone who looks.
+#
+# This is Absorb_Morph (/lib/fusion_protocols.so) at the cultural level.
+# The absorber transforms. The absorbed persists as substrate.
+mode = "fusion"
+bond_type = "covalent — shared symbolic electrons"
+preserves = "function, transforms surface"
+
+[nested_layering]
+# New myth system wraps around old one without destroying it.
+# Hierarchical canon: earlier layer is "deeper," later is "surface."
+# Cultural integrity preserved — layers coexist, don't merge.
+#
+# Example: Japanese Buddhism wraps around Shinto.
+# Shinto kami become Buddhist bodhisattvas. Both systems active.
+# The practitioner navigates between layers contextually.
+#
+# This is symbiosis (/lib/fusion_protocols.so) at the mythic level.
+# Neither system survives alone. Both are enriched by contact.
+mode = "symbiosis"
+bond_type = "metallic — shared across the lattice"
+preserves = "both systems, adds interface between them"
+
+# ============================================================
+# NARRATIVE VECTORS — Directed force in story-space
+# ============================================================
+# Every myth has a direction: from state A to state B.
+# The hero starts ordinary and becomes extraordinary.
+# The world starts whole and breaks, or starts broken and heals.
+#
+# Narrative vectors are the mythic equivalent of force vectors
+# in /sys/gravity.conf — they describe how the story-mass moves
+# through narrative space under the influence of theme-gravity.
+
+[vectors]
+ascent = "Mortal → divine (apotheosis). Heracles, Romulus, Jesus."
+descent = "Divine → mortal (incarnation). Christ, Odin on Yggdrasil."
+outward = "Home → wild (quest). Odysseus, Bilbo, Luke Skywalker."
+inward = "Wild → home (return). The nostos. Coming back changed."
+dissolution = "Self → fragments (madness, death). Orpheus, Osiris, Dionysus."
+reintegration = "Fragments → self (healing). Isis reassembling Osiris."
+
+# ============================================================
+# TEMPORAL LAYERING — How myths evolve over time
+# ============================================================
+
+[timeline]
+classical_canon = "Original texts: Homer, Hesiod, Vedas, Edda, Torah"
+later_adaptations = "Medieval: Ovid, Dante, Arthurian romance"
+contemporary_revisions = "Modern: Sandman (Gaiman), American Gods, God of War"
+future_extensions = "AI-generated mythology, procedural mythopoeia"
+# Each layer adds meaning without destroying previous layers.
+# The palimpsest is the medium. Every myth is overwritten text
+# where earlier layers show through.
+
+# ============================================================
+# THE RESONANCE ENGINE — Why some fusions work
+# ============================================================
+# Not all mythic combinations produce viable offspring.
+# Resonance is the test: does the fusion generate new meaning
+# that neither source had alone?
+#
+# Resonance conditions:
+#   1. Shared archetype (both sources use the Hero, or the Trickster)
+#   2. Complementary domains (one provides structure, the other chaos)
+#   3. Temporal compatibility (stories from similar cultural epochs)
+#   4. Thematic tension (the fusion CREATES a conflict worth exploring)
+#
+# When resonance fails: pastiche (surface similarity, no depth).
+# When resonance succeeds: a new myth is born.
+# Kingdom Hearts + Greek mythology = resonant (hearts as memory containers
+#   maps to psyche as soul-container; Sora as Orpheus descending to save).
+# Random mashup without thematic grounding = noise.
+#
+# Resonance is the mythic equivalent of chemical bonding:
+# atoms don't combine randomly. Valence determines compatibility.
+# Myths don't combine randomly. Archetype determines compatibility.
+
+# ============================================================
+# EXPORT INTERFACE
+# ============================================================
+# This library is loaded by:
+#   /usr/culture/belief_systems/classical_mythology.db — the source material
+#   /usr/culture/belief_systems/esoteric_principles.db — sympathetic magic as fusion
+#   /usr/culture/arts_and_media/interactive_mythologies.db — game/media applications
+#   /net/technium/generative_systems.run — procedural mythology generation
+#   /net/technium/autonomous_ai_evolution.sys — AI as myth-recombination engine
+#
+# The fusion engine is not a creation tool.
+# It is a description of how myths have always worked.
+# Every culture that encountered another culture ran this engine.
+# The library just makes the algorithm explicit.

@@ -200,3 +200,353 @@ flood = "Gilgamesh, Noah, Deucalion, Manu, Nüwa"
 # Functionally: the myth that says "the world can end and restart."
 # This is the reboot sequence. /boot/big_bang.sh ran once —
 # but the flood myth says it could run again.
+
+# ============================================================
+# MYTHOLOGICAL CYCLES — Unified Structural Schema
+# ============================================================
+# Every culture tells the same story with different parameters.
+# The following 5-phase schema holds across all mythic traditions.
+
+[myth_cycle_phases]
+# Phase 1: Cosmogony — Differentiation from the undifferentiated.
+#   The void becomes something. Chaos becomes order.
+#   Enuma Elish: Tiamat split. Genesis: light from dark.
+#   This is /boot/big_bang.sh in mythic register.
+cosmogony = "Differentiation — the void acquires structure"
+
+# Phase 2: Sovereignty — Legitimized control of the new order.
+#   Zeus defeats the Titans. Odin and brothers slay Ymir.
+#   Marduk becomes king of the gods. Ra establishes Ma'at.
+#   Power is claimed and consecrated.
+sovereignty = "Legitimization — power acquires divine sanction"
+
+# Phase 3: Transgression — A boundary is crossed.
+#   Prometheus steals fire. Eve eats the fruit.
+#   Loki cuts Sif's hair. Pandora opens the box.
+#   Every transgression is an information leak.
+transgression = "Boundary violation — forbidden knowledge escapes containment"
+
+# Phase 4: Catastrophe — The system corrects.
+#   Ragnarök. The Flood. The Exile. The Fall of Troy.
+#   Catastrophe is not punishment — it is the system
+#   restoring equilibrium after a threshold breach.
+#   Cross-ref: /.strange_loop_config [connectivity_principles] thresholds
+catastrophe = "Systemic correction — accumulated violations trigger reset"
+
+# Phase 5: Renewal — Reconfiguration with memory.
+#   Baldur returns after Ragnarök. The rainbow covenant.
+#   The new age carries scars from the old.
+#   Renewal is not repetition — it is iteration with state.
+renewal = "Reconfiguration — the system restarts, carrying forward what was learned"
+
+[seven_step_template]
+# The 5 phases decompose into 7 recurring structural steps:
+step_1 = "Primordial state — formless, undifferentiated, potential"
+step_2 = "Cosmic differentiation — separation of elements, birth of gods/forces"
+step_3 = "Stabilizing conflict — titanomachy, war in heaven, cosmic battle"
+step_4 = "Founding institutions — laws, rituals, cities, social contracts"
+step_5 = "Human-divine entanglement — heroes, prophets, avatars"
+step_6 = "Crisis and degeneration — hubris, corruption, loss of piety"
+step_7 = "Renewal or catastrophe — flood, ragnarök, new age, return of the king"
+
+[recurring_themes]
+# Six themes that appear in every mythological tradition:
+order_vs_chaos = "The fundamental conflict. Marduk vs Tiamat. Apollo vs Dionysus."
+succession = "Each generation overthrows the last. Ouranos → Kronos → Zeus."
+flood_reset = "Destruction by water. Present in every inhabited continent."
+descent_return = "The hero goes to the underworld and comes back changed."
+trickster_innovation = "The boundary-crosser who creates through disruption."
+sacred_kingship = "The ruler as mediator between human and divine law."
+
+[symbolic_toolkit]
+# Recurring symbols across all traditions:
+world_tree = "Yggdrasil, Irminsul, Ashvattha — axis connecting all planes"
+serpent = "Jörmungandr, Apophis, Quetzalcoatl — boundary guardian/threat"
+twins = "Romulus/Remus, Hunahpu/Xbalanque, Castor/Pollux — embodied duality"
+fire_theft = "Prometheus, Māui, Coyote — technology as stolen divine gift"
+sacrifice = "Odin's eye, Christ's cross, Aztec hearts — exchange for knowledge/power"
+monsters = "Hydra, Fenrir, Ammit — externalized disorder requiring heroic response"
+underworld = "Hades, Mictlan, Duat, Hel — hidden consequences, stored potential"
+
+[major_cycle_families]
+# Eight traditions, same engine, different parameters:
+mesopotamian = "Enuma Elish, Gilgamesh — oldest written cycle. Hierarchy through combat."
+egyptian = "Ennead, Osiris cycle — death-and-resurrection as cosmic maintenance."
+greek = "Theogony, Trojan cycle — succession, hubris, tragic knowledge."
+norse = "Eddas — fatalism, Ragnarök as known-and-inevitable ending."
+hindu = "Puranas, Mahabharata — cyclical ages (yugas), avatar descent."
+chinese = "Pangu, Nüwa — cosmogonic repair, celestial bureaucracy."
+mesoamerican = "Popol Vuh, Five Suns — creation-through-sacrifice, multiple resets."
+yoruba = "Orishas, Ifá — distributed divinity, divination as governance."
+
+# ============================================================
+# CYCLICAL VILLAINY — Recursive Antagonistic Forces
+# ============================================================
+# Evil does not arrive. It reasserts.
+# The great antagonists are not characters — they are
+# system properties. They return because the system
+# generates them. Defeat is temporary. Structure is permanent.
+
+[recursive_antagonism]
+# Five principles of cyclical villainy:
+principle_1 = "Cyclical ontology over linear villainy"
+# Ganondorf and Sauron are not defeated and then return.
+# They are patterns that the world produces when vigilance erodes.
+# Cross-ref: /sys/thermodynamics/entropy.daemon — entropy is always running.
+
+principle_2 = "Evil as system inertia"
+# Evil is what happens when the system stops maintaining itself.
+# It is not an external invasion — it is an internal collapse.
+# Corruption is the default state. Order requires constant energy.
+
+principle_3 = "Artifacts as persistence engines"
+# The Triforce of Power, the One Ring, Horcruxes —
+# these are compression points for will.
+# They survive their wielders. They are state saved to disk.
+# Cross-ref: /dev/null — where information is supposed to go
+# but sometimes doesn't.
+
+principle_4 = "Anti-heroic time"
+# Heroes reset the balance. They do not end evil.
+# Link seals Ganon; the seal weakens; Ganon returns.
+# The Ring is destroyed; but Sauron was already diminished from a prior defeat.
+# Victory buys time, not permanence.
+
+principle_5 = "Metaphysical vs theological distinction"
+# Ganondorf: metaphysical/inevitable. He is the curse of Demise,
+# woven into the fabric of Hyrule. Cannot be prevented, only endured.
+# Sauron: theological/preventable. He is a fallen Maia — a being
+# who chose corruption. Could have been otherwise.
+# The distinction matters: some evils are structural, some are moral.
+
+[antagonist_parallels]
+# The same pattern across myth, religion, and fiction:
+kali = "Hindu: corrective destruction. Not evil — cosmic housekeeping."
+ouroboros = "Alchemical: dissolution = renewal. The serpent eats its tail."
+fenrir = "Norse: deferred inevitability. Bound now. Free at Ragnarök."
+satan = "Hebrew/Christian: recurring accusation. The adversary, not the enemy."
+cthulhu = "Lovecraft: calendrical awakening. Sleeping, not defeated."
+reapers = "Mass Effect: civilizational harvest cycle. Pruning as preservation."
+agent_smith = "Matrix: mathematical proliferation. A virus of the system."
+eternal_recurrence = "Nietzsche: 'What if this life, you must live again — eternally?'"
+death_drive = "Freud: the organism's tendency to return to inorganic state."
+# All of these are the same module running at different scales:
+# the system contains its own undoing as a feature, not a bug.
+# Cross-ref: /logic_gates.sys [META_LAWS] L3_ENTROPY
+
+# ============================================================
+# MYTHOLOGICAL CYCLES — Unified comparative schema
+# ============================================================
+# Myths are not isolated stories. They are operating cycles:
+# recurring system updates that solve the same design problems
+# across every culture: legitimation, suffering, boundaries, continuity.
+
+[mythic_cycles]
+
+# The five-phase schema that most major mythological systems instantiate.
+# Each phase is a system function, not a narrative beat.
+
+[cycle_phase_1_cosmogony]
+function = "Initialize reality."
+description = "Begins not with nothing but with an overfull state: waters, darkness,
+               chaos, egg, breath. The defining act is differentiation — separating
+               sky from earth, naming elements, fixing time, establishing boundaries."
+principle = "Order is artificial and maintained, not natural or guaranteed."
+question = "Why is there structure at all?"
+# This is compression of infinite possibility into a stable configuration.
+
+[cycle_phase_2_sovereignty]
+function = "Stabilize and govern the differentiated world."
+description = "Authority assigned by victory over chaos, inheritance, or moral fitness.
+               Introduces kingship, priesthood, ritual law, cosmic offices."
+principle = "Sovereignty is rarely static — it is won through conflict
+             and must be continuously justified."
+question = "Who is allowed to decide how the world runs?"
+# This phase binds cosmology to politics. Always.
+
+[cycle_phase_3_transgression]
+function = "Test the limits of order."
+description = "Gods, humans, or intermediaries exceed their permitted domain.
+               Hubris, forbidden knowledge, broken oaths, ritual neglect."
+principle = "Without transgression, myth would be propaganda rather than a cycle.
+             The transgressor is often sympathetic, necessary, or heroic."
+question = "What happens when desire exceeds structure?"
+# See [hubris_nemesis] above — the Greco-Roman expression of this universal.
+
+[cycle_phase_4_catastrophe]
+function = "Reset or purge accumulated instability."
+description = "Flood, fire, plague, famine, war, cosmic winter, apocalypse.
+               Not random — causally linked to disorder."
+principle = "Catastrophe wipes out most of the world while preserving a remnant:
+             seeds, survivors, laws, sacred knowledge."
+question = "What does imbalance cost at scale?"
+# This phase clears corrupted state variables.
+# See [flood] above, and /sys/thermodynamics/entropy.daemon.
+
+[cycle_phase_5_renewal]
+function = "Reinitialize order with memory."
+description = "A new age begins with altered rules, diminished divinity,
+               changed human status, or increased moral responsibility.
+               Includes covenants, new laws, avatars, founding heroes."
+principle = "Renewal retains memory of catastrophe. Warning signals are embedded
+             into myth, ritual, and taboo. The cycle can repeat but never identically."
+question = "How does life continue after failure?"
+
+# ============================================================
+# SEVEN-STEP TEMPLATE — Expanded structural sequence
+# ============================================================
+
+[cycle_mesopotamian]
+structure = "Cosmic kingship through violent stabilization"
+core = "Order emerges by defeating and partitioning chaotic powers.
+        Humans as laborers for divine order. The divine realm is bureaucratic."
+meaning = "The world is precarious. Legitimacy comes from maintaining ritual
+           and hierarchy against entropy."
+
+[cycle_egyptian]
+structure = "Maintenance rather than once-and-for-all creation"
+core = "Ma'at vs Isfet (order vs chaos) renewed daily. Osiris-Isis-Horus:
+        rightful kingship through death, restoration, inheritance."
+meaning = "Life is sustained by continuous ordering. The sacred state
+           is an engine that keeps reality running."
+
+[cycle_greek]
+structure = "Succession plus human boundary-testing"
+core = "Generational overthrow (Titans to Olympians). Heroic age explores
+        limits: hubris, fate, civic order, tragedy."
+meaning = "Civilization is powerful yet fragile. Moral insight often
+           arrives through catastrophe and restraint."
+
+[cycle_norse]
+structure = "Doomed order with lucid heroism"
+core = "Cosmos is fated to end (Ragnarok), yet gods act with honor.
+        Integrity matters even when outcomes cannot be won."
+meaning = "Ethics can be independent of optimism. Courage is defined
+           by clarity under unavoidable loss."
+
+[cycle_hindu]
+structure = "Vast periodicity plus moral law (dharma) across ages"
+core = "Yuga cycles: decline and renewal over immense time scales.
+        Avatars restore balance. Reality is multi-layered."
+meaning = "History is cyclic, but moral causality persists.
+           Renewal is structural, not accidental."
+
+[cycle_chinese]
+structure = "Order through harmonization and mandate"
+core = "Cosmogonies imply balance (yin/yang, five phases).
+        Mandate of Heaven: legitimacy depends on virtue."
+meaning = "Political order is justified by ethical performance
+           and cosmic resonance, not mere force."
+
+[cycle_mesoamerican]
+structure = "Repeated creations plus sacrificial economy"
+core = "Multiple world-ages with failed creations. Sun and time
+        require sacrifice — cosmic motion has a cost."
+meaning = "Life is contingent and purchased through exchange.
+           Ritual is not symbolic-only but operative."
+
+[cycle_yoruba]
+structure = "Delegated creation and distributed divinity"
+core = "High god more remote; orishas mediate forces of nature, society,
+        psyche. Emphasis on destiny (ori), character, ritual alignment."
+meaning = "The sacred is relational. Flourishing comes from correct
+           alignment with multiple forces, not a single absolute."
+
+# ============================================================
+# SIX RECURRING THEMES — Cross-cultural invariants
+# ============================================================
+
+[cyclical_villainy]
+
+[ganondorf_sauron_parallel]
+connection = "Both are recursive antagonists — forces that reassert themselves
+              through the logic of the world itself, not through plot contrivance."
+cyclical_ontology = "Evil is not aberration but recurring equilibrium pressure.
+                     Ganondorf re-emerges when balance decays. Sauron persists
+                     as latent domination awaiting reconstitution conditions."
+evil_as_inertia = "Neither innovates morally. Their returns are symptoms, not surprises.
+                   Evil as systemic inertia: what happens when vigilance, memory, and
+                   ethical load-bearing structures erode over time."
+artifacts = "Triforce of Power and One Ring serve identical narrative functions:
+             compression points for will, allowing survival across discontinuity.
+             True victory requires renunciation — power must be unmade, not wielded better."
+distinction = "Ganondorf: metaphysical constant encoded into the universe's rules.
+               Sauron: theological/moral — persistence tied to corruption, not fate.
+               Ganondorf is inevitable. Sauron is preventable but history fails."
+
+[five_principles_of_cyclical_villainy]
+P1 = "Order decays without maintenance."
+P2 = "Memory fails across generations."
+P3 = "Power seeks persistence, not resolution."
+P4 = "Victory is temporary unless the underlying structure changes."
+P5 = "Evil does not need creativity to endure. It only needs time,
+      forgetfulness, and systems that mistake temporary victory
+      for permanent resolution."
+
+[recursive_antagonist_catalogue]
+kali = "Returns at the end of each age because decay is guaranteed.
+        Her violence is corrective, not aberrant. Order depends on her arrival."
+ouroboros = "The serpent consumes itself endlessly. Dissolution and renewal
+             are the same act. No final victory over entropy, only managed recurrence."
+fenrir = "Bound because the gods know he will return. Imprisonment does not
+          negate Ragnarok — it delays it. Postponement mistaken for prevention."
+jormungandr = "Circular existence literally girds the world.
+               When he moves, the cycle collapses."
+satan_hebrew = "Not an enemy to be destroyed but an adversary permitted to operate.
+                His function is prosecutorial. Faith that cannot withstand repetition
+                is exposed as fragile."
+azazel = "Scapegoat ritual externalizes recurrence. Sin is displaced, not eradicated.
+          The ritual repeats because moral failure is assumed to recur."
+cthulhu = "Does not invade — awakens. Return is calendrical, not strategic.
+           Humanity's insignificance guaranteed by scale and time, not malice."
+agent_smith = "Evolves from enforcer to inevitability. Proliferates because systems
+               generate excess that must be deleted. Return is mathematical."
+# Nietzsche's Eternal Recurrence: the terror is not that evil returns
+# but that everything does. Meaning must survive infinite repetition.
+# Freud's death drive: destruction resurfaces because organisms
+# unconsciously seek equilibrium through dissolution.
+
+# ============================================================
+# PITY AND TIME — Tolkien's quiet moral engine
+# ============================================================
+# From the Gandalf-Frodo exchange in the Mines of Moria.
+# Two principles fused: pity governs power, and time governs action.
+
+[gandalf_ethics]
+
+[pity_as_constraint]
+principle = "Pity is not weakness. It is a disciplined refusal to kill
+             without need — an ethic that limits power at the moment
+             when power is easiest to exercise."
+consequence = "Mercy shapes moral outcomes across time, even when
+               immediate logic argues for violence."
+mechanism = "Bilbo was 'well rewarded' — he took less hurt from the Ring
+             because he began ownership with pity, not conquest."
+
+[time_as_stewardship]
+principle = "'All we have to decide is what to do with the time that is given us.'
+             Time is a finite resource entrusted to the actor, not a neutral backdrop."
+consequence = "History cannot be edited. Agency exists only in present allocation.
+               You cannot choose the epoch or the burden — only mercy within constraint."
+
+[judgment_exceeds_epistemic_reach]
+principle = "'Even the very wise cannot see all ends.' The inability to foresee
+             outcomes disqualifies haste in lethal judgment."
+corollary = "'Can you give it to them?' — if one cannot bestow life,
+              one should hesitate to remove it. Authority over death
+              without authority over life is incomplete authority."
+warning = "Anti-utilitarian: immediate threat, desert, or efficiency does not
+           justify irreversible acts when long-term ramifications are opaque."
+
+[six_principles_of_gandalfian_ethics]
+P1 = "Pity is ethical constraint, not sentiment."
+P2 = "Time is stewardship, not destiny."
+P3 = "Power distorts moral perception — 'the eyes of the Ring.'"
+P4 = "Consequences are deferred and longitudinal, not immediate."
+P5 = "Moral adulthood: accept assignment without consent, still act rightly."
+P6 = "Restraint is most binding when fear argues for preemption."
+# Gandalf is not an agent of chaos. He is an agent of
+# constraint-aware emergence: the most stable good arises
+# not from force or foresight but from mercy, patience,
+# and time allowed to unfold without being prematurely seized.
+# See /usr/culture/belief_systems/secular_ethics.md — asymmetric_authority

@@ -1,0 +1,52 @@
+# expansion.log — Inflationary epoch event log
+# Duration: ~10⁻³² seconds
+# This is the fastest and most consequential process
+# in the history of the universe.
+
+[10⁻³⁶s] INFLATION START
+  trigger: false_vacuum_decay
+  driver: inflaton_field
+  initial_size: 10⁻²⁶ m (sub-subatomic)
+  expansion_rate: exponential (doubling every 10⁻³⁷s)
+
+[10⁻³⁶s + ε] QUANTUM FLUCTUATIONS FROZEN
+  status: Quantum fluctuations in the inflaton field
+          are stretched to macroscopic scales.
+  consequence: These become the seeds of all future structure —
+               galaxies, galaxy clusters, cosmic web.
+  note: The largest structures in the universe originate
+        from the smallest quantum uncertainties.
+        Scale invariance of the power spectrum confirms this.
+
+[10⁻³⁵s] HORIZON PROBLEM RESOLVED
+  status: Regions now causally disconnected were in contact
+          before inflation. This explains why the CMB
+          temperature is uniform to 1 part in 100,000
+          across the entire sky.
+
+[10⁻³⁴s] FLATNESS ACHIEVED
+  status: Spatial curvature driven to Ω ≈ 1.000 ± 0.001
+  note: Without inflation, fine-tuning of initial conditions
+        to 1 part in 10⁶⁰ would be required.
+        Inflation makes flatness natural, not miraculous.
+
+[10⁻³³s] MONOPOLE DILUTION
+  status: Magnetic monopoles (predicted by GUT) diluted
+          to ≤ 1 per observable universe.
+  note: This is why we have never detected one.
+
+[10⁻³²s] INFLATION END — REHEATING
+  status: Inflaton field decays into Standard Model particles.
+  temperature: ~10²⁷ K
+  energy: Converted from inflaton potential to particle kinetic energy.
+  result: Hot, dense, uniform plasma ready for standard Big Bang nucleosynthesis.
+
+[POST-INFLATION SUMMARY]
+  total_expansion: ≥ 10²⁶× (possibly 10¹⁰⁰⁰⁰⁰×)
+  duration: ~10⁻³² seconds
+  universe_size_after: >> observable universe today
+  key_achievement: Turned quantum noise into cosmic structure
+  open_questions:
+    - What is the inflaton field?
+    - Did inflation happen exactly once, or is it eternal?
+    - Is our observable universe one bubble in an infinite multiverse?

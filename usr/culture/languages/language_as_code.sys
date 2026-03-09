@@ -1,0 +1,304 @@
+# language_as_code.sys
+# The isomorphism between natural language and computation
+#
+# Human language is not merely "like" code.
+# Language IS code — evolved over 100,000 years,
+# compiled by neural wetware, executed in social context.
+# Programming languages are not metaphors for speech;
+# they are speech, formalized beyond ambiguity.
+#
+# This file maps the structural equivalence between
+# linguistics and computation, from phoneme to program,
+# from naming to taxonomy, from grammar to automaton.
+
+# ============================================================
+# PARTS OF SPEECH — The instruction set of natural language
+# ============================================================
+# Every natural language decomposes utterances into
+# functional categories. These are not arbitrary labels —
+# they are role assignments in a computational pipeline.
+# Nine categories. Nine computational primitives.
+
+[LEXICAL_PRIMITIVES]
+
+NOUN        = Object | EntityClass
+# The thing itself. The data structure. The heap allocation.
+# "Dog" instantiates a class. "Justice" instantiates an abstraction.
+# Nouns are what the program operates ON.
+
+PRONOUN     = ReferencePointer
+# "He," "it," "this" — dereferenced at runtime by context.
+# A pronoun is a variable bound to an antecedent.
+# Dangling pronouns are dangling pointers: undefined behavior.
+
+VERB        = Function | Method
+# The operation. "Run," "calculate," "become."
+# Transitive verbs take arguments: eat(food).
+# Intransitive verbs are nullary: sleep().
+# Tense is execution timing — past (completed), present (running),
+# future (scheduled). See /sys/spacetime/time.conf for deeper treatment.
+
+ADJECTIVE   = Property | Modifier
+# Constrains the noun. "Red ball" = ball.color = RED.
+# Adjectives narrow the type. "Large prime number" is a filter chain:
+# number | where(prime) | where(large).
+
+ADVERB      = Decorator | FunctionModifier
+# Wraps the verb. "Run quickly" = @quickly(run).
+# Decorators do not change what a function does —
+# they change HOW it does it. Adverbs are the same.
+# "Not" is the most powerful adverb: it inverts the boolean.
+# See /logic_gates.sys [GATES] — NOT(1) = 0.
+
+PREPOSITION = RelationalOperator
+# "In," "on," "between," "through" — spatial and logical relations.
+# Prepositions define edges in a graph.
+# "The book ON the table" = edge(book, table, relation=ON).
+# Without prepositions, nouns are isolated nodes. No topology.
+
+CONJUNCTION = LogicalOperator
+# "And" = AND. "Or" = OR. "But" = AND(NOT(expected)).
+# "If...then" = conditional branch.
+# "Neither...nor" = NOR — another universal gate.
+# Natural language discovered Boolean algebra millennia
+# before Boole formalized it. See /logic_gates.sys [COMPLETENESS].
+
+INTERJECTION = Event | Exception
+# "Ouch!" = throw PainException().
+# "Wow!" = emit(event.surprise).
+# Interjections interrupt normal control flow.
+# They are the interrupt handlers of conversation —
+# asynchronous signals that preempt the current thread.
+
+ARTICLE     = TypeSpecifier | ScopeResolver
+# "A dog" = any Dog (generic, unbound).
+# "The dog" = this specific Dog (bound reference).
+# Articles resolve scope: definite vs. indefinite,
+# specific vs. generic. They are the `const` vs. `let` of speech.
+
+# ============================================================
+# LINGUISTIC LAYERS — The protocol stack of language
+# ============================================================
+# Language is not flat. It is a seven-layer stack,
+# each level abstracting the one below it.
+# This mirrors the OSI model (/net/protocols/).
+# It mirrors the compiler pipeline.
+# It mirrors the nervous system.
+# Coincidence is not the right word.
+
+[LAYER_STACK]
+
+L0_PHONOLOGY    = Bitstream
+# The raw signal. Sound waves. Vocal frequency modulation.
+# 44 phonemes in English — a modest alphabet.
+# Mandarin uses tone as a fifth dimension. Clicks in Xhosa.
+# The physical encoding is arbitrary; the combinatorial
+# structure is universal. See L5_CONTRAST in /logic_gates.sys.
+
+L1_MORPHOLOGY   = Tokenization
+# Phonemes combine into morphemes — the smallest meaningful units.
+# "un-break-able" = [NEG, ROOT, ADJ_SUFFIX] — three tokens.
+# The lexer does not understand meaning. It chunks.
+# Morphological rules are the regular expressions of language.
+
+L2_SYNTAX       = AbstractSyntaxTree
+# Tokens compose into structures governed by grammar rules.
+# Subject-Verb-Object is one tree shape. SOV is another.
+# The parser does not understand semantics. It validates structure.
+# A syntactically correct sentence can be semantically null:
+# "Colorless green ideas sleep furiously." — Chomsky, 1957.
+
+L3_SEMANTICS    = RuntimeEvaluation
+# The tree acquires meaning. Types are checked. References resolve.
+# "The bank" — financial institution or river edge?
+# Disambiguation is type inference under ambiguity.
+# The semantic layer is where language COMPUTES.
+
+L4_PRAGMATICS   = ExecutionContext
+# Meaning depends on who speaks, to whom, when, where, why.
+# "Can you pass the salt?" is not a capability query.
+# Pragmatics is the runtime environment: env vars, user permissions,
+# session state. The same code behaves differently in production
+# than in test. The same sentence means different things at a funeral
+# than at a party. Context is not decoration — it is computation.
+
+L5_DISCOURSE    = ModuleLinking
+# Sentences combine into paragraphs, arguments, narratives.
+# Anaphora resolution across sentences = cross-module symbol binding.
+# Coherence relations (cause, contrast, elaboration) are import statements.
+# A discourse is a linked program. A monologue is a single binary.
+# A dialogue is a client-server exchange.
+
+L6_SEMIOTICS    = IOAdapter
+# Signs, symbols, gestures, images — the interface layer.
+# Language meets the world here. Words point to things.
+# The map-territory distinction (Korzybski, 1933) is the
+# fundamental I/O problem: the representation is not the thing.
+# See L2_PERCEPTION in /logic_gates.sys.
+
+# ============================================================
+# STRUCTURAL ISOMORPHISM — The nesting hierarchy
+# ============================================================
+# The containment hierarchy of linguistics maps exactly
+# to the containment hierarchy of programs.
+# This is not analogy. It is homomorphism.
+
+[CONTAINMENT_MAP]
+
+# Linguistic Unit        Computational Unit
+# ───────────────        ──────────────────
+# Phoneme            ↔   Bit
+# Morpheme           ↔   Lexeme / Token
+# Word               ↔   Identifier
+# Phrase             ↔   Expression
+# Clause             ↔   Statement
+# Sentence           ↔   Function
+# Paragraph          ↔   Module
+# Text               ↔   Program
+
+# Each level is composed of units from the level below.
+# Each level introduces constraints absent from the level below.
+# A bit has no meaning. A token has type. An expression has value.
+# A statement has effect. A function has contract.
+# Emergence at every boundary. See L4_RECURSION in /logic_gates.sys.
+
+# ============================================================
+# NOMENCLATURE — Naming as the first act of computation
+# ============================================================
+# To name a thing is to classify it. To classify is to compute.
+# Onomastics (the study of proper names) is taxonomy's twin.
+# Adam named the animals. Linnaeus named them again, in Latin.
+# Both were building a filesystem.
+
+[NAMING_SYSTEMS]
+
+folk_taxonomy:
+    UNIQUE_BEGINNER    = "living thing"        # / (root)
+    LIFE_FORM          = "tree," "bird," "fish" # /kingdom/
+    GENERIC_NAME       = "oak," "robin," "trout" # /genus/ — most psychologically salient
+    SPECIFIC           = "red oak," "European robin" # /species/
+    VARIETAL           = "pin oak," "winter robin"   # /subspecies/
+
+# The generic level is where humans think. Not too broad,
+# not too narrow. "Oak" is useful. "Plant" is vague.
+# "Quercus rubra" is precise but requires training.
+# Good variable names live at the generic level too.
+# "data" is useless. "userData" is vague. "customerOrderHistory" works.
+
+biological_nomenclature:
+    codes = 5   # Zoological, Botanical, Cultivated Plants, Prokaryotes, Viruses
+    language = Latin   # Dead language = no semantic drift. Frozen namespace.
+    # Binomial naming: Genus + species = module.function
+    # Homo.sapiens = organism.thinking_variant
+    # The entire system is a hierarchical namespace,
+    # governed by priority rules (first valid publication wins).
+    # Git blame for biology.
+
+# Naming is not post-hoc labeling. Naming is ontological commitment.
+# When you name a variable, you declare what it IS.
+# When Linnaeus named Homo sapiens, he declared what WE are.
+# The name constrains all subsequent reasoning about the thing.
+# See /usr/culture/belief_systems/ — every religion names God differently,
+# and the name shapes the theology.
+
+# ============================================================
+# CHOMSKY HIERARCHY — The grammar of grammars
+# ============================================================
+# Four types of formal grammar, four classes of automaton.
+# Each level strictly contains the one below it.
+# Chomsky (1956) proved this hierarchy is exhaustive:
+# there is no Type 5. There is no grammar more powerful
+# than a Turing machine. (And there are things
+# even Turing machines cannot decide — see /logic_gates.sys [halting_problem].)
+
+[FORMAL_GRAMMARS]
+
+TYPE_3_REGULAR:
+    grammar     = "A → aB | a"                  # right-linear productions
+    automaton   = FiniteAutomaton                # no memory, just state
+    recognizes  = "regular languages"            # regex, token patterns
+    artifact    = "filename tokens, CLI flags"   # the simplest parseable units
+    # A regex can match an email address.
+    # A regex cannot match nested parentheses.
+    # Know your level. See L1_MORPHOLOGY.
+
+TYPE_2_CONTEXT_FREE:
+    grammar     = "A → α"                       # single nonterminal → any string
+    automaton   = PushdownAutomaton              # memory = one stack
+    recognizes  = "context-free languages"       # nested structures, XML, JSON
+    artifact    = "directory hierarchies, ASTs"  # the shape of this filesystem
+    # A PDA can match nested parentheses.
+    # A PDA cannot enforce "declare before use."
+    # Most programming language syntax lives here. See L2_SYNTAX.
+
+TYPE_1_CONTEXT_SENSITIVE:
+    grammar     = "αAβ → αγβ"                   # production depends on neighbors
+    automaton   = LinearBoundedAutomaton         # memory proportional to input
+    recognizes  = "context-sensitive languages"  # cross-reference constraints
+    artifact    = "cross-file invariants, type systems"
+    # Type checking is context-sensitive: the meaning of "+"
+    # depends on whether its operands are numbers or strings.
+    # Natural language is (at least) context-sensitive.
+    # "Time flies like an arrow" — five valid parses. See L3_SEMANTICS.
+
+TYPE_0_RECURSIVELY_ENUMERABLE:
+    grammar     = "α → β"                       # any production, no restrictions
+    automaton   = TuringMachine                  # unbounded memory
+    recognizes  = "recursively enumerable languages"
+    artifact    = "build scripts, make targets, CI pipelines"
+    # A Turing machine can simulate any computation.
+    # But it cannot guarantee termination.
+    # Build scripts that always halt are not Turing-complete.
+    # Build scripts that sometimes hang are.
+
+# ============================================================
+# THE ENGINEERING CASCADE — From theory to ecology
+# ============================================================
+# Formal language theory does not stay in textbooks.
+# It descends through six layers into lived infrastructure.
+
+[THEORY_TO_ECOLOGY]
+
+THEORY       → "Chomsky hierarchy, automata, computability"
+TOOLS        → "lex, yacc, ANTLR, tree-sitter — theory compiled into utilities"
+CONVENTIONS  → "PEP 8, RFC 2119, semantic versioning — shared parsing contracts"
+PROTOCOLS    → "HTTP, gRPC, GraphQL — formalized conversation grammars"
+AUTOMATION   → "CI/CD, linters, formatters — grammars enforced without humans"
+ECOLOGY      → "npm, PyPI, crates.io — ecosystems of mutually-parsing organisms"
+
+# Each layer depends on the one above it.
+# Each layer was inconceivable before the one above it stabilized.
+# This is the same cascade as the linguistic stack:
+# phonology must stabilize before morphology can emerge.
+# Theory must stabilize before tools can be built.
+# See /sys/evolution/emergence.sys (when it exists).
+
+# ============================================================
+# THE DEEP ISOMORPHISM — Why this works
+# ============================================================
+# Language and code are not "similar."
+# They are two implementations of the same specification.
+#
+# Both evolved under the same constraint:
+# finite agents must coordinate using sequential symbols
+# transmitted over a noisy channel with limited bandwidth.
+#
+# The Shannon limit (/net/protocols/) applies to English
+# as much as to TCP. Redundancy exists in natural language
+# for the same reason it exists in error-correcting codes:
+# the channel is lossy. "Can you hear me?" is a health check.
+#
+# Programming languages are natural languages
+# with ambiguity removed and audience narrowed to machines.
+# Natural languages are programming languages
+# with ambiguity preserved and audience expanded to humans.
+#
+# The trade-off: precision vs. expressiveness.
+# Poetry lives at one end. Assembly lives at the other.
+# Most useful work happens in the middle.
+#
+# See /logic_gates.sys [META_LAWS] — L5_CONTRAST:
+# "Identity requires difference."
+# Language and code define each other by their differences.
+# Remove the differences and you have pure information (/).
+# Remove the similarities and you have nothing at all.

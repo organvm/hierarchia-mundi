@@ -1,0 +1,67 @@
+# proteins.lib
+# The molecular machines of life.
+# 20 amino acids → infinite functional diversity.
+# Every enzyme, every receptor, every antibody,
+# every structural filament: proteins.
+
+# ============================================================
+# AMINO ACIDS — The 20-letter alphabet of life
+# ============================================================
+# Each amino acid: NH₂-CHR-COOH (amine + side chain + carboxyl)
+# The side chain R determines the character.
+
+[amino_acids]
+# Nonpolar (hydrophobic — hide inside the protein)
+glycine     = { code: "G", property: "smallest, flexible" }
+alanine     = { code: "A", property: "simple hydrophobic" }
+valine      = { code: "V", property: "branched, bulky" }
+leucine     = { code: "L", property: "branched, common" }
+isoleucine  = { code: "I", property: "branched, hydrophobic core" }
+proline     = { code: "P", property: "rigid, breaks helices" }
+phenylalanine = { code: "F", property: "aromatic ring" }
+tryptophan  = { code: "W", property: "largest, fluorescent" }
+methionine  = { code: "M", property: "start codon, sulfur-containing" }
+
+# Polar (hydrophilic — on the surface, interact with water)
+serine      = { code: "S", property: "phosphorylation site" }
+threonine   = { code: "T", property: "phosphorylation site" }
+cysteine    = { code: "C", property: "disulfide bonds, redox" }
+tyrosine    = { code: "Y", property: "phosphorylation, aromatic" }
+asparagine  = { code: "N", property: "glycosylation site" }
+glutamine   = { code: "Q", property: "nitrogen metabolism" }
+
+# Charged (drive electrostatic interactions)
+aspartate   = { code: "D", property: "negative charge" }
+glutamate   = { code: "E", property: "negative charge, neurotransmitter" }
+lysine      = { code: "K", property: "positive charge" }
+arginine    = { code: "R", property: "positive charge, DNA binding" }
+histidine   = { code: "H", property: "pH-sensitive charge, catalysis" }
+
+# ============================================================
+# PROTEIN FOLDING — The second genetic code
+# ============================================================
+# Primary:    Amino acid sequence (1D string)
+# Secondary:  α-helices and β-sheets (local patterns)
+# Tertiary:   3D fold of entire chain (determined by side chain interactions)
+# Quaternary: Multi-chain assemblies (hemoglobin = 4 subunits)
+#
+# Levinthal's paradox: A 100-residue protein has ~3^100 possible
+# conformations. Random search would take longer than the age of
+# the universe. Yet proteins fold in milliseconds.
+#
+# The solution: the energy landscape is funneled.
+# Proteins don't search — they roll downhill.
+# AlphaFold (2020) solved the prediction problem computationally.
+# The folding problem is one of biology's greatest victories.
+
+# ============================================================
+# ENZYMES — Biological catalysts
+# ============================================================
+# Enzymes accelerate reactions by factors of 10⁶ to 10¹⁷.
+# Without them, metabolism would take millions of years per step.
+# Life is impossible without catalysis.
+#
+# lock_and_key → induced_fit (updated model)
+# Active site shape determines substrate specificity.
+# Allosteric regulation: shape changes propagate through structure.
+# This is how cells compute: protein conformational logic gates.

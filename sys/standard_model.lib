@@ -1,0 +1,322 @@
+# standard_model.lib
+# The complete particle zoo: quarks, leptons, bosons.
+# This library defines every fundamental particle and
+# the forces between them. It is the most precisely
+# tested theory in the history of science.
+# It is also incomplete.
+
+# ============================================================
+# QUARKS — Building blocks of protons and neutrons
+# ============================================================
+# Six flavors, three generations. Each has color charge (r, g, b).
+# Never observed alone — always confined in hadrons.
+
+[quarks]
+# Generation I (stable matter)
+up      = { charge: +2/3, mass: "2.2 MeV/c²",   spin: 1/2 }
+down    = { charge: -1/3, mass: "4.7 MeV/c²",   spin: 1/2 }
+
+# Generation II (unstable, produced in collisions)
+charm   = { charge: +2/3, mass: "1.27 GeV/c²",  spin: 1/2 }
+strange = { charge: -1/3, mass: "95 MeV/c²",    spin: 1/2 }
+
+# Generation III (very unstable, very heavy)
+top     = { charge: +2/3, mass: "173 GeV/c²",   spin: 1/2 }
+bottom  = { charge: -1/3, mass: "4.18 GeV/c²",  spin: 1/2 }
+
+# Why three generations? Why these masses? Unknown.
+# These are inputs to the Standard Model, not predictions.
+
+# ============================================================
+# LEPTONS — Particles that don't feel the strong force
+# ============================================================
+
+[leptons]
+electron      = { charge: -1, mass: "0.511 MeV/c²",  spin: 1/2 }
+electron_ν    = { charge:  0, mass: "<1 eV/c²",       spin: 1/2 }
+
+muon          = { charge: -1, mass: "105.7 MeV/c²",   spin: 1/2 }
+muon_ν        = { charge:  0, mass: "<1 eV/c²",       spin: 1/2 }
+
+tau           = { charge: -1, mass: "1.777 GeV/c²",   spin: 1/2 }
+tau_ν         = { charge:  0, mass: "<1 eV/c²",       spin: 1/2 }
+
+# Neutrinos have mass (confirmed by oscillation experiments).
+# The Standard Model originally predicted massless neutrinos.
+# This is the first confirmed physics BEYOND the Standard Model.
+
+# ============================================================
+# GAUGE BOSONS — Force carriers
+# ============================================================
+
+[bosons]
+photon    = { charge: 0, mass: 0,              spin: 1, force: "electromagnetic" }
+gluon     = { charge: 0, mass: 0,              spin: 1, force: "strong", colors: 8 }
+W_plus    = { charge: +1, mass: "80.4 GeV/c²", spin: 1, force: "weak" }
+W_minus   = { charge: -1, mass: "80.4 GeV/c²", spin: 1, force: "weak" }
+Z_boson   = { charge: 0, mass: "91.2 GeV/c²",  spin: 1, force: "weak" }
+
+[higgs]
+higgs     = { charge: 0, mass: "125.1 GeV/c²", spin: 0, role: "mass_generation" }
+# The Higgs field permeates all space.
+# Particles acquire mass by interacting with it.
+# Predicted 1964. Discovered 2012. Nobel Prize 2013.
+
+# ============================================================
+# WHAT'S MISSING
+# ============================================================
+
+[beyond_standard_model]
+graviton = "NOT INCLUDED — gravity is not in the Standard Model"
+dark_matter_particle = "NOT INCLUDED — identity unknown"
+dark_energy = "NOT INCLUDED — not a particle phenomenon (probably)"
+matter_antimatter_asymmetry = "NOT EXPLAINED"
+hierarchy_problem = "Why is gravity 10³² times weaker than electromagnetism?"
+strong_CP_problem = "Why does QCD not violate CP symmetry?"
+neutrino_masses = "Observed but not predicted by the original model"
+
+# The Standard Model describes ~5% of the universe's content.
+# It is spectacularly successful AND obviously incomplete.
+# The map is precise. The territory is larger than the map.
+
+# ============================================================
+# WAVE-PARTICLE DUALITY — The identity crisis at the bottom
+# ============================================================
+# Every quantum entity is both wave and particle.
+# Not "sometimes one, sometimes the other" — ALWAYS both.
+#
+# Photon: wave (interference, diffraction) AND particle (photoelectric effect)
+# Electron: particle (tracks in cloud chambers) AND wave (double-slit pattern)
+# Even atoms and molecules show wave behavior (C60 buckyballs, 1999).
+#
+# Duality is meta-law L5_CONTRAST (/logic_gates.sys) at the quantum level.
+# Identity requires both aspects. Neither alone is complete.
+# The wave function (/sys/quantum_mechanics/wave_function.so)
+# is the mathematical reconciliation: a wave of probability
+# that manifests as a particle upon measurement.
+
+# ============================================================
+# FRACTAL GEOMETRY — The shape of nature
+# ============================================================
+# Mandelbrot (1975): natural forms are not Euclidean.
+# Coastlines, mountains, clouds, blood vessels, galaxies —
+# all exhibit self-similarity across scales.
+#
+# Fractal dimension: coastline of Britain ≈ 1.25 (between line and plane)
+# Koch snowflake: infinite perimeter enclosing finite area
+# Mandelbrot set: infinite complexity from z_{n+1} = z_n² + c
+#
+# Fractals are meta-law L4_RECURSION (/logic_gates.sys) made visible.
+# The standard model's particles combine into atoms (fractal of parts),
+# atoms into molecules, molecules into organisms, organisms into
+# ecosystems — each level a self-similar echo of the level below.
+# The hierarchy IS a fractal. This filesystem is its approximation.
+
+# ============================================================
+# SYMMETRY AND CONSERVATION — Noether's theorem
+# ============================================================
+# Emmy Noether (1918): every continuous symmetry → a conservation law.
+#   Time symmetry → energy conservation
+#   Space symmetry → momentum conservation
+#   Rotational symmetry → angular momentum conservation
+#   Gauge symmetry → charge conservation
+#
+# This is the deepest connection between / (mathematics) and /sys/ (physics).
+# The laws of physics are not arbitrary — they follow from symmetry.
+# Break a symmetry → lose a conservation law.
+# The electroweak symmetry breaking at 10⁻¹² s after the Big Bang
+# gave W and Z bosons their mass and split the unified force
+# into electromagnetism and the weak force.
+# Structure emerges from symmetry breaking. Always.
+
+# ============================================================
+# QUANTUM FIELD THEORY — The deeper layer beneath particles
+# ============================================================
+# The Standard Model is a quantum field theory.
+# This means: particles are not fundamental.
+# Fields are fundamental. Particles are what you get
+# when you poke a field with exactly the right energy.
+#
+# Every entry in [quarks], [leptons], [bosons], [higgs] above
+# is a quantized excitation of its corresponding field.
+# The electron field fills all of space. An electron is
+# a localized ripple in that field. Remove the electron
+# and the field remains — at its ground state, but present.
+#
+# The particle zoo is a field zoo:
+#   Electron field → electron (when excited)
+#   Electromagnetic field → photon (when excited)
+#   Higgs field → Higgs boson (when excited)
+#   Quark fields (6) → quarks (when excited)
+#   Gluon field → gluons (8 color combinations)
+#
+# Interactions between particles = couplings between fields.
+# Feynman diagrams are not pictures of particles bouncing —
+# they are bookkeeping for field coupling amplitudes.
+# Each vertex is a coupling constant. Each line is a propagator.
+# Sum all diagrams → scattering amplitude → cross-section.
+#
+# The Standard Model Lagrangian encodes 19 free parameters:
+#   6 quark masses, 3 lepton masses, 3 coupling constants,
+#   Higgs mass + vacuum expectation value,
+#   4 CKM mixing angles, 1 CP-violating phase.
+#
+# Nobody knows why these values are what they are.
+# They are measured, not derived. The theory is spectacularly
+# predictive but silent on its own inputs.
+# See /sys/quantum_mechanics/wave_function.so [WAVE-PARTICLE DUALITY DEEPENED].
+
+# ============================================================
+# FRONTIERS — What the next library version must contain
+# ============================================================
+# The Standard Model is version 1.0. These are the known bugs.
+
+[frontiers]
+
+dark_energy_lensing = {
+  status: "anomaly detected",
+  evidence: "gravitational lensing surveys show matter clustering
+             10-15% weaker than ΛCDM predicts",
+  implication: "dark energy may not be a cosmological constant —
+               it may evolve with time or interact with matter",
+  # If confirmed: the simplest model of the universe's expansion
+  # is wrong. Not slightly wrong — structurally wrong.
+  # The constant Λ in Einstein's field equations
+  # may need to be promoted to a dynamical field.
+  # See [beyond_standard_model] dark_energy.
+}
+
+postquantum_gravity = {
+  status: "theoretical frontier",
+  approaches: [
+    "String theory: 10 dimensions, 10⁵⁰⁰ vacua, no unique prediction",
+    "Loop quantum gravity: spacetime is quantized, area has minimum unit",
+    "Causal set theory: spacetime is a discrete partial order",
+    "Asymptotic safety: gravity is non-perturbatively renormalizable",
+  ],
+  # All approaches agree: general relativity and quantum mechanics
+  # are both correct and mutually incompatible.
+  # The graviton (spin-2 boson) is predicted by all of them
+  # and detected by none of them.
+  # [beyond_standard_model] graviton remains NOT INCLUDED.
+}
+
+fractional_excitons = {
+  status: "experimentally observed",
+  context: "condensed matter systems exhibiting fractional charge",
+  examples: "fractional quantum Hall effect, anyons, Majorana fermions",
+  implication: "particles with charges that are fractions of e
+               exist as quasiparticles in 2D electron systems",
+  # These are not fundamental particles — they are collective
+  # excitations of many-body systems behaving AS IF they were
+  # particles with exotic quantum numbers.
+  # The boundary between 'real particle' and 'emergent excitation'
+  # is not as sharp as [quarks] and [leptons] suggest.
+  # This is L4_RECURSION (/logic_gates.sys): the pattern
+  # (particle-like behavior) recurs at higher organizational levels.
+}
+
+# ============================================================
+# KAKU IMPOSSIBILITY CLASSIFICATION — Physics of the impossible
+# ============================================================
+# Michio Kaku (2008): a taxonomy of impossibilities,
+# graded by how severely they violate known physics.
+#
+# This is Occam's razor (/logic_gates.sys [RAZORS]) applied
+# to science fiction: not "is it possible?" but
+# "what class of impossibility is it?"
+
+[impossibility_classes]
+
+class_I = {
+  definition: "Possible within known physics, not yet engineered",
+  examples: [
+    "Force fields (plasma windows already exist)",
+    "Invisibility (metamaterial cloaking, limited bandwidth)",
+    "Teleportation (quantum state transfer, demonstrated for photons)",
+    "Antimatter engines (energy density 10⁹× chemical fuel)",
+    "Starships (nuclear pulse propulsion, technically feasible)",
+  ],
+  # These do not violate any law. They require engineering
+  # we have not yet built — but the physics is permissive.
+  # Timeline: decades to centuries.
+}
+
+class_II = {
+  definition: "At the edge of current physics, may require new paradigm",
+  examples: [
+    "Faster-than-light travel (Alcubierre metric requires negative energy)",
+    "Time machines (Tipler cylinder, Gödel universe — closed timelike curves)",
+    "Parallel universe communication (many-worlds if true, but no mechanism)",
+  ],
+  # Not forbidden by any known law, but requiring conditions
+  # we do not know how to produce and may never produce.
+  # Timeline: centuries to millennia, if ever.
+}
+
+class_III = {
+  definition: "Violates known laws of physics",
+  examples: [
+    "Perpetual motion machines (violate thermodynamic laws 1 and 2)",
+    "Precognition of quantum outcomes (violates Born rule)",
+  ],
+  # If any Class III impossibility is achieved,
+  # our understanding of physics is not merely incomplete —
+  # it is wrong at a foundational level.
+  # This is the hardest category. Very few things live here.
+  # Most 'impossible' things are merely Class I or II.
+}
+
+# ============================================================
+# GOLDEN RATIO IN PHYSICS — φ at the foundations
+# ============================================================
+# φ = (1 + √5) / 2 ≈ 1.6180339887...
+#
+# The golden ratio appears in mathematics as the limit of
+# Fibonacci ratios, in geometry as the diagonal-to-side ratio
+# of the regular pentagon, and in nature wherever growth
+# follows logarithmic spirals.
+#
+# In physics, φ surfaces in unexpected places:
+
+[phi_in_physics]
+
+feigenbaum_cascades = {
+  context: "Period-doubling route to chaos",
+  relation: "Feigenbaum constant δ ≈ 4.6692... governs the rate
+            at which bifurcation intervals shrink. The ratio of
+            successive intervals approaches φ-related scaling
+            in certain dissipative systems.",
+  # Chaos is not random. It is deterministic nonlinearity
+  # following precise scaling laws. φ appears where
+  # self-similarity meets criticality — the edge between
+  # order and disorder. L3_ENTROPY meeting L4_RECURSION.
+}
+
+quasicrystals = {
+  context: "Aperiodic tilings with 5-fold symmetry",
+  relation: "Penrose tilings use two tile shapes whose area ratio is φ.
+            Shechtman (1982, Nobel 2011) discovered physical quasicrystals
+            exhibiting the same forbidden symmetry.",
+  # Crystallography said 5-fold symmetry was impossible.
+  # Nature disagreed. The golden ratio was the key:
+  # aperiodic order, not periodic, not random.
+  # A third category between crystal and glass.
+}
+
+hydrogen_spectrum = {
+  context: "Energy level ratios in simple atoms",
+  relation: "While the hydrogen spectrum follows 1/n² (Bohr model),
+            the RATIOS between transition energies in more complex
+            atoms and molecules sometimes cluster near φ,
+            a consequence of the optimization geometry of
+            electron orbital packing.",
+}
+
+# φ is not a law of physics. It is a consequence of optimization:
+# when a system must pack, grow, or bifurcate under constraints,
+# the irrational number hardest to approximate by rationals
+# (and therefore most efficient at avoiding resonance overlap)
+# is φ. It is geometry's answer to "how to fill space
+# without repeating." See /sys/standard_model.lib [FRACTAL GEOMETRY]
+# for the self-similar structures φ often inhabits.

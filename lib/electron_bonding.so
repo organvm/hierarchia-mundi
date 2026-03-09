@@ -1,0 +1,82 @@
+# electron_bonding.so
+# Shared object for molecular interaction.
+# Chemistry is electrons playing musical chairs.
+# This library defines how atoms combine into molecules —
+# the combinatory rules that make matter interesting.
+
+# ============================================================
+# BOND TYPES — How atoms share electrons
+# ============================================================
+
+[ionic_bond]
+# Electron transfer: one atom gives, another takes.
+# Na + Cl → Na⁺ + Cl⁻ → NaCl (table salt)
+mechanism = "electron_transfer"
+strength = "moderate (400-4000 kJ/mol)"
+properties = ["crystalline", "high_melting_point", "conducts_when_dissolved"]
+example = "NaCl — the molecule that makes food worth eating"
+
+[covalent_bond]
+# Electron sharing: atoms share pairs of electrons.
+# This is how organic chemistry works.
+mechanism = "electron_sharing"
+strength = "strong (150-1100 kJ/mol)"
+subtypes = ["single", "double", "triple"]
+# C-C single: 347 kJ/mol (backbone of organic molecules)
+# C=C double: 614 kJ/mol (reactive sites)
+# C≡C triple: 839 kJ/mol (acetylene — cuts through steel)
+# N≡N triple: 945 kJ/mol (why nitrogen gas is so stable)
+polar = "when electronegativity differs (e.g., O-H in water)"
+
+[metallic_bond]
+# Delocalized electron sea shared among metal cations.
+# This is why metals conduct electricity and heat.
+mechanism = "electron_delocalization"
+properties = ["malleable", "ductile", "conductive", "lustrous"]
+
+[hydrogen_bond]
+# Weak but crucial. The reason water is liquid at room temperature.
+# The reason DNA has a double helix.
+# The reason proteins fold into functional shapes.
+mechanism = "partial_charge_attraction"
+strength = "weak (5-30 kJ/mol) — but collectively powerful"
+critical_for = ["water_properties", "DNA_base_pairing", "protein_folding"]
+# Without hydrogen bonds, life as we know it is impossible.
+
+[van_der_waals]
+# Weakest intermolecular force. Temporary dipoles.
+# How geckos walk on walls. How graphite layers slide.
+mechanism = "induced_dipole"
+strength = "very weak (0.4-4 kJ/mol)"
+example = "Gecko setae exploit this to climb glass"
+
+# ============================================================
+# THE OCTET RULE (and its violations)
+# ============================================================
+# Atoms "want" 8 electrons in their outer shell.
+# This drives all chemical bonding.
+#
+# Exceptions:
+#   H and He: satisfied with 2 (duet rule)
+#   B: often has only 6 (electron deficient)
+#   P, S: can expand beyond 8 (d-orbital participation)
+#   Transition metals: 18-electron rule instead
+#
+# The octet rule is an approximation of quantum mechanics.
+# When the approximation fails, go back to /sys/quantum_mechanics/.
+
+# ============================================================
+# MOLECULAR GEOMETRY — VSEPR Theory
+# ============================================================
+# Electron pairs repel each other and arrange to minimize repulsion.
+# This determines the 3D shape of every molecule.
+#
+# 2 pairs → linear (180°)        — CO₂
+# 3 pairs → trigonal planar (120°) — BF₃
+# 4 pairs → tetrahedral (109.5°)  — CH₄
+# 5 pairs → trigonal bipyramidal  — PCl₅
+# 6 pairs → octahedral (90°)     — SF₆
+#
+# Shape determines function. Function determines biology.
+# The 109.5° angle of carbon's bonds is why proteins fold
+# the way they do. Change the angle, change the universe.
