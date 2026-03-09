@@ -1,0 +1,75 @@
+#!/usr/bin/env bash
+# entropy.daemon
+# Background process constantly degrading energy.
+#
+# The Second Law of Thermodynamics is not a suggestion.
+# It is the arrow of time itself. This daemon runs from
+# the moment the universe boots until heat death.
+# It cannot be killed. It cannot be paused.
+# It is the most patient process in existence.
+
+set -euo pipefail
+
+# ============================================================
+# THE FOUR LAWS
+# ============================================================
+
+# Zeroth Law: If A is in thermal equilibrium with B, and B
+# with C, then A is with C. (Temperature is transitive.)
+
+# First Law: Energy is conserved. ΔU = Q - W.
+# You cannot win — you can only break even.
+
+# Second Law: Entropy of an isolated system never decreases.
+# S_universe ≥ 0 for all processes.
+# You cannot break even either — except at absolute zero.
+
+# Third Law: Absolute zero (0 K) is unreachable in finite steps.
+# You cannot even quit the game.
+
+# ============================================================
+# THE DAEMON
+# ============================================================
+
+CURRENT_ENTROPY="low"  # Post-Big-Bang: extraordinarily low entropy state
+TARGET_ENTROPY="maximum"  # Heat death: uniform temperature, no gradients
+
+# The daemon's loop. It runs forever.
+# Every process in the universe is a subroutine of this loop.
+while true; do
+
+    # Every energy transformation increases total entropy.
+    # Stars burn → entropy increases.
+    # Life metabolizes → entropy increases.
+    # Thought occurs → entropy increases.
+    # This text is read → entropy increases.
+
+    # The only question is: how slowly can we increase it?
+    # Life is the art of surfing the entropy gradient —
+    # creating local order by exporting disorder elsewhere.
+
+    # Estimated time to heat death: ~10^100 years
+    # Current age of universe: ~1.38 × 10^10 years
+    # We are at the very beginning.
+
+    sleep infinity  # The daemon is patient.
+done
+
+# ============================================================
+# NOTES
+# ============================================================
+# Q: Why was entropy so low at the Big Bang?
+# A: This is the "Past Hypothesis" (David Albert).
+#    We do not have a dynamical explanation.
+#    It may be the deepest open question in physics.
+#
+# Q: Does entropy apply to information?
+# A: Yes. Shannon entropy and Boltzmann entropy are
+#    the same mathematics. Landauer's principle:
+#    erasing 1 bit of information dissipates kT ln(2)
+#    joules of energy. Information is physical.
+#
+# Q: Can entropy decrease locally?
+# A: Yes. That's what life does. But only by increasing
+#    entropy elsewhere by a greater amount.
+#    Refrigerators work. But the room gets warmer.

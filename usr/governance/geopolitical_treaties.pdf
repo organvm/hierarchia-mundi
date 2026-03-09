@@ -1,0 +1,60 @@
+# geopolitical_treaties.pdf
+# (Rendered as plaintext — the content matters more than the format.)
+#
+# Treaties are the API contracts between sovereign states.
+# They define interfaces, obligations, and failure modes.
+# When they work, millions live in peace.
+# When they fail, millions die.
+
+# ============================================================
+# FOUNDATIONAL TREATIES
+# ============================================================
+
+[peace_of_westphalia_1648]
+parties = "European powers (post-Thirty Years' War)"
+established = "Sovereign nation-state system"
+principle = "Cuius regio, eius religio → state sovereignty"
+legacy = "The operating system of international relations for 376 years"
+# Every treaty since builds on (or struggles against) Westphalia.
+# The UN, NATO, EU — all are Westphalian constructs.
+
+[geneva_conventions_1949]
+parties = "196 states (universal ratification)"
+purpose = "Protect civilians, prisoners of war, wounded combatants"
+protocols = ["Protection of victims", "Treatment of POWs",
+             "Protection of civilians", "Non-international armed conflicts"]
+enforcement = "International Criminal Court (established 2002)"
+weakness = "Powerful states can ignore them with impunity"
+# The rules of war exist because humans needed to limit
+# the consequences of their own violence.
+# That they are sometimes violated does not make them pointless.
+
+[universal_declaration_of_human_rights_1948]
+parties = "UN General Assembly (non-binding but foundational)"
+articles = 30
+core_rights = ["life", "liberty", "security", "equality before law",
+               "freedom of thought", "education", "adequate standard of living"]
+status = "Aspirational — not universally implemented"
+# The most translated document in human history.
+# A species declaring to itself what it believes it deserves.
+
+[paris_agreement_2015]
+parties = "196 states"
+goal = "Limit global warming to 1.5°C above pre-industrial levels"
+mechanism = "Nationally Determined Contributions (NDCs)"
+weakness = "No enforcement mechanism. Voluntary compliance."
+current_trajectory = "~2.5-3.0°C by 2100 (insufficient action)"
+# A treaty between the present and the future.
+# The future cannot sign. The present doesn't want to pay.
+
+# ============================================================
+# THE PATTERN
+# ============================================================
+# Treaties emerge AFTER catastrophe, not before.
+# Westphalia: after the Thirty Years' War (8 million dead)
+# Geneva: after World War II (70 million dead)
+# NPT: after Hiroshima and Nagasaki (200,000 dead)
+# Paris: after decades of climate data and mounting disasters
+#
+# Humanity's error-correction is reactive, not proactive.
+# We write the firewall rules after the breach.

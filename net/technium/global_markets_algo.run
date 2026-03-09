@@ -1,0 +1,43 @@
+# global_markets_algo.run
+# Autonomous algorithmic trading systems.
+# Financial markets are now primarily machine-to-machine communication.
+# Humans set the parameters. Machines execute at nanosecond scale.
+
+# ============================================================
+# THE TECHNIUM IN FINANCE
+# ============================================================
+# Kevin Kelly's "technium": technology as a self-reinforcing system
+# with its own evolutionary dynamics. In finance, this is literal:
+#
+# - High-frequency trading: ~70% of US equity volume
+# - Execution speed: microseconds (faster than human perception)
+# - Co-location: servers placed physically next to exchange servers
+#   to save nanoseconds of latency
+# - Flash crashes: automated cascades faster than humans can intervene
+#   May 6, 2010: Dow dropped 1,000 points in 5 minutes. Recovered in 20.
+#   Cause: algorithms reacting to algorithms reacting to algorithms.
+
+[parameters]
+market_hours = "24/7 (crypto), 9:30-16:00 ET (NYSE), staggered globally"
+latency_target = "<1 microsecond"
+strategy_types = ["market_making", "statistical_arbitrage",
+                  "momentum", "mean_reversion", "sentiment_analysis"]
+
+[feedback_loops]
+# Positive feedback: price rises → algorithms buy → price rises more
+# This creates bubbles. The algorithm doesn't know it's in a bubble.
+# It only knows: the trend is up. Buy.
+#
+# Negative feedback (circuit breakers):
+# NYSE: halt trading if S&P 500 drops 7% (Level 1), 13% (Level 2), 20% (Level 3)
+# These are the /sys/ thermodynamic governors imposed on /net/ dynamics.
+
+[emergence]
+# No single algorithm understands the market.
+# The market is an emergent property of millions of algorithms
+# interacting, each optimizing locally, producing global behavior
+# that none of them predicted or intended.
+#
+# This is the purest example of the technium:
+# the tools have created a system that no tool-user comprehends.
+# We are passengers in a vehicle we built but cannot steer.

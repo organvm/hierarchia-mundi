@@ -1,0 +1,79 @@
+# classical_mythology.db
+# Greco-Roman pantheon and narratives.
+# The first operating system for meaning-making.
+# Before science explained the world, mythology NARRATED it.
+
+# ============================================================
+# THE OLYMPIANS — Process managers of reality
+# ============================================================
+
+[zeus]
+domain = "Sky, thunder, kingship, justice"
+roman = "Jupiter"
+symbol = "thunderbolt, eagle, oak"
+role = "Root process. Overthrew his father (Kronos) to become king."
+lesson = "Power is cyclical. Each generation overthrows the last."
+# Zeus's authority is not absolute — the Fates outrank even him.
+# Even the king of gods answers to something.
+
+[athena]
+domain = "Wisdom, strategic warfare, crafts, civilization"
+roman = "Minerva"
+born = "Sprang fully formed from Zeus's head"
+lesson = "Wisdom is not learned — it emerges from confronting complexity."
+city = "Athens (named after her — she beat Poseidon in a contest)"
+# Athena always wins by intelligence, never by brute force.
+
+[prometheus]
+domain = "Forethought, technology, rebellion"
+act = "Stole fire from the gods and gave it to humanity"
+punishment = "Chained to a rock. Eagle eats his liver daily. It regrows nightly."
+lesson = "Technology is theft from the gods. Progress always costs something."
+legacy = "Every innovator is Prometheus. The fire is always stolen."
+# Mary Shelley subtitled Frankenstein: "The Modern Prometheus."
+# The technium (/net/technium/) is Promethean fire at scale.
+
+[dionysus]
+domain = "Wine, ecstasy, theater, chaos, rebirth"
+roman = "Bacchus"
+duality = "Creation through destruction. Joy through surrender."
+lesson = "Order alone produces stagnation. Chaos alone produces destruction.
+          The creative act lives at the boundary."
+# Nietzsche: Apollonian (order) vs. Dionysian (chaos).
+# The greatest art — Greek tragedy — required both.
+
+[hades]
+domain = "Underworld, death, mineral wealth"
+roman = "Pluto"
+misunderstanding = "Not evil — just inevitable"
+lesson = "Death is not the antagonist. It is the boundary condition."
+# The underworld is not punishment. It is completion.
+# Hades is the garbage collector: reclaiming resources for reuse.
+
+# ============================================================
+# NARRATIVE PATTERNS — The source code of storytelling
+# ============================================================
+
+[hero_journey]  # Campbell (1949), drawing on classical myth
+sequence = ["Ordinary World", "Call to Adventure", "Refusal",
+            "Meeting the Mentor", "Crossing the Threshold",
+            "Tests and Allies", "Ordeal", "Reward",
+            "Road Back", "Resurrection", "Return with Elixir"]
+# Every Star Wars, every Marvel movie, every political campaign
+# follows this structure. It is compiled into human cognition.
+
+[hubris_nemesis]
+pattern = "Excessive pride → divine punishment"
+examples = ["Icarus (flew too close to sun)", "Arachne (challenged Athena)",
+            "Narcissus (loved only himself)", "Niobe (boasted over Leto)"]
+lesson = "The system has limits. Exceeding them triggers correction."
+# This is the mythological expression of /sys/thermodynamics/:
+# entropy punishes overreach.
+
+[metamorphosis]
+pattern = "Identity is fluid. Change is the constant."
+examples = ["Daphne → laurel tree", "Narcissus → flower",
+            "Arachne → spider", "Io → cow → human"]
+lesson = "The boundary between categories is permeable."
+# Ovid's Metamorphoses: 250 myths of transformation in one poem.
+# The oldest argument against fixed taxonomies.

@@ -1,0 +1,66 @@
+# mitosis.loop — Somatic cell division
+# One cell becomes two identical cells.
+# This is how you grew from one fertilized egg
+# to ~37 trillion cells. And it's still running.
+
+# ============================================================
+# THE CELL CYCLE
+# ============================================================
+# Total duration: ~24 hours (varies by cell type)
+
+[G1_phase]  # Gap 1: Growth and preparation
+duration = "~11 hours"
+activity = "Cell grows, organelles duplicate, checkpoint: is DNA intact?"
+checkpoint = "Restriction point — commit to division or exit to G0"
+# G0: quiescent state. Neurons, muscle cells live here permanently.
+
+[S_phase]   # Synthesis: DNA replication
+duration = "~8 hours"
+activity = "Entire genome replicated. 46 → 92 chromatids."
+fidelity = "~1 error per 10⁹ bases (after proofreading)"
+
+[G2_phase]  # Gap 2: Final preparation
+duration = "~4 hours"
+activity = "Error checking. Protein synthesis for division machinery."
+checkpoint = "Is all DNA replicated? Any damage?"
+
+[M_phase]   # Mitosis: the division itself
+duration = "~1 hour"
+
+  [prophase]
+  activity = "Chromatin condenses into visible chromosomes"
+  event = "Nuclear envelope begins to break down"
+  event = "Mitotic spindle forms from centrosomes"
+
+  [metaphase]
+  activity = "Chromosomes align at the metaphase plate"
+  checkpoint = "Spindle assembly checkpoint — all kinetochores attached?"
+  # This checkpoint prevents aneuploidy (wrong chromosome number).
+  # When it fails: Down syndrome, cancer.
+
+  [anaphase]
+  activity = "Sister chromatids separate and move to opposite poles"
+  speed = "~1 μm/minute along spindle fibers"
+  mechanism = "Motor proteins (dynein, kinesin) walk along microtubules"
+
+  [telophase]
+  activity = "Nuclear envelopes reform. Chromosomes decondense."
+
+[cytokinesis]
+activity = "Cytoplasm divides. Contractile ring pinches cell in two."
+result = "Two genetically identical daughter cells"
+
+# ============================================================
+# WHEN IT GOES WRONG: CANCER
+# ============================================================
+# Cancer = uncontrolled cell division.
+# Requires multiple mutations:
+#   Oncogenes activated (accelerator stuck)
+#   Tumor suppressors inactivated (brakes cut)
+#   Telomerase reactivated (immortality unlocked)
+#   Angiogenesis enabled (builds its own blood supply)
+#
+# Cancer is not one disease. It is ~200 diseases
+# that share the property of broken cell cycle control.
+# It is evolution happening inside your body —
+# natural selection favoring cells that divide fastest.

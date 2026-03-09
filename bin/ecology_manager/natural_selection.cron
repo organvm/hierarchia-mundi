@@ -1,0 +1,78 @@
+# natural_selection.cron
+# Scheduled culling and mutation tasks.
+# This cron job has been running for 3.8 billion years
+# without interruption. It is the longest-running
+# background process on the planet.
+
+# ============================================================
+# SCHEDULE
+# ============================================================
+# Natural selection runs continuously, but its effects
+# are measured in generations. One "tick" = one generation.
+#
+# Bacteria:    20 minutes/generation    → evolves visibly in days
+# Drosophila:  2 weeks/generation       → evolves visibly in months
+# Humans:      25-30 years/generation   → evolves visibly in millennia
+# Elephants:   ~25 years/generation     → evolves very slowly
+# Bristlecone pine: ~5000 years/generation → barely changes
+
+# ============================================================
+# THE ALGORITHM
+# ============================================================
+# Darwin's insight, formalized:
+#
+# 1. VARIATION exists in the population
+#    Source: mutation, recombination, gene flow
+#
+# 2. Some variants have higher FITNESS
+#    Fitness = reproductive success (not strength, not speed)
+#    Fitness is always relative to the current environment
+#
+# 3. FITNESS is HERITABLE
+#    Offspring resemble parents (via DNA)
+#
+# 4. SELECTION: fitter variants leave more offspring
+#    Over generations, allele frequencies shift
+#
+# That's it. The entire theory. Four observations and a consequence.
+# No intelligence. No plan. No direction.
+# Just differential reproduction, iterated.
+
+# ============================================================
+# TYPES OF SELECTION
+# ============================================================
+
+[directional_selection]
+# Favors one extreme of a trait distribution.
+# Example: antibiotic resistance. Bacteria that survive
+# antibiotics reproduce. Within years, resistant strains dominate.
+# We are watching evolution in real time in every hospital.
+
+[stabilizing_selection]
+# Favors the average, removes extremes.
+# Example: human birth weight. Too small = vulnerable.
+# Too large = birth complications. Average survives best.
+
+[disruptive_selection]
+# Favors both extremes, removes the middle.
+# Example: African seedcracker finches. Large beaks crack
+# hard seeds. Small beaks handle soft seeds.
+# Medium beaks are bad at both. Speciation begins here.
+
+[sexual_selection]
+# Traits that increase mating success, even at survival cost.
+# Peacock's tail: makes the bird slower and more visible to predators.
+# But peahens prefer elaborate tails → genes for tails spread.
+# "Survival of the fittest" includes "fit enough to be chosen."
+
+# ============================================================
+# EVOLUTION IS NOT PROGRESS
+# ============================================================
+# Common misconception: evolution moves toward "higher" forms.
+# Reality: evolution moves toward better fit with current environment.
+# Bacteria are not "lower" than humans — they are perfectly adapted
+# to their niche and have been here 3.5 billion years longer than us.
+#
+# There is no ladder. There is a bush.
+# We are one twig among millions.
+# The twig does not know it is a twig.

@@ -1,0 +1,48 @@
+# logic_gates.sys
+# Universal binary truths — the formatting of the drive itself
+#
+# Before physics, before space, before time:
+# there is logical structure. These gates are not
+# "located" anywhere — they ARE the possibility space
+# from which everything else is instantiated.
+
+[AXIOMS]
+# Peano arithmetic — the bedrock
+0 EXISTS
+SUCCESSOR(n) EXISTS FOR ALL n
+0 IS NOT THE SUCCESSOR OF ANY NUMBER
+IF SUCCESSOR(n) = SUCCESSOR(m) THEN n = m
+INDUCTION: IF P(0) AND [P(n) → P(SUCCESSOR(n))] THEN P(n) FOR ALL n
+
+[GATES]
+# Boolean logic — the instruction set of reality
+AND(0, 0) = 0
+AND(0, 1) = 0
+AND(1, 0) = 0
+AND(1, 1) = 1
+
+OR(0, 0)  = 0
+OR(0, 1)  = 1
+OR(1, 0)  = 1
+OR(1, 1)  = 1
+
+NOT(0)    = 1
+NOT(1)    = 0
+
+XOR(a, b) = AND(OR(a, b), NOT(AND(a, b)))
+NAND(a, b) = NOT(AND(a, b))    # Universal gate: all others derive from this
+
+[COMPLETENESS]
+# NAND is functionally complete.
+# From NAND alone, every computable function can be constructed.
+# This is the minimum viable instruction set for a universe.
+universal_gate = NAND
+turing_complete = true
+
+[INCOMPLETENESS]
+# Gödel (1931): Any consistent formal system containing arithmetic
+# contains true statements that cannot be proved within the system.
+# This is not a limitation — it is a FEATURE.
+# It means the system always has room to grow.
+goedel_sentence = "This statement is not provable in this system"
+consequence = "Truth exceeds proof"

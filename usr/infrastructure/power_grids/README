@@ -1,0 +1,27 @@
+# /usr/infrastructure/power_grids/
+# The nervous system of civilization.
+# Without electricity, /usr/ collapses to /bin/ within weeks.
+#
+# Global electricity generation: ~29,000 TWh/year (2023)
+# Sources: coal (35%), gas (22%), hydro (15%), nuclear (10%),
+#          wind (8%), solar (5%), other (5%)
+#
+# The grid is the largest machine ever built.
+# It operates in real time — generation must match demand
+# every second, or frequency deviates, equipment fails, blackouts cascade.
+#
+# Frequency: 50 Hz (most of world) or 60 Hz (Americas, parts of Asia)
+# Tolerance: ±0.5 Hz. Beyond that: automatic load shedding.
+#
+# The 2003 Northeast blackout: one software bug in Ohio →
+# 55 million people without power → $6 billion in damages.
+# Cascading failure. One node → the whole network.
+# See also: /bin/ecology_manager/food_web.net (keystone removal)
+#
+# Energy transition challenge:
+# Renewables are intermittent (sun doesn't always shine, wind doesn't always blow).
+# Grid-scale storage is the missing /lib/ — the shared library
+# that makes intermittent sources reliable.
+# Battery technology is the bottleneck.
+# The physics is /lib/periodic_table.db — lithium, cobalt, nickel.
+# The geopolitics is /usr/governance/ — who controls the mines.

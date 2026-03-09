@@ -1,0 +1,59 @@
+# local_zoning_laws.txt
+# The most granular layer of human governance.
+# While treaties operate at the scale of nations,
+# zoning laws operate at the scale of parcels.
+# Both are attempts to impose order on shared space.
+
+# ============================================================
+# PURPOSE
+# ============================================================
+# Separate incompatible land uses (factory next to school: bad).
+# Control density (how many people per acre).
+# Preserve character (historic districts, aesthetic standards).
+# Manage externalities (noise, traffic, pollution, shadows).
+#
+# Zoning is the operating system of the built environment.
+# It determines where you can live, work, shop, play.
+# Most people never read their zoning code.
+# It shapes their lives every day.
+
+# ============================================================
+# STANDARD ZONES
+# ============================================================
+# R-1:  Single-family residential (lowest density)
+# R-2:  Two-family / duplex
+# R-3:  Multi-family / apartments
+# C-1:  Neighborhood commercial
+# C-2:  General commercial
+# M-1:  Light industrial / manufacturing
+# M-2:  Heavy industrial
+# PD:   Planned development (custom rules)
+# OS:   Open space / parks
+
+# ============================================================
+# THE CRITIQUE
+# ============================================================
+# Euclidean zoning (single-use zones) was designed in the 1920s
+# to separate housing from factories.
+# It also separated housing from shops, offices, and transit.
+# Result: car-dependent suburbia, racial segregation (redlining),
+#         housing shortages, long commutes, social isolation.
+#
+# Reform movements:
+#   Mixed-use zoning: allow multiple uses in one zone
+#   Form-based codes: regulate building form, not use
+#   Missing middle housing: duplexes, triplexes, courtyard apartments
+#   Transit-oriented development: density near transit stations
+#   Accessory dwelling units (ADUs): granny flats, backyard cottages
+#
+# The built environment is an argument made in concrete.
+# Zoning laws are the premises of that argument.
+# Change the premises, change the city.
+
+# ============================================================
+# META-OBSERVATION
+# ============================================================
+# Zoning laws are the /usr/governance/ equivalent of /sys/gravity.conf —
+# invisible forces that shape everything above them.
+# Most people experience the effects without knowing the cause.
+# The invisible hand is often the zoning board.

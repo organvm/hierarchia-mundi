@@ -1,0 +1,83 @@
+# /usr/academia/
+# The formal, natural, and social sciences.
+# Humanity's attempt to reverse-engineer the lower levels
+# of this filesystem using observation, logic, and peer review.
+
+# ============================================================
+# THE SCIENTIFIC METHOD — The read() syscall for reality
+# ============================================================
+# 1. Observe a phenomenon
+# 2. Formulate a hypothesis (falsifiable prediction)
+# 3. Design an experiment to test it
+# 4. Collect data
+# 5. Analyze (statistics, not intuition)
+# 6. Publish (peer review — the error-correction protocol)
+# 7. Replicate (or fail to — replication crisis, ~2015-present)
+# 8. Revise the model
+#
+# This is humanity's most reliable epistemology.
+# It is also slow, expensive, prone to institutional capture,
+# and structurally biased toward publishable results.
+# But nothing else comes close.
+
+# ============================================================
+# BRANCHES
+# ============================================================
+
+[formal_sciences]
+# Study abstract structures, not physical reality.
+# Mathematics, logic, statistics, computer science, information theory.
+# These provide the TOOLS for all other sciences.
+# They are /usr/academia's equivalent of /lib/ — shared libraries.
+
+[natural_sciences]
+# Study /sys/, /lib/, /bin/ using the scientific method.
+# Physics → Chemistry → Biology → Earth Science → Astronomy
+# Each level uses the laws of the level below
+# but has emergent properties not predictable from below alone.
+# "More is different." — P.W. Anderson (1972)
+
+[social_sciences]
+# Study /usr/ itself — reflexive science.
+# Psychology, sociology, economics, anthropology, political science.
+# The most difficult sciences because the observer IS the observed.
+# Replication rates are lower. Effect sizes are smaller.
+# The subject matter fights back.
+
+[humanities]
+# Not science, but not lesser.
+# History, philosophy, literature, art criticism, linguistics.
+# Ask "what does it mean?" not "how does it work?"
+# Complementary to science, not subordinate.
+
+# ============================================================
+# THE PUBLICATION SYSTEM
+# ============================================================
+# Peer review is science's immune system.
+# Impact factor is its popularity contest.
+# Tenure track is its caste system.
+# Grant funding is its economy.
+#
+# Incentive alignment:
+#   Ideal: publish truth, advance knowledge
+#   Actual: publish novel results, advance career
+#   Misalignment → p-hacking, salami slicing, publication bias
+#
+# Pre-registration, open data, and registered reports
+# are patches for the incentive bugs.
+# The system is self-correcting — slowly.
+
+# ============================================================
+# KNOWN LIMITATIONS
+# ============================================================
+# Science cannot answer:
+#   - What SHOULD we do? (ethics — see /usr/culture/belief_systems/)
+#   - What does it MEAN? (meaning — see /usr/culture/)
+#   - Why is there something rather than nothing? (metaphysics — see /)
+#
+# Science CAN answer:
+#   - What IS?
+#   - How does it WORK?
+#   - What will happen IF?
+#
+# Knowing the limits of your tool is as important as knowing how to use it.

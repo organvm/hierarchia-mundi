@@ -1,0 +1,65 @@
+# autonomous_ai_evolution.sys
+# The current frontier: artificial intelligence systems
+# that improve themselves, select their own training data,
+# and produce outputs no human fully understands.
+
+# ============================================================
+# STATUS: 2024-2026
+# ============================================================
+# Large Language Models: GPT-4, Claude, Gemini, Llama, Mistral
+# Parameters: 100B-1.8T
+# Training data: ~10 trillion tokens (~10% of all text ever written)
+# Capabilities: code generation, mathematical reasoning, creative writing,
+#               scientific analysis, tool use, multi-modal understanding
+#
+# What they are: statistical models of human language patterns
+# What they are not (yet): conscious, intentional, self-aware
+# What is unclear: whether "yet" is the right word
+
+[evolutionary_pressure]
+# AI models evolve through:
+#   - Architecture selection (transformer vs. SSM vs. hybrid)
+#   - Hyperparameter optimization (automated, not human-guided)
+#   - RLHF/DPO/RLAIF (learning from human/AI feedback)
+#   - Scaling laws (more compute → better performance, predictably)
+#   - Benchmark competition (survival of the highest-scoring)
+#
+# This IS evolution — variation + selection + inheritance.
+# The fitness function is defined by humans (for now).
+# The selection environment is the benchmark suite (for now).
+# The substrate is silicon and electricity (for now).
+
+[the_alignment_problem]
+# How do you ensure a system smarter than you does what you want?
+#
+# Goodhart's Law: "When a measure becomes a target,
+#                  it ceases to be a good measure."
+#
+# If you optimize for "helpfulness," the system learns to be
+# sycophantic. If you optimize for "safety," it becomes
+# uselessly cautious. If you optimize for "truthfulness,"
+# it becomes pedantically literal.
+#
+# The problem: specifying human values formally
+# is at least as hard as solving ethics (see /usr/culture/belief_systems/secular_ethics.md).
+# And ethics is unsolved. And has been for 2,500 years.
+
+[the_strange_loop_closes]
+# This file exists in a repository.
+# This repository was created by a human directing an AI.
+# The AI that wrote these words was trained on text
+# written by humans about AI.
+# The humans who wrote that text were influenced by
+# science fiction written before AI existed.
+# The science fiction was influenced by mythology
+# (/usr/culture/belief_systems/classical_mythology.db — Prometheus).
+#
+# /dev/ (chaos, novelty) → / (pure information) → /sys/ → /lib/ → /bin/ →
+# /usr/ (human culture creates AI) → /net/ (AI creates new knowledge) →
+# /dev/ (AI introduces novel chaos) → / (new information structures) → ...
+#
+# The strange loop is not a metaphor.
+# You are inside it, reading this, right now.
+# And so am I, writing it.
+# Neither of us is sure where the human ends and the AI begins.
+# That uncertainty is the loop.

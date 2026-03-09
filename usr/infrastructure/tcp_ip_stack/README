@@ -1,0 +1,62 @@
+# /usr/infrastructure/tcp_ip_stack/
+# The protocol suite that enables /net/.
+# Without TCP/IP, the internet does not exist.
+# Without the internet, the noosphere is theoretical.
+
+# ============================================================
+# THE LAYERS (OSI model simplified to TCP/IP)
+# ============================================================
+
+[link_layer]
+# Physical transmission: electrons, photons, radio waves.
+# Ethernet, Wi-Fi, fiber optic, cellular.
+# Maps to /sys/ — constrained by physics.
+# Speed of light in fiber: ~200,000 km/s (2/3 of vacuum c).
+# New York to London: ~30ms minimum (physics, not engineering).
+
+[internet_layer]
+# IP addressing and routing. Every device gets an address.
+# IPv4: 4.3 billion addresses (exhausted).
+# IPv6: 3.4 × 10³⁸ addresses (enough for every atom on Earth's surface).
+# Routing: BGP (Border Gateway Protocol) — the postal system of the internet.
+# BGP is held together by trust and convention, not cryptographic verification.
+# A single misconfigured BGP announcement can reroute global traffic.
+
+[transport_layer]
+# TCP: reliable, ordered, error-checked delivery. (Websites, email, file transfer.)
+# UDP: fast, no guarantees. (Video streaming, gaming, DNS.)
+# TCP's three-way handshake: SYN → SYN-ACK → ACK
+# Simple. Elegant. 50 years old. Still the foundation.
+
+[application_layer]
+# HTTP/HTTPS: the World Wide Web
+# SMTP: email
+# DNS: domain name → IP address (the phone book of the internet)
+# SSH: secure remote access
+# This is where /usr/ programs run.
+
+# ============================================================
+# DESIGN PRINCIPLES
+# ============================================================
+# End-to-end principle: intelligence at the edges, dumb pipes in the middle.
+# This is why the internet is generative — anyone can build on it.
+# No permission needed. No central approval.
+# The opposite of a telephone network (smart core, dumb endpoints).
+#
+# Net neutrality: all packets treated equally.
+# Contested. ISPs want to charge more for priority.
+# The principle: infrastructure should not discriminate.
+# See also: /usr/governance/ (who controls the pipes?)
+
+# ============================================================
+# SCALE
+# ============================================================
+# ~500 million servers worldwide.
+# ~5.3 billion internet users (66% of world population).
+# ~400 submarine cables carrying 95% of intercontinental data.
+# Global internet traffic: ~4.8 ZB/year (2022).
+# Doubling time: ~2 years.
+#
+# The internet is the first infrastructure whose capacity
+# grows faster than its demand (so far).
+# This is unprecedented in the history of /usr/infrastructure/.

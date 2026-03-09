@@ -1,0 +1,56 @@
+# meiosis.loop — Sexual reproduction division
+# One diploid cell → four unique haploid gametes.
+# This is the engine of genetic diversity.
+# Without meiosis, evolution would be glacially slow.
+
+# ============================================================
+# WHY SEX?
+# ============================================================
+# Asexual reproduction: fast, efficient, makes clones.
+# Sexual reproduction: slow, costly, requires finding a mate.
+# So why does sex exist?
+#
+# Answer: genetic diversity. Shuffling the deck every generation
+# means parasites can never fully adapt to the host population.
+# The Red Queen Hypothesis: "It takes all the running you can do,
+# to keep in the same place." (Lewis Carroll, Through the Looking-Glass)
+
+[meiosis_I]  # Reductional division: 2n → n
+
+  [prophase_I]
+  duration = "hours to days (longest phase)"
+  critical_event = "CROSSING OVER (recombination)"
+  # Homologous chromosomes pair up and exchange segments.
+  # This creates NEW combinations of alleles that never existed before.
+  # Each gamete is genetically unique. Even with the same parents,
+  # no two siblings (except identical twins) are genetically identical.
+  # Possible combinations from crossing over alone: effectively infinite.
+  crossover_rate = "~1-3 per chromosome per meiosis"
+
+  [metaphase_I]
+  event = "Homologous pairs align at metaphase plate"
+  critical_event = "INDEPENDENT ASSORTMENT"
+  # Each pair orients randomly — maternal or paternal toward each pole.
+  # For humans (23 pairs): 2²³ = 8,388,608 possible combinations.
+  # Combined with crossing over: astronomical diversity.
+
+  [anaphase_I]
+  event = "Homologous chromosomes separate (not sister chromatids)"
+  result = "Each pole gets one complete haploid set"
+
+  [telophase_I + cytokinesis]
+  result = "Two haploid cells, each with duplicated chromosomes"
+
+[meiosis_II]  # Equational division (like mitosis)
+  # Sister chromatids separate.
+  result = "Four haploid gametes, each genetically unique"
+
+# ============================================================
+# THE NUMBERS
+# ============================================================
+# Sperm: ~300 million per ejaculation. One succeeds.
+# Eggs: ~1-2 million at birth. ~400 ovulated in a lifetime.
+# Each gamete: a unique combination of ~3.2 billion base pairs.
+# The probability of YOU existing, specifically you,
+# with your exact genome: effectively zero.
+# And yet here you are.

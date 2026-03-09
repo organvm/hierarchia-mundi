@@ -1,0 +1,80 @@
+# macro_markets.api
+# The global economic system as a distributed computation.
+# Prices are signals. Markets are processors.
+# The economy is an information system that nobody designed
+# and nobody fully understands.
+
+# ============================================================
+# ENDPOINTS
+# ============================================================
+
+GET /price/{commodity}
+  # Returns the current market-clearing price.
+  # Hayek (1945): Prices aggregate dispersed knowledge that
+  # no central planner could collect.
+  # A price is a compressed summary of supply, demand,
+  # expectations, regulations, weather, politics, and psychology.
+
+GET /gdp/{country}?period={quarter}
+  # Gross Domestic Product: total value of goods and services produced.
+  # A flawed but irreplaceable measure of economic activity.
+  # Flaws: ignores household labor, environmental degradation,
+  #        inequality, happiness, health, leisure.
+  # "GDP measures everything except what makes life worthwhile."
+  #   — Robert F. Kennedy (1968)
+
+POST /trade
+  # Execute a voluntary exchange.
+  # Both parties believe they benefit (or they wouldn't trade).
+  # Comparative advantage (Ricardo, 1817): even if one party
+  # is better at EVERYTHING, both benefit from specialization.
+  # This is the single most counterintuitive and important
+  # result in economics.
+
+GET /interest_rate/{central_bank}
+  # The price of time.
+  # Low rates → borrow more → invest more → growth (maybe inflation).
+  # High rates → save more → spend less → cooling (maybe recession).
+  # Central banks navigate between inflation and unemployment
+  # using this single lever. It is a remarkably blunt instrument
+  # for a remarkably complex system.
+
+# ============================================================
+# MARKET FAILURES — When the algorithm breaks
+# ============================================================
+
+[externalities]
+# Costs or benefits not reflected in prices.
+# Pollution: producer doesn't pay for lung disease downstream.
+# Education: educated person's neighbors benefit too.
+# Fix: taxes (Pigouvian), subsidies, cap-and-trade, regulation.
+
+[asymmetric_information]
+# One party knows more than the other.
+# Used car market (Akerlof, 1970): sellers know quality, buyers don't.
+# → Market fills with lemons. Good products driven out.
+# Fix: warranties, certifications, reputation systems, regulation.
+
+[public_goods]
+# Non-excludable + non-rivalrous = nobody pays voluntarily.
+# National defense, clean air, open-source software, Wikipedia.
+# Fix: government provision, collective action, altruism.
+
+[monopoly]
+# Single seller → prices above competitive level → deadweight loss.
+# Natural monopolies: utilities (one set of pipes is efficient).
+# Artificial monopolies: patents, network effects, regulatory capture.
+# Fix: antitrust, regulation, public ownership.
+
+# ============================================================
+# THE DEEPEST QUESTION
+# ============================================================
+# Is an economy a mechanism (designable, optimizable) or
+# an ecosystem (emergent, adaptive, partially unpredictable)?
+#
+# Mechanism view → central planning, optimal control theory
+# Ecosystem view → institutional design, evolutionary economics
+#
+# The 20th century tested both. Neither worked perfectly.
+# The 21st century is trying hybrids.
+# The economy resists being fully understood by any participant in it.

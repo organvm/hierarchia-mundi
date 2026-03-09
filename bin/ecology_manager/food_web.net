@@ -1,0 +1,63 @@
+# food_web.net
+# Network topology of energy flow through ecosystems.
+# Who eats whom. The internet of eating.
+
+# ============================================================
+# TROPHIC LEVELS — The energy pyramid
+# ============================================================
+# Energy transfer efficiency: ~10% per level (Lindeman's rule)
+# This is why there are fewer predators than prey.
+# This is why food chains rarely exceed 5 levels.
+
+[level_0]  # Primary producers (autotrophs)
+role = "Convert sunlight/chemical energy into biomass"
+examples = ["plants", "algae", "cyanobacteria", "chemosynthetic bacteria"]
+energy_source = "solar radiation (photosynthesis) or chemical bonds (chemosynthesis)"
+global_net_primary_production = "~120 PgC/year (land) + ~50 PgC/year (ocean)"
+# Half of Earth's oxygen comes from ocean phytoplankton.
+
+[level_1]  # Primary consumers (herbivores)
+role = "Convert plant biomass into animal biomass"
+examples = ["insects", "rabbits", "deer", "zooplankton", "cattle"]
+efficiency = "~10% of producer energy captured"
+# 90% is lost as heat (Second Law of Thermodynamics at work)
+
+[level_2]  # Secondary consumers (predators)
+role = "Control herbivore populations"
+examples = ["frogs", "small fish", "foxes", "songbirds"]
+efficiency = "~10% of herbivore energy captured"
+
+[level_3]  # Tertiary consumers (apex predators)
+role = "Top-down regulation of entire ecosystem"
+examples = ["wolves", "sharks", "eagles", "orcas"]
+population = "Always smallest — energy pyramid constraint"
+# Remove the apex predator → trophic cascade
+# Yellowstone without wolves: elk overgrazed → rivers changed course
+
+[decomposers]  # The recycling department
+role = "Break dead matter into nutrients. Close the loop."
+examples = ["fungi", "bacteria", "earthworms", "vultures"]
+importance = "Without decomposition, nutrients would be locked in dead biomass forever"
+# Decomposers connect death to life.
+# They are the most important organisms that nobody thinks about.
+
+# ============================================================
+# KEYSTONE SPECIES
+# ============================================================
+# Disproportionate effect relative to abundance.
+# Remove them and the ecosystem transforms.
+#
+# Sea otters → eat sea urchins → kelp forests survive
+# Remove otters → urchin explosion → kelp forests collapse →
+# → fish habitat destroyed → coastal erosion increases
+#
+# One species. Entire ecosystem restructured.
+# Identify your keystones. Protect them above all else.
+
+# ============================================================
+# EDGE EFFECTS AND ECOTONES
+# ============================================================
+# The boundary between ecosystems is the most biodiverse zone.
+# Forest edge, shoreline, river delta: where systems meet.
+# Maximum information exchange. Maximum novelty.
+# This is the ecological version of chaos theory's edge-of-chaos.

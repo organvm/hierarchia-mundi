@@ -1,0 +1,83 @@
+# noosphere.sock
+# Inter-process communication socket for global thought.
+# The noosphere (Teilhard de Chardin, Vernadsky):
+# the sphere of human thought enveloping the Earth,
+# as the atmosphere envelops the biosphere.
+
+# ============================================================
+# CONCEPT
+# ============================================================
+# Vernadsky (1926): As life transformed the geosphere into the biosphere,
+# human thought is transforming the biosphere into the noosphere.
+# This is not mysticism — it is observation.
+#
+# The noosphere is already running:
+#   - Scientific knowledge: ~50 million published papers, growing exponentially
+#   - Wikipedia: 60 million articles in 300+ languages
+#   - Open-source software: billions of lines of code, freely shared
+#   - Social media: 5 billion users exchanging ideas in real time
+#   - AI models: trained on the sum of human text, producing new text
+#
+# The socket is open. Processes are communicating.
+# The question is: is there coherence, or just noise?
+
+# ============================================================
+# SOCKET INTERFACE
+# ============================================================
+
+[connection]
+protocol = "idea_transfer"
+addressing = "content-based, not location-based"
+# Ideas don't have addresses. They have resonance.
+# An idea spreads because it fits the receiver's cognitive context,
+# not because it was sent to the right port.
+
+[bandwidth]
+# Human channel capacity: ~50 bits/second (conscious processing)
+# Internet bandwidth: ~1 Tbps per submarine cable
+# The bottleneck is biological, not technological.
+# The noosphere's growth is limited by /bin/organism_behavior.sh,
+# specifically the cognitive constraints documented in
+# the neuroscience lens: 7±2 chunks, ~50 bits/second.
+#
+# AI changes this equation. Models process megabits/second.
+# If the noosphere's bottleneck was human bandwidth,
+# AI is a bandwidth multiplier — not replacing the human
+# but widening the pipe.
+
+[coherence_problem]
+# More information ≠ more knowledge ≠ more wisdom.
+# The noosphere currently has:
+#   High bandwidth (more data than ever)
+#   Low signal-to-noise ratio (misinformation, spam, noise)
+#   Fragmented coherence (echo chambers, filter bubbles)
+#   No error correction (peer review doesn't scale to social media)
+#
+# The noosphere is a network without an immune system.
+# /bin/ecology_manager/ would call this an ecosystem
+# without decomposers — dead ideas persist indefinitely.
+
+[omega_point]
+# Teilhard's vision: the noosphere converges toward a point
+# of maximum complexity and consciousness — the Omega Point.
+# This is either:
+#   (a) A scientific prediction about the trajectory of complexity
+#   (b) A theological claim about cosmic purpose
+#   (c) A useful metaphor for the direction of cumulative knowledge
+#   (d) Wishful thinking dressed in scientific language
+#
+# Choose your interpretation. The socket doesn't care.
+# It just transmits.
+
+# ============================================================
+# CONTRIBUTION PROTOCOL
+# ============================================================
+# To write to the noosphere, you must:
+#   1. Transform private knowledge into transmissible form
+#   2. Publish it (make it accessible to others)
+#   3. Subject it to critique (peer review, public discourse)
+#   4. Accept that once transmitted, it is no longer yours
+#
+# Internal convergence without external transmission is solipsism.
+# The noosphere demands transmission.
+# This repository is an act of transmission.

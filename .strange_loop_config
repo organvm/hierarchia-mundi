@@ -1,0 +1,27 @@
+# .strange_loop_config
+# Paradox mapping: pure mathematics ↔ quantum physics
+#
+# The strange loop connects the highest abstraction (pure information)
+# back to the lowest physical substrate (quantum mechanics).
+# Gödel showed arithmetic contains truths it cannot prove.
+# Wheeler asked: "It from Bit?" — physics from information.
+# This config defines the recursive mapping between them.
+
+[loop]
+direction = bidirectional
+source = /                    # Pure mathematics (Level ∞)
+target = /sys/quantum_mechanics/  # Physical reality (Level 5)
+
+[paradoxes]
+# Each paradox is a point where the hierarchy folds back on itself
+goedel_incompleteness = "Arithmetic cannot prove its own consistency"
+measurement_problem = "Observation collapses possibility into actuality"
+wheeler_it_from_bit = "Every physical quantity derives from yes/no questions"
+wigner_unreasonable_effectiveness = "Why does mathematics describe physics at all?"
+
+[resolution]
+# The loop is not a bug — it is the generative engine.
+# Without the paradox, the hierarchy would be static.
+# The strange loop IS the creative force that drives
+# new structure into existence at every level.
+mode = productive_paradox
