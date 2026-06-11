@@ -100,8 +100,9 @@ The `hierarchia/` Python package provides typed, composable, executable models o
 ```python
 from hierarchia.loader import load_hierarchia
 from hierarchia.registry import get_registry
+from hierarchia import ModuleType, Scale
 
-# Load all 41 strata, 675+ modules
+# Load all 42 strata, 676 modules
 h = load_hierarchia(".")
 
 # Search by keyword
@@ -114,12 +115,13 @@ cosmic = reg.by_scale(Scale.COSMIC)    # 124 cosmic-scale modules
 
 # Validate cross-references
 from hierarchia.validator import validate_hierarchy
-report = validate_hierarchy(".")       # 0 errors, 41 warnings (unresolved xrefs)
+report = validate_hierarchy(".")       # 0 errors, 58 warnings (unresolved xrefs)
 ```
 
-Install: `pip install -e .` (requires Python 3.11+, Pydantic 2.0+)
+Install from GitHub: `pip install git+https://github.com/organvm-i-theoria/hierarchia-mundi`
+Local development: `pip install -e .` (requires Python 3.11+, Pydantic 2.0+)
 
-Architecture follows [narratological-algorithmic-lenses](https://github.com/ivviiviivvi/narratological-algorithmic-lenses): Pydantic models → loader → registry → executor → validator.
+Architecture follows [narratological-algorithmic-lenses](https://github.com/a-organvm/narratological-algorithmic-lenses): Pydantic models → loader → registry → executor → validator.
 
 `hierarchia.json` (575KB) is a structured JSON export of the full hierarchy for programmatic consumption.
 
@@ -137,4 +139,4 @@ The painter looks at the landscape. The landscape looks back.
 
 ---
 
-*Part of [ORGAN I: Theoria](https://github.com/ivviiviivvi) — foundational theory, recursive engines, symbolic computing.*
+*Part of [ORGAN I: Theoria](https://github.com/organvm-i-theoria) — foundational theory, recursive engines, symbolic computing.*
