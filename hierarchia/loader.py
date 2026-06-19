@@ -23,6 +23,7 @@ import re
 from pathlib import Path
 from typing import Any
 
+from hierarchia.models.cross_ref import CrossReference
 from hierarchia.models.stratum import (
     Hierarchia,
     Module,
@@ -31,7 +32,6 @@ from hierarchia.models.stratum import (
     Stratum,
     StratumType,
 )
-from hierarchia.models.cross_ref import CrossReference
 
 # Files that are hierarchy content (not docs, not Python, not config)
 HIERARCHY_EXTENSIONS = {

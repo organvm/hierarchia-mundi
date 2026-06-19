@@ -7,7 +7,7 @@ of the module with adjusted properties.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Any, Protocol
 
 from pydantic import BaseModel, Field

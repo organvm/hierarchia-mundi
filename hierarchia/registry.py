@@ -10,6 +10,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from hierarchia.loader import load_hierarchia
 from hierarchia.models.stratum import (
     Hierarchia,
     Module,
@@ -17,7 +18,6 @@ from hierarchia.models.stratum import (
     Scale,
     StratumType,
 )
-from hierarchia.loader import load_hierarchia
 
 
 @dataclass

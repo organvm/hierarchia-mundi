@@ -1,5 +1,6 @@
 """Hierarchia Mundi core type system."""
 
+from hierarchia.models.cross_ref import CrossReference
 from hierarchia.models.stratum import (
     Hierarchia,
     Module,
@@ -8,7 +9,6 @@ from hierarchia.models.stratum import (
     Stratum,
     StratumType,
 )
-from hierarchia.models.cross_ref import CrossReference
 
 __all__ = [
     "CrossReference",
