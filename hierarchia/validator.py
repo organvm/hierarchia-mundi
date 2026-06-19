@@ -10,8 +10,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from hierarchia.models.stratum import Hierarchia
-from hierarchia.loader import load_hierarchia, discover_hierarchy_files, parse_file
+from hierarchia.loader import discover_hierarchy_files, parse_file
 
 
 @dataclass
